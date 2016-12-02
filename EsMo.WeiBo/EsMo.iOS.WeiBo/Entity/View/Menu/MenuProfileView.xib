@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="MenuProfileView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5" translatesAutoresizingMaskIntoConstraints="NO">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="12" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                    <rect key="frame" x="16" y="16" width="80" height="80"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="13" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Label">
+                    <rect key="frame" x="125" y="46" width="42" height="20"/>
+                    <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="24" translatesAutoresizingMaskIntoConstraints="NO">
+                    <rect key="frame" x="16" y="578.5" width="46" height="21.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                    <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                </label>
+            </subviews>
+            <connections>
+                <outlet property="imgBackground" destination="5" id="name-outlet-5"/>
+                <outlet property="imgProfile" destination="12" id="name-outlet-12"/>
+                <outlet property="txtFollowersNewHint" destination="13" id="name-outlet-13"/>
+                <outlet property="txtName" destination="24" id="name-outlet-24"/>
+            </connections>
+            <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="1" blue="0.66274509803921566" alpha="1"/>
+            <constraints>
+                <constraint id="17" firstItem="5" firstAttribute="top" secondItem="1" secondAttribute="top"/>
+                <constraint id="19" firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading"/>
+                <constraint id="20" firstItem="5" firstAttribute="height" secondItem="1" secondAttribute="height"/>
+                <constraint id="21" firstItem="5" firstAttribute="width" secondItem="1" secondAttribute="width"/>
+                <constraint id="27" firstItem="5" firstAttribute="bottom" secondItem="24" secondAttribute="bottom"/>
+                <constraint id="28" firstItem="24" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="16"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="threelines.png" width="24" height="24"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+    </resources>
+</document>

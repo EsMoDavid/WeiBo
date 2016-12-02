@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" customClass="CommentItemView" id="cxk-wN-pdQ" rowHeight="159">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="426" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="75" translatesAutoresizingMaskIntoConstraints="NO">
+                        <rect key="frame" x="10" y="4" width="416" height="150.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="84" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                <constraints>
+                                    <constraint id="87" firstAttribute="width" constant="30"/>
+                                    <constraint id="88" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="89" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="46" y="0.0" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="92" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="46" y="20" width="350" height="28"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.96470588235294119" green="0.0784313725490196" blue="0.0784313725490196" alpha="1"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="95" translatesAutoresizingMaskIntoConstraints="NO">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint id="110" firstItem="95" firstAttribute="height" constant="30"/>
+                                            <constraint id="111" firstItem="95" firstAttribute="width" constant="30"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="131" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" numberOfLines="0.0">
+                                        <rect key="frame" x="46" y="0.0" width="304" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0.792156862745098"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint id="113" firstItem="95" firstAttribute="leading" secondItem="92" secondAttribute="leading"/>
+                                    <constraint id="114" firstItem="95" firstAttribute="top" secondItem="92" secondAttribute="top"/>
+                                    <constraint id="132" firstItem="131" firstAttribute="leading" secondItem="95" secondAttribute="trailing" constant="16"/>
+                                    <constraint id="133" firstItem="131" firstAttribute="top" secondItem="92" secondAttribute="top"/>
+                                    <constraint id="134" firstItem="92" firstAttribute="trailing" secondItem="131" secondAttribute="trailing"/>
+                                    <constraint id="135" firstItem="92" firstAttribute="bottom" secondItem="131" secondAttribute="bottom"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="101" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="0.0" misplaced="YES">
+                                <rect key="frame" x="46" y="56" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0.792156862745098"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="106" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="46" y="136" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="highlightedColor"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="0.70588235294117652"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="85" firstItem="84" firstAttribute="leading" secondItem="75" secondAttribute="leading"/>
+                            <constraint id="86" firstItem="84" firstAttribute="top" secondItem="75" secondAttribute="top"/>
+                            <constraint id="90" firstItem="89" firstAttribute="leading" secondItem="84" secondAttribute="trailing" constant="16"/>
+                            <constraint id="91" firstItem="89" firstAttribute="top" secondItem="75" secondAttribute="top"/>
+                            <constraint id="93" firstItem="92" firstAttribute="top" secondItem="75" secondAttribute="top" constant="20"/>
+                            <constraint id="105" firstItem="75" firstAttribute="trailing" secondItem="101" secondAttribute="trailing" constant="20"/>
+                            <constraint id="107" firstItem="106" firstAttribute="leading" secondItem="84" secondAttribute="trailing" constant="16"/>
+                            <constraint id="108" firstItem="75" firstAttribute="bottom" secondItem="106" secondAttribute="bottom"/>
+                            <constraint id="109" firstItem="75" firstAttribute="bottom" secondItem="101" secondAttribute="bottom" constant="20"/>
+                            <constraint id="115" firstItem="75" firstAttribute="trailing" secondItem="92" secondAttribute="trailing" constant="20"/>
+                            <constraint id="119" firstItem="101" firstAttribute="top" secondItem="92" secondAttribute="bottom" constant="4"/>
+                            <constraint id="124" firstItem="101" firstAttribute="leading" secondItem="75" secondAttribute="leading" constant="46"/>
+                            <constraint id="125" firstItem="92" firstAttribute="leading" secondItem="75" secondAttribute="leading" constant="46"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint id="76" firstItem="YTl-1W-gDM" firstAttribute="trailing" secondItem="75" secondAttribute="trailing"/>
+                    <constraint id="77" firstItem="75" firstAttribute="top" secondItem="YTl-1W-gDM" secondAttribute="top" constant="4"/>
+                    <constraint id="81" firstItem="YTl-1W-gDM" firstAttribute="bottom" secondItem="75" secondAttribute="bottom" constant="4"/>
+                    <constraint id="83" firstItem="75" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leading" constant="10"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="txtName" destination="89" id="name-outlet-89"/>
+                <outlet property="viewReply" destination="92" id="name-outlet-92"/>
+                <outlet property="txtDesc" destination="106" id="name-outlet-106"/>
+                <outlet property="txtComment" destination="101" id="name-outlet-101"/>
+                <outlet property="imgReProfile" destination="95" id="name-outlet-95"/>
+                <outlet property="imgProfile" destination="84" id="name-outlet-84"/>
+                <outlet property="imgReHeight" destination="110" id="name-outlet-110"/>
+                <outlet property="imgReWidth" destination="111" id="name-outlet-111"/>
+                <outlet property="txtReContent" destination="131" id="name-outlet-131"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="threelines.png" width="24" height="24"/>
+        <image name="timeline_publish_single_normal.9.png" width="64" height="86"/>
+    </resources>
+</document>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{38C25BCF-655C-423C-B85C-216CA0C56FEF}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EsMo.iOS.WeiBo</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>EsMoiOSWeiBo</AssemblyName>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>True</OptimizePNGs>
+    <MtouchFloat32>False</MtouchFloat32>
+    <MtouchSdkVersion>10.0</MtouchSdkVersion>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <BuildIpa>True</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
+    <Compile Include="Entity\App\Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Entity\Element\WebViewImp.cs" />
+    <Compile Include="Entity\View\BaseView.cs" />
+    <Compile Include="Entity\View\Main\MainView.cs" />
+    <Compile Include="Entity\View\Main\MainView.designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\CommentItemView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\CommentItemView.designer.cs">
+      <DependentUpon>CommentItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\CommentView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\CommentView.designer.cs">
+      <DependentUpon>CommentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\ImageBroswerView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\ImageBroswerView.designer.cs">
+      <DependentUpon>ImageBroswerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\ImageViewCell.cs" />
+    <Compile Include="Entity\View\Main\Timeline\ImageViewCell.designer.cs">
+      <DependentUpon>ImageViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\TimelineItemView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\TimelineItemView.designer.cs">
+      <DependentUpon>TimelineItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Menu\MenuItemCell.cs" />
+    <Compile Include="Entity\View\Menu\MenuItemCell.designer.cs">
+      <DependentUpon>MenuItemCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Menu\MenuProfileView.cs" />
+    <Compile Include="Entity\View\Menu\MenuProfileView.designer.cs">
+      <DependentUpon>MenuProfileView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Menu\MenuView.cs" />
+    <Compile Include="Entity\View\Menu\MenuView.designer.cs">
+      <DependentUpon>MenuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\Main\Timeline\ImageCollectionView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\ImageCollectionView.designer.cs">
+      <DependentUpon>ImageCollectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\View\StartupView.cs" />
+    <Compile Include="Entity\View\StartupView.designer.cs">
+      <DependentUpon>StartupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Element\ImageScrollView.cs" />
+    <Compile Include="Entity\Element\ImageScrollView.designer.cs">
+      <DependentUpon>ImageScrollView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.cs" />
+    <Compile Include="Entity\App\MainViewPresenter.cs" />
+    <Compile Include="Entity\View\Main\Timeline\TimelineView.cs" />
+    <Compile Include="Entity\View\Main\Timeline\TimelineView.designer.cs">
+      <DependentUpon>TimelineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Element\TopAlignLabel.cs" />
+    <Compile Include="Entity\Element\TopAlignLabel.designer.cs">
+      <DependentUpon>TopAlignLabel.cs</DependentUpon>
+    </Compile>
+    <InterfaceDefinition Include="Entity\View\LoginView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\MainView.xib">
+      <SubType>Designer</SubType>
+    </InterfaceDefinition>
+    <InterfaceDefinition Include="Entity\View\Menu\MenuItemCell.xib" />
+    <InterfaceDefinition Include="Entity\View\Menu\MenuProfileView.xib" />
+    <InterfaceDefinition Include="Entity\View\Menu\MenuView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\TimelineView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\TimelineItemView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\ImageViewCell.xib" />
+    <InterfaceDefinition Include="Entity\View\StartupView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\CommentView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\CommentItemView.xib" />
+    <InterfaceDefinition Include="Entity\View\Main\Timeline\ImageBroswerView.xib" />
+    <None Include="app.config" />
+    <None Include="GettingStarted.Xamarin" />
+    <None Include="Info.plist" />
+    <Compile Include="Entity\View\LoginView.cs" />
+    <Compile Include="Entity\View\LoginView.designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="Entity\App\Main.storyboard" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CrossUI.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Dialog.iOS.4.4.0\lib\Xamarin.iOS10\CrossUI.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrossUI.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Dialog.iOS.4.4.0\lib\Xamarin.iOS10\CrossUI.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\Xamarin.iOS10\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Dialog.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Dialog.iOS.4.4.0\lib\Xamarin.iOS10\MvvmCross.Dialog.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\Xamarin.iOS10\MvvmCross.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.iOS.Support, Version=1.0.6150.911, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.iOS.Support.4.4.0\lib\Xamarin.iOS10\MvvmCross.iOS.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.iOS.Support.XamarinSidebar, Version=1.0.6150.912, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.iOS.Support.XamarinSidebar.4.4.0\lib\Xamarin.iOS10\MvvmCross.iOS.Support.XamarinSidebar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Visibility, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Plugin.Visibility.4.4.0\lib\Xamarin.iOS10\MvvmCross.Plugins.Visibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Visibility.iOS, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Plugin.Visibility.4.4.0\lib\Xamarin.iOS10\MvvmCross.Plugins.Visibility.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SDWebImage, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.SDWebImage.3.7.5\lib\Xamarin.iOS\SDWebImage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin-Sidebar-Unified, Version=1.0.6137.17856, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.iOS.Support.XamarinSidebar.4.4.0\lib\Xamarin.iOS10\Xamarin-Sidebar-Unified.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entitlements.plist" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\threelines.png" />
+    <BundleResource Include="Resources\timeline_publish_single_normal.9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EsMo.Common\EsMo.Common.csproj">
+      <Project>{2acc3355-c4fe-41f8-9ef1-58692a500631}</Project>
+      <Name>EsMo.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMo.Extension\EsMo.Core.csproj">
+      <Project>{acd8ea2f-2dad-4401-a04a-80ecc6ef75a7}</Project>
+      <Name>EsMo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMo.iOS.Support\EsMo.iOS.Support.csproj">
+      <Project>{c5c6bcee-6644-4382-9a00-4312452d4683}</Project>
+      <Name>EsMo.iOS.Support</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMo.MvvmCross.iOS.Support\EsMo.MvvmCross.iOS.Support.csproj">
+      <Project>{ee91e684-7acb-4120-bf46-8f56599d5b3f}</Project>
+      <Name>EsMo.MvvmCross.iOS.Support</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMo.MvvmCross.Support\EsMo.MvvmCross.Support.csproj">
+      <Project>{ae550252-98a8-4f5b-8d3c-ac2dace69ec9}</Project>
+      <Name>EsMo.MvvmCross.Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EsMo.Sina.SDK\EsMo.Sina.SDK.csproj">
+      <Project>{fd8cf5be-d1d5-4b76-a797-28ac6f06c837}</Project>
+      <Name>EsMo.Sina.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinaModel\EsMo.Sina.Model.csproj">
+      <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
+      <Name>EsMo.Sina.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
