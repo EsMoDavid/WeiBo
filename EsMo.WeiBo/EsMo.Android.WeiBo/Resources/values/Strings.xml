@@ -2,4 +2,6 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">EsMo.Android.WeiBo</string>
+  <string name="drawerOpen">打开</string>
+  <string name="drawerClose">关闭</string>
 </resources>

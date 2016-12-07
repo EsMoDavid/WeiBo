@@ -17,6 +17,7 @@ namespace EsMo.iOS.WeiBo.Entity
 {
     public partial class TimelineItemView : MvxTableViewCell
     {
+        //TODO: reconstruct these by core text.
         public static readonly NSString Key = new NSString("TimelineItemView");
         public static readonly UINib Nib;
 

@@ -16,7 +16,7 @@ namespace EsMo.iOS.WeiBo.Entity
     {
         public BaseView()
         {
-
+            
         }
         public BaseView(string nibName, NSBundle bundle):base(nibName,bundle)
         {

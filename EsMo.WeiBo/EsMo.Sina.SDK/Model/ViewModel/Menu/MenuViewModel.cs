@@ -45,15 +45,15 @@ namespace EsMo.Sina.SDK.Model
             this.appService = appService;
             this.MenuItems = new List<MenuItemViewModel>()
             {
-                new MenuProfileViewModel(MenuType.UserProfile),
-                new MenuItemViewModel(MenuType.Home,AssetsHelper.ic_view_day_grey600_24dp),
-                new MenuItemViewModel(MenuType.Mention,AssetsHelper.ic_drawer_at),
-                new MenuItemViewModel(MenuType.Comment,AssetsHelper.ic_question_answer_grey600_24dp),
-                new MenuItemViewModel(MenuType.SNS),
-                new MenuItemViewModel(MenuType.Setting),
-                new MenuItemViewModel(MenuType.Draft),
-                new MenuItemViewModel(MenuType.Favorite),
-                new MenuItemViewModel(MenuType.HotTopic),
+                //new MenuProfileViewModel(MenuType.UserProfile),
+                //new MenuItemViewModel(MenuType.Home,AssetsHelper.ic_view_day_grey600_24dp),
+                //new MenuItemViewModel(MenuType.Mention,AssetsHelper.ic_drawer_at),
+                //new MenuItemViewModel(MenuType.Comment,AssetsHelper.ic_question_answer_grey600_24dp),
+                //new MenuItemViewModel(MenuType.SNS),
+                //new MenuItemViewModel(MenuType.Setting),
+                //new MenuItemViewModel(MenuType.Draft),
+                //new MenuItemViewModel(MenuType.Favorite),
+                //new MenuItemViewModel(MenuType.HotTopic),
             };
         }
         public int GetMenuProfileHeight(double width)

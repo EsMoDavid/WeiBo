@@ -11,6 +11,8 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Views;
 using Android.Content.PM;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 
 namespace EsMo.Android.WeiBo
 {
@@ -21,12 +23,17 @@ namespace EsMo.Android.WeiBo
          , Theme = "@style/Theme.Splash"
          , NoHistory = true
          , ScreenOrientation = ScreenOrientation.Portrait)]
-    public class SplashScreen: MvxSplashScreenActivity
+    public class SplashScreen : MvxSplashScreenActivity
     {
         public SplashScreen()
            : base(Resource.Layout.SplashScreen)
         {
-            
+
+        }
+        protected override void TriggerFirstNavigate()
+        {
+            var starter = Mvx.Resolve<IMvxAppStart>();
+            starter.Start("TestUI");
         }
     }
 }
