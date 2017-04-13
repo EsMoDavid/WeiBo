@@ -63,6 +63,1587 @@ namespace EsMo.Android.WeiBo
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_in = global::EsMo.Android.WeiBo.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_fade_out = global::EsMo.Android.WeiBo.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_grow_fade_in_from_bottom = global::EsMo.Android.WeiBo.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_enter = global::EsMo.Android.WeiBo.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_popup_exit = global::EsMo.Android.WeiBo.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_shrink_fade_out_from_bottom = global::EsMo.Android.WeiBo.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_bottom = global::EsMo.Android.WeiBo.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_in_top = global::EsMo.Android.WeiBo.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_bottom = global::EsMo.Android.WeiBo.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.abc_slide_out_top = global::EsMo.Android.WeiBo.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_in = global::EsMo.Android.WeiBo.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_bottom_sheet_slide_out = global::EsMo.Android.WeiBo.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_fab_in = global::EsMo.Android.WeiBo.Resource.Animation.design_fab_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_fab_out = global::EsMo.Android.WeiBo.Resource.Animation.design_fab_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_in = global::EsMo.Android.WeiBo.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Animation.design_snackbar_out = global::EsMo.Android.WeiBo.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxBind = global::EsMo.Android.WeiBo.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxDropDownItemTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxGroupItemTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxItemTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxLang = global::EsMo.Android.WeiBo.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxSource = global::EsMo.Android.WeiBo.Resource.Attribute.MvxSource;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.MvxTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarDivider = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarItemBackground = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarPopupTheme = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSize = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarSplitStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTabTextStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarTheme = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionBarWidgetTheme = global::EsMo.Android.WeiBo.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionDropDownStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionLayout = global::EsMo.Android.WeiBo.Resource.Attribute.actionLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionMenuTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeBackground = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCloseDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCopyDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeCutDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeFindDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePasteDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModePopupWindowStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSelectAllDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeShareDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeSplitBackground = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionModeWebSearchDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionOverflowMenuStyle = global::EsMo.Android.WeiBo.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionProviderClass = global::EsMo.Android.WeiBo.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.actionViewClass = global::EsMo.Android.WeiBo.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.activityChooserViewStyle = global::EsMo.Android.WeiBo.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogButtonGroupStyle = global::EsMo.Android.WeiBo.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogCenterButtons = global::EsMo.Android.WeiBo.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogStyle = global::EsMo.Android.WeiBo.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.alertDialogTheme = global::EsMo.Android.WeiBo.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.allowStacking = global::EsMo.Android.WeiBo.Resource.Attribute.allowStacking;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowHeadLength = global::EsMo.Android.WeiBo.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.arrowShaftLength = global::EsMo.Android.WeiBo.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.autoCompleteTextViewStyle = global::EsMo.Android.WeiBo.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.background = global::EsMo.Android.WeiBo.Resource.Attribute.background;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundSplit = global::EsMo.Android.WeiBo.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundStacked = global::EsMo.Android.WeiBo.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTint = global::EsMo.Android.WeiBo.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.backgroundTintMode = global::EsMo.Android.WeiBo.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.barLength = global::EsMo.Android.WeiBo.Resource.Attribute.barLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_hideable = global::EsMo.Android.WeiBo.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_overlapTop = global::EsMo.Android.WeiBo.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.behavior_peekHeight = global::EsMo.Android.WeiBo.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderWidth = global::EsMo.Android.WeiBo.Resource.Attribute.borderWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.borderlessButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetDialogTheme = global::EsMo.Android.WeiBo.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.bottomSheetStyle = global::EsMo.Android.WeiBo.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNegativeButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarNeutralButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarPositiveButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonPanelSideLayout = global::EsMo.Android.WeiBo.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonStyleSmall = global::EsMo.Android.WeiBo.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTint = global::EsMo.Android.WeiBo.Resource.Attribute.buttonTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.buttonTintMode = global::EsMo.Android.WeiBo.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkboxStyle = global::EsMo.Android.WeiBo.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.checkedTextViewStyle = global::EsMo.Android.WeiBo.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeIcon = global::EsMo.Android.WeiBo.Resource.Attribute.closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.closeItemLayout = global::EsMo.Android.WeiBo.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseContentDescription = global::EsMo.Android.WeiBo.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapseIcon = global::EsMo.Android.WeiBo.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleGravity = global::EsMo.Android.WeiBo.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.collapsedTitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.color = global::EsMo.Android.WeiBo.Resource.Attribute.color;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorAccent = global::EsMo.Android.WeiBo.Resource.Attribute.colorAccent;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorButtonNormal = global::EsMo.Android.WeiBo.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlActivated = global::EsMo.Android.WeiBo.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlHighlight = global::EsMo.Android.WeiBo.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorControlNormal = global::EsMo.Android.WeiBo.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimary = global::EsMo.Android.WeiBo.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorPrimaryDark = global::EsMo.Android.WeiBo.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.colorSwitchThumbNormal = global::EsMo.Android.WeiBo.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.commitIcon = global::EsMo.Android.WeiBo.Resource.Attribute.commitIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetEnd = global::EsMo.Android.WeiBo.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetLeft = global::EsMo.Android.WeiBo.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetRight = global::EsMo.Android.WeiBo.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentInsetStart = global::EsMo.Android.WeiBo.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.contentScrim = global::EsMo.Android.WeiBo.Resource.Attribute.contentScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.controlBackground = global::EsMo.Android.WeiBo.Resource.Attribute.controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterEnabled = global::EsMo.Android.WeiBo.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterMaxLength = global::EsMo.Android.WeiBo.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterOverflowTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.counterTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.customNavigationLayout = global::EsMo.Android.WeiBo.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.defaultQueryHint = global::EsMo.Android.WeiBo.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogPreferredPadding = global::EsMo.Android.WeiBo.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dialogTheme = global::EsMo.Android.WeiBo.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.displayOptions = global::EsMo.Android.WeiBo.Resource.Attribute.displayOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.divider = global::EsMo.Android.WeiBo.Resource.Attribute.divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerHorizontal = global::EsMo.Android.WeiBo.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerPadding = global::EsMo.Android.WeiBo.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dividerVertical = global::EsMo.Android.WeiBo.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawableSize = global::EsMo.Android.WeiBo.Resource.Attribute.drawableSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.drawerArrowStyle = global::EsMo.Android.WeiBo.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropDownListViewStyle = global::EsMo.Android.WeiBo.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.dropdownListPreferredItemHeight = global::EsMo.Android.WeiBo.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextBackground = global::EsMo.Android.WeiBo.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.editTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.editTextStyle = global::EsMo.Android.WeiBo.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.elevation = global::EsMo.Android.WeiBo.Resource.Attribute.elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorEnabled = global::EsMo.Android.WeiBo.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.errorTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandActivityOverflowButtonDrawable = global::EsMo.Android.WeiBo.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expanded = global::EsMo.Android.WeiBo.Resource.Attribute.expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleGravity = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMargin = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginBottom = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginEnd = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginStart = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleMarginTop = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.expandedTitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.fabSize = global::EsMo.Android.WeiBo.Resource.Attribute.fabSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.foregroundInsidePadding = global::EsMo.Android.WeiBo.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.gapBetweenBars = global::EsMo.Android.WeiBo.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.goIcon = global::EsMo.Android.WeiBo.Resource.Attribute.goIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.headerLayout = global::EsMo.Android.WeiBo.Resource.Attribute.headerLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.height = global::EsMo.Android.WeiBo.Resource.Attribute.height;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hideOnContentScroll = global::EsMo.Android.WeiBo.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintAnimationEnabled = global::EsMo.Android.WeiBo.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintEnabled = global::EsMo.Android.WeiBo.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.hintTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeAsUpIndicator = global::EsMo.Android.WeiBo.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.homeLayout = global::EsMo.Android.WeiBo.Resource.Attribute.homeLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.icon = global::EsMo.Android.WeiBo.Resource.Attribute.icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.iconifiedByDefault = global::EsMo.Android.WeiBo.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.imageButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.indeterminateProgressStyle = global::EsMo.Android.WeiBo.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.initialActivityCount = global::EsMo.Android.WeiBo.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.insetForeground = global::EsMo.Android.WeiBo.Resource.Attribute.insetForeground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.isLightTheme = global::EsMo.Android.WeiBo.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemBackground = global::EsMo.Android.WeiBo.Resource.Attribute.itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemIconTint = global::EsMo.Android.WeiBo.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemPadding = global::EsMo.Android.WeiBo.Resource.Attribute.itemPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.itemTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.keylines = global::EsMo.Android.WeiBo.Resource.Attribute.keylines;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout = global::EsMo.Android.WeiBo.Resource.Attribute.layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layoutManager = global::EsMo.Android.WeiBo.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchor = global::EsMo.Android.WeiBo.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_anchorGravity = global::EsMo.Android.WeiBo.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_behavior = global::EsMo.Android.WeiBo.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseMode = global::EsMo.Android.WeiBo.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_collapseParallaxMultiplier = global::EsMo.Android.WeiBo.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_keyline = global::EsMo.Android.WeiBo.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollFlags = global::EsMo.Android.WeiBo.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.layout_scrollInterpolator = global::EsMo.Android.WeiBo.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listChoiceBackgroundIndicator = global::EsMo.Android.WeiBo.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listDividerAlertDialog = global::EsMo.Android.WeiBo.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listItemLayout = global::EsMo.Android.WeiBo.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listLayout = global::EsMo.Android.WeiBo.Resource.Attribute.listLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPopupWindowStyle = global::EsMo.Android.WeiBo.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeight = global::EsMo.Android.WeiBo.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightLarge = global::EsMo.Android.WeiBo.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemHeightSmall = global::EsMo.Android.WeiBo.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingLeft = global::EsMo.Android.WeiBo.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.listPreferredItemPaddingRight = global::EsMo.Android.WeiBo.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logo = global::EsMo.Android.WeiBo.Resource.Attribute.logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.logoDescription = global::EsMo.Android.WeiBo.Resource.Attribute.logoDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxActionInlineWidth = global::EsMo.Android.WeiBo.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.maxButtonHeight = global::EsMo.Android.WeiBo.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.measureWithLargestChild = global::EsMo.Android.WeiBo.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.menu = global::EsMo.Android.WeiBo.Resource.Attribute.menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.multiChoiceItemLayout = global::EsMo.Android.WeiBo.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationContentDescription = global::EsMo.Android.WeiBo.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationIcon = global::EsMo.Android.WeiBo.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.navigationMode = global::EsMo.Android.WeiBo.Resource.Attribute.navigationMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.overlapAnchor = global::EsMo.Android.WeiBo.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingEnd = global::EsMo.Android.WeiBo.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.paddingStart = global::EsMo.Android.WeiBo.Resource.Attribute.paddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelBackground = global::EsMo.Android.WeiBo.Resource.Attribute.panelBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListTheme = global::EsMo.Android.WeiBo.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.panelMenuListWidth = global::EsMo.Android.WeiBo.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupMenuStyle = global::EsMo.Android.WeiBo.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupTheme = global::EsMo.Android.WeiBo.Resource.Attribute.popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.popupWindowStyle = global::EsMo.Android.WeiBo.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.preserveIconSpacing = global::EsMo.Android.WeiBo.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.pressedTranslationZ = global::EsMo.Android.WeiBo.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarPadding = global::EsMo.Android.WeiBo.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.progressBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryBackground = global::EsMo.Android.WeiBo.Resource.Attribute.queryBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.queryHint = global::EsMo.Android.WeiBo.Resource.Attribute.queryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.radioButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleIndicator = global::EsMo.Android.WeiBo.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.ratingBarStyleSmall = global::EsMo.Android.WeiBo.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.reverseLayout = global::EsMo.Android.WeiBo.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.rippleColor = global::EsMo.Android.WeiBo.Resource.Attribute.rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchHintIcon = global::EsMo.Android.WeiBo.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchIcon = global::EsMo.Android.WeiBo.Resource.Attribute.searchIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.searchViewStyle = global::EsMo.Android.WeiBo.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.seekBarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackground = global::EsMo.Android.WeiBo.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.selectableItemBackgroundBorderless = global::EsMo.Android.WeiBo.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showAsAction = global::EsMo.Android.WeiBo.Resource.Attribute.showAsAction;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showDividers = global::EsMo.Android.WeiBo.Resource.Attribute.showDividers;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.showText = global::EsMo.Android.WeiBo.Resource.Attribute.showText;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.singleChoiceItemLayout = global::EsMo.Android.WeiBo.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spanCount = global::EsMo.Android.WeiBo.Resource.Attribute.spanCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinBars = global::EsMo.Android.WeiBo.Resource.Attribute.spinBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerDropDownItemStyle = global::EsMo.Android.WeiBo.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.spinnerStyle = global::EsMo.Android.WeiBo.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.splitTrack = global::EsMo.Android.WeiBo.Resource.Attribute.splitTrack;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.srcCompat = global::EsMo.Android.WeiBo.Resource.Attribute.srcCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.stackFromEnd = global::EsMo.Android.WeiBo.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.state_above_anchor = global::EsMo.Android.WeiBo.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarBackground = global::EsMo.Android.WeiBo.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.statusBarScrim = global::EsMo.Android.WeiBo.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.submitBackground = global::EsMo.Android.WeiBo.Resource.Attribute.submitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitle = global::EsMo.Android.WeiBo.Resource.Attribute.subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.subtitleTextStyle = global::EsMo.Android.WeiBo.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.suggestionRowLayout = global::EsMo.Android.WeiBo.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchMinWidth = global::EsMo.Android.WeiBo.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchPadding = global::EsMo.Android.WeiBo.Resource.Attribute.switchPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchStyle = global::EsMo.Android.WeiBo.Resource.Attribute.switchStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.switchTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabBackground = global::EsMo.Android.WeiBo.Resource.Attribute.tabBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabContentStart = global::EsMo.Android.WeiBo.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabGravity = global::EsMo.Android.WeiBo.Resource.Attribute.tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorColor = global::EsMo.Android.WeiBo.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabIndicatorHeight = global::EsMo.Android.WeiBo.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMaxWidth = global::EsMo.Android.WeiBo.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMinWidth = global::EsMo.Android.WeiBo.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabMode = global::EsMo.Android.WeiBo.Resource.Attribute.tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPadding = global::EsMo.Android.WeiBo.Resource.Attribute.tabPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingBottom = global::EsMo.Android.WeiBo.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingEnd = global::EsMo.Android.WeiBo.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingStart = global::EsMo.Android.WeiBo.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabPaddingTop = global::EsMo.Android.WeiBo.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabSelectedTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.tabTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAllCaps = global::EsMo.Android.WeiBo.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceLargePopupMenu = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItem = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceListItemSmall = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultSubtitle = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSearchResultTitle = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textAppearanceSmallPopupMenu = global::EsMo.Android.WeiBo.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorAlertDialogListItem = global::EsMo.Android.WeiBo.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorError = global::EsMo.Android.WeiBo.Resource.Attribute.textColorError;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.textColorSearchUrl = global::EsMo.Android.WeiBo.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.theme = global::EsMo.Android.WeiBo.Resource.Attribute.theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thickness = global::EsMo.Android.WeiBo.Resource.Attribute.thickness;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.thumbTextPadding = global::EsMo.Android.WeiBo.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.title = global::EsMo.Android.WeiBo.Resource.Attribute.title;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleEnabled = global::EsMo.Android.WeiBo.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginBottom = global::EsMo.Android.WeiBo.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginEnd = global::EsMo.Android.WeiBo.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginStart = global::EsMo.Android.WeiBo.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMarginTop = global::EsMo.Android.WeiBo.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleMargins = global::EsMo.Android.WeiBo.Resource.Attribute.titleMargins;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextAppearance = global::EsMo.Android.WeiBo.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextColor = global::EsMo.Android.WeiBo.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.titleTextStyle = global::EsMo.Android.WeiBo.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarId = global::EsMo.Android.WeiBo.Resource.Attribute.toolbarId;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarNavigationButtonStyle = global::EsMo.Android.WeiBo.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.toolbarStyle = global::EsMo.Android.WeiBo.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.track = global::EsMo.Android.WeiBo.Resource.Attribute.track;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.useCompatPadding = global::EsMo.Android.WeiBo.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.voiceIcon = global::EsMo.Android.WeiBo.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBar = global::EsMo.Android.WeiBo.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionBarOverlay = global::EsMo.Android.WeiBo.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowActionModeOverlay = global::EsMo.Android.WeiBo.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMajor = global::EsMo.Android.WeiBo.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedHeightMinor = global::EsMo.Android.WeiBo.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMajor = global::EsMo.Android.WeiBo.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowFixedWidthMinor = global::EsMo.Android.WeiBo.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMajor = global::EsMo.Android.WeiBo.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowMinWidthMinor = global::EsMo.Android.WeiBo.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Attribute.windowNoTitle = global::EsMo.Android.WeiBo.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs = global::EsMo.Android.WeiBo.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::EsMo.Android.WeiBo.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::EsMo.Android.WeiBo.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_allow_stacked_button_bar = global::EsMo.Android.WeiBo.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::EsMo.Android.WeiBo.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::EsMo.Android.WeiBo.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::EsMo.Android.WeiBo.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::MvvmCross.Droid.Support.Design.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::EsMo.Android.WeiBo.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_dark = global::EsMo.Android.WeiBo.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_background_cache_hint_selector_material_light = global::EsMo.Android.WeiBo.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_color_highlight_material = global::EsMo.Android.WeiBo.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_input_method_navigation_guard = global::EsMo.Android.WeiBo.Resource.Color.abc_input_method_navigation_guard;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_dark = global::EsMo.Android.WeiBo.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_disable_only_material_light = global::EsMo.Android.WeiBo.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_dark = global::EsMo.Android.WeiBo.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_primary_text_material_light = global::EsMo.Android.WeiBo.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text = global::EsMo.Android.WeiBo.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_normal = global::EsMo.Android.WeiBo.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_pressed = global::EsMo.Android.WeiBo.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_search_url_text_selected = global::EsMo.Android.WeiBo.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_dark = global::EsMo.Android.WeiBo.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.abc_secondary_text_material_light = global::EsMo.Android.WeiBo.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_dark = global::EsMo.Android.WeiBo.Resource.Color.accent_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.accent_material_light = global::EsMo.Android.WeiBo.Resource.Color.accent_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_dark = global::EsMo.Android.WeiBo.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_floating_material_light = global::EsMo.Android.WeiBo.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_dark = global::EsMo.Android.WeiBo.Resource.Color.background_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.background_material_light = global::EsMo.Android.WeiBo.Resource.Color.background_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_dark = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_disabled_material_light = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_dark = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_inverse_material_light = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_dark = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.bright_foreground_material_light = global::EsMo.Android.WeiBo.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_dark = global::EsMo.Android.WeiBo.Resource.Color.button_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.button_material_light = global::EsMo.Android.WeiBo.Resource.Color.button_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_end_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_mid_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_shadow_start_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_inner_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_end_outer_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_inner_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_fab_stroke_top_outer_color = global::EsMo.Android.WeiBo.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_snackbar_background_color = global::EsMo.Android.WeiBo.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_textinput_error_color_dark = global::EsMo.Android.WeiBo.Resource.Color.design_textinput_error_color_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.design_textinput_error_color_light = global::EsMo.Android.WeiBo.Resource.Color.design_textinput_error_color_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_dark = global::EsMo.Android.WeiBo.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_disabled_material_light = global::EsMo.Android.WeiBo.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_dark = global::EsMo.Android.WeiBo.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.dim_foreground_material_light = global::EsMo.Android.WeiBo.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_dark = global::EsMo.Android.WeiBo.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.foreground_material_light = global::EsMo.Android.WeiBo.Resource.Color.foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_dark = global::EsMo.Android.WeiBo.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.highlighted_text_material_light = global::EsMo.Android.WeiBo.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.hint_foreground_material_dark = global::EsMo.Android.WeiBo.Resource.Color.hint_foreground_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.hint_foreground_material_light = global::EsMo.Android.WeiBo.Resource.Color.hint_foreground_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_800 = global::EsMo.Android.WeiBo.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_900 = global::EsMo.Android.WeiBo.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_blue_grey_950 = global::EsMo.Android.WeiBo.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_200 = global::EsMo.Android.WeiBo.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_deep_teal_500 = global::EsMo.Android.WeiBo.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_100 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_100;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_300 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_300;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_50 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_50;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_600 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_600;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_800 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_800;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_850 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_850;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.material_grey_900 = global::EsMo.Android.WeiBo.Resource.Color.material_grey_900;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_dark = global::EsMo.Android.WeiBo.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_dark_material_light = global::EsMo.Android.WeiBo.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_dark = global::EsMo.Android.WeiBo.Resource.Color.primary_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_material_light = global::EsMo.Android.WeiBo.Resource.Color.primary_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_dark = global::EsMo.Android.WeiBo.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_default_material_light = global::EsMo.Android.WeiBo.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_dark = global::EsMo.Android.WeiBo.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.primary_text_disabled_material_light = global::EsMo.Android.WeiBo.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_dark = global::EsMo.Android.WeiBo.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.ripple_material_light = global::EsMo.Android.WeiBo.Resource.Color.ripple_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_dark = global::EsMo.Android.WeiBo.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_default_material_light = global::EsMo.Android.WeiBo.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_dark = global::EsMo.Android.WeiBo.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.secondary_text_disabled_material_light = global::EsMo.Android.WeiBo.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_dark = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_disabled_material_light = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_dark = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_material_light = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_dark = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Color.switch_thumb_normal_material_light = global::EsMo.Android.WeiBo.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_content_inset_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_height_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_end_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_default_padding_start_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_progress_bar_size = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_max_height = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_height_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_action_button_min_width_overflow_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_alert_dialog_button_bar_height = global::EsMo.Android.WeiBo.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_horizontal_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_inset_vertical_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_horizontal_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_button_padding_vertical_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_config_prefDialogWidth = global::EsMo.Android.WeiBo.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_corner_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_inset_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_control_padding_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_major = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_height_minor = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_major = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_fixed_width_minor = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_major = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_min_width_minor = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dialog_padding_top_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_dark = global::EsMo.Android.WeiBo.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_disabled_alpha_material_light = global::EsMo.Android.WeiBo.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_icon_width = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_left = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_dropdownitem_text_padding_right = global::EsMo.Android.WeiBo.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_bottom_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_edit_text_inset_top_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_floating_window_z = global::EsMo.Android.WeiBo.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_list_item_padding_horizontal_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_panel_menu_list_width = global::EsMo.Android.WeiBo.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_preferred_width = global::EsMo.Android.WeiBo.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_search_view_text_min_width = global::EsMo.Android.WeiBo.Resource.Dimension.abc_search_view_text_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_background_height_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_seekbar_track_progress_height_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_select_dialog_padding_start_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_switch_padding = global::EsMo.Android.WeiBo.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_1_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_body_2_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_button_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_caption_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_1_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_2_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_3_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_display_4_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_headline_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_large_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_medium_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_menu_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_small_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subhead_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.abc_text_size_title_material_toolbar = global::EsMo.Android.WeiBo.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_appbar_elevation = global::EsMo.Android.WeiBo.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_modal_elevation = global::EsMo.Android.WeiBo.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::EsMo.Android.WeiBo.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_border_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_elevation = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_image_size = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_mini = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_size_normal = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_fab_translation_z_pressed = global::EsMo.Android.WeiBo.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_elevation = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_padding = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_icon_size = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_max_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_padding_bottom = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_navigation_separator_vertical_padding = global::EsMo.Android.WeiBo.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_action_inline_max_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_background_corner_radius = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_elevation = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_max_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_min_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_horizontal = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_snackbar_text_size = global::EsMo.Android.WeiBo.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_max_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_scrollable_min_width = global::EsMo.Android.WeiBo.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size = global::EsMo.Android.WeiBo.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.design_tab_text_size_2line = global::EsMo.Android.WeiBo.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_dark = global::EsMo.Android.WeiBo.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.disabled_alpha_material_light = global::EsMo.Android.WeiBo.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_colored = global::EsMo.Android.WeiBo.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_dark = global::EsMo.Android.WeiBo.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.highlight_alpha_material_light = global::EsMo.Android.WeiBo.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::EsMo.Android.WeiBo.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::EsMo.Android.WeiBo.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::EsMo.Android.WeiBo.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_height = global::EsMo.Android.WeiBo.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_large_icon_width = global::EsMo.Android.WeiBo.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Dimension.notification_subtext_size = global::EsMo.Android.WeiBo.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_action_bar_item_background_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_borderless_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_colored_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_default_mtrl_shape = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_internal_bg = global::EsMo.Android.WeiBo.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_control_background_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_dialog_material_background_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_dialog_material_background_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_dialog_material_background_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_dialog_material_background_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_edit_text_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_16dp = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_black_36dp = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_16dp = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_star_half_black_36dp = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_item_background_holo_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_divider_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_focused_holo = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_longpressed_holo = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_pressed_holo_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_disabled_holo_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_dark = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_list_selector_holo_light = global::EsMo.Android.WeiBo.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::EsMo.Android.WeiBo.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_popup_background_mtrl_mult = global::EsMo.Android.WeiBo.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_full_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ratingbar_full_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_indicator_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_ratingbar_small_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::EsMo.Android.WeiBo.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_thumb_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_seekbar_track_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_spinner_textfield_background_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_thumb_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_switch_track_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_text_cursor_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::EsMo.Android.WeiBo.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.abc_textfield_search_material = global::EsMo.Android.WeiBo.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_fab_background = global::EsMo.Android.WeiBo.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.design_snackbar_background = global::EsMo.Android.WeiBo.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Drawable.notification_template_icon_bg = global::EsMo.Android.WeiBo.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.MvvmCrossTagId = global::EsMo.Android.WeiBo.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.MvxBindingTagUnique = global::EsMo.Android.WeiBo.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action0 = global::EsMo.Android.WeiBo.Resource.Id.action0;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar = global::EsMo.Android.WeiBo.Resource.Id.action_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_activity_content = global::EsMo.Android.WeiBo.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_container = global::EsMo.Android.WeiBo.Resource.Id.action_bar_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_root = global::EsMo.Android.WeiBo.Resource.Id.action_bar_root;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_spinner = global::EsMo.Android.WeiBo.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_subtitle = global::EsMo.Android.WeiBo.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_bar_title = global::EsMo.Android.WeiBo.Resource.Id.action_bar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_context_bar = global::EsMo.Android.WeiBo.Resource.Id.action_context_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_divider = global::EsMo.Android.WeiBo.Resource.Id.action_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_divider = global::EsMo.Android.WeiBo.Resource.Id.action_menu_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_menu_presenter = global::EsMo.Android.WeiBo.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar = global::EsMo.Android.WeiBo.Resource.Id.action_mode_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_bar_stub = global::EsMo.Android.WeiBo.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.action_mode_close_button = global::EsMo.Android.WeiBo.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.activity_chooser_view_content = global::EsMo.Android.WeiBo.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.alertTitle = global::EsMo.Android.WeiBo.Resource.Id.alertTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.always = global::EsMo.Android.WeiBo.Resource.Id.always;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.beginning = global::EsMo.Android.WeiBo.Resource.Id.beginning;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.bottom = global::EsMo.Android.WeiBo.Resource.Id.bottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.buttonPanel = global::EsMo.Android.WeiBo.Resource.Id.buttonPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.cancel_action = global::EsMo.Android.WeiBo.Resource.Id.cancel_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center = global::EsMo.Android.WeiBo.Resource.Id.center;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center_horizontal = global::EsMo.Android.WeiBo.Resource.Id.center_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.center_vertical = global::EsMo.Android.WeiBo.Resource.Id.center_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.checkbox = global::EsMo.Android.WeiBo.Resource.Id.checkbox;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.chronometer = global::EsMo.Android.WeiBo.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_horizontal = global::EsMo.Android.WeiBo.Resource.Id.clip_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.clip_vertical = global::EsMo.Android.WeiBo.Resource.Id.clip_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.collapseActionView = global::EsMo.Android.WeiBo.Resource.Id.collapseActionView;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.contentPanel = global::EsMo.Android.WeiBo.Resource.Id.contentPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.custom = global::EsMo.Android.WeiBo.Resource.Id.custom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.customPanel = global::EsMo.Android.WeiBo.Resource.Id.customPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.decor_content_parent = global::EsMo.Android.WeiBo.Resource.Id.decor_content_parent;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.default_activity_button = global::EsMo.Android.WeiBo.Resource.Id.default_activity_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_bottom_sheet = global::EsMo.Android.WeiBo.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area = global::EsMo.Android.WeiBo.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_action_area_stub = global::EsMo.Android.WeiBo.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_menu_item_text = global::EsMo.Android.WeiBo.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.design_navigation_view = global::EsMo.Android.WeiBo.Resource.Id.design_navigation_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.disableHome = global::EsMo.Android.WeiBo.Resource.Id.disableHome;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.edit_query = global::EsMo.Android.WeiBo.Resource.Id.edit_query;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.end = global::EsMo.Android.WeiBo.Resource.Id.end;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.end_padder = global::EsMo.Android.WeiBo.Resource.Id.end_padder;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlways = global::EsMo.Android.WeiBo.Resource.Id.enterAlways;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.enterAlwaysCollapsed = global::EsMo.Android.WeiBo.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.exitUntilCollapsed = global::EsMo.Android.WeiBo.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.expand_activities_button = global::EsMo.Android.WeiBo.Resource.Id.expand_activities_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.expanded_menu = global::EsMo.Android.WeiBo.Resource.Id.expanded_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill = global::EsMo.Android.WeiBo.Resource.Id.fill;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_horizontal = global::EsMo.Android.WeiBo.Resource.Id.fill_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.fill_vertical = global::EsMo.Android.WeiBo.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.@fixed = global::EsMo.Android.WeiBo.Resource.Id.@fixed;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.home = global::EsMo.Android.WeiBo.Resource.Id.home;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.homeAsUp = global::EsMo.Android.WeiBo.Resource.Id.homeAsUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.icon = global::EsMo.Android.WeiBo.Resource.Id.icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.ifRoom = global::EsMo.Android.WeiBo.Resource.Id.ifRoom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.image = global::EsMo.Android.WeiBo.Resource.Id.image;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.info = global::EsMo.Android.WeiBo.Resource.Id.info;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.item_touch_helper_previous_elevation = global::EsMo.Android.WeiBo.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.left = global::EsMo.Android.WeiBo.Resource.Id.left;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.line1 = global::EsMo.Android.WeiBo.Resource.Id.line1;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.line3 = global::EsMo.Android.WeiBo.Resource.Id.line3;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.listMode = global::EsMo.Android.WeiBo.Resource.Id.listMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.list_item = global::EsMo.Android.WeiBo.Resource.Id.list_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.media_actions = global::EsMo.Android.WeiBo.Resource.Id.media_actions;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.middle = global::EsMo.Android.WeiBo.Resource.Id.middle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.mini = global::EsMo.Android.WeiBo.Resource.Id.mini;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.multiply = global::EsMo.Android.WeiBo.Resource.Id.multiply;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.navigation_header_container = global::EsMo.Android.WeiBo.Resource.Id.navigation_header_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.never = global::EsMo.Android.WeiBo.Resource.Id.never;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.none = global::EsMo.Android.WeiBo.Resource.Id.none;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.normal = global::EsMo.Android.WeiBo.Resource.Id.normal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.parallax = global::EsMo.Android.WeiBo.Resource.Id.parallax;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.parentPanel = global::EsMo.Android.WeiBo.Resource.Id.parentPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.pin = global::EsMo.Android.WeiBo.Resource.Id.pin;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_circular = global::EsMo.Android.WeiBo.Resource.Id.progress_circular;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.progress_horizontal = global::EsMo.Android.WeiBo.Resource.Id.progress_horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.radio = global::EsMo.Android.WeiBo.Resource.Id.radio;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.right = global::EsMo.Android.WeiBo.Resource.Id.right;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.screen = global::EsMo.Android.WeiBo.Resource.Id.screen;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scroll = global::EsMo.Android.WeiBo.Resource.Id.scroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorDown = global::EsMo.Android.WeiBo.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollIndicatorUp = global::EsMo.Android.WeiBo.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollView = global::EsMo.Android.WeiBo.Resource.Id.scrollView;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.scrollable = global::EsMo.Android.WeiBo.Resource.Id.scrollable;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_badge = global::EsMo.Android.WeiBo.Resource.Id.search_badge;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_bar = global::EsMo.Android.WeiBo.Resource.Id.search_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_button = global::EsMo.Android.WeiBo.Resource.Id.search_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_close_btn = global::EsMo.Android.WeiBo.Resource.Id.search_close_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_edit_frame = global::EsMo.Android.WeiBo.Resource.Id.search_edit_frame;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_go_btn = global::EsMo.Android.WeiBo.Resource.Id.search_go_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_mag_icon = global::EsMo.Android.WeiBo.Resource.Id.search_mag_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_plate = global::EsMo.Android.WeiBo.Resource.Id.search_plate;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_src_text = global::EsMo.Android.WeiBo.Resource.Id.search_src_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.search_voice_btn = global::EsMo.Android.WeiBo.Resource.Id.search_voice_btn;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.select_dialog_listview = global::EsMo.Android.WeiBo.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.shortcut = global::EsMo.Android.WeiBo.Resource.Id.shortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showCustom = global::EsMo.Android.WeiBo.Resource.Id.showCustom;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showHome = global::EsMo.Android.WeiBo.Resource.Id.showHome;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.showTitle = global::EsMo.Android.WeiBo.Resource.Id.showTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_action = global::EsMo.Android.WeiBo.Resource.Id.snackbar_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snackbar_text = global::EsMo.Android.WeiBo.Resource.Id.snackbar_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.snap = global::EsMo.Android.WeiBo.Resource.Id.snap;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.spacer = global::EsMo.Android.WeiBo.Resource.Id.spacer;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.split_action_bar = global::EsMo.Android.WeiBo.Resource.Id.split_action_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_atop = global::EsMo.Android.WeiBo.Resource.Id.src_atop;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_in = global::EsMo.Android.WeiBo.Resource.Id.src_in;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.src_over = global::EsMo.Android.WeiBo.Resource.Id.src_over;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.start = global::EsMo.Android.WeiBo.Resource.Id.start;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.status_bar_latest_event_content = global::EsMo.Android.WeiBo.Resource.Id.status_bar_latest_event_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.submit_area = global::EsMo.Android.WeiBo.Resource.Id.submit_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.tabMode = global::EsMo.Android.WeiBo.Resource.Id.tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.text = global::EsMo.Android.WeiBo.Resource.Id.text;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.text2 = global::EsMo.Android.WeiBo.Resource.Id.text2;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.textSpacerNoButtons = global::EsMo.Android.WeiBo.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.time = global::EsMo.Android.WeiBo.Resource.Id.time;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.title = global::EsMo.Android.WeiBo.Resource.Id.title;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.title_template = global::EsMo.Android.WeiBo.Resource.Id.title_template;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.top = global::EsMo.Android.WeiBo.Resource.Id.top;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.topPanel = global::EsMo.Android.WeiBo.Resource.Id.topPanel;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.touch_outside = global::EsMo.Android.WeiBo.Resource.Id.touch_outside;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.up = global::EsMo.Android.WeiBo.Resource.Id.up;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.useLogo = global::EsMo.Android.WeiBo.Resource.Id.useLogo;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.view_offset_helper = global::EsMo.Android.WeiBo.Resource.Id.view_offset_helper;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.withText = global::EsMo.Android.WeiBo.Resource.Id.withText;
+			global::MvvmCross.Droid.Support.Design.Resource.Id.wrap_content = global::EsMo.Android.WeiBo.Resource.Id.wrap_content;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityDefaultDur = global::EsMo.Android.WeiBo.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_config_activityShortDur = global::EsMo.Android.WeiBo.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.abc_max_action_buttons = global::EsMo.Android.WeiBo.Resource.Integer.abc_max_action_buttons;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.bottom_sheet_slide_duration = global::EsMo.Android.WeiBo.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.cancel_button_image_alpha = global::EsMo.Android.WeiBo.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.design_snackbar_text_max_lines = global::EsMo.Android.WeiBo.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Integer.status_bar_notification_info_maxnum = global::EsMo.Android.WeiBo.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_title_item = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_up_container = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_bar_view_list_nav_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_item_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_menu_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_bar = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_action_mode_close_item_material = global::EsMo.Android.WeiBo.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view = global::EsMo.Android.WeiBo.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_activity_chooser_view_list_item = global::EsMo.Android.WeiBo.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_button_bar_material = global::EsMo.Android.WeiBo.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_alert_dialog_material = global::EsMo.Android.WeiBo.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_dialog_title_material = global::EsMo.Android.WeiBo.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_expanded_menu_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_checkbox = global::EsMo.Android.WeiBo.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_icon = global::EsMo.Android.WeiBo.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_list_menu_item_radio = global::EsMo.Android.WeiBo.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_popup_menu_item_layout = global::EsMo.Android.WeiBo.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_content_include = global::EsMo.Android.WeiBo.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple = global::EsMo.Android.WeiBo.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_simple_overlay_action_mode = global::EsMo.Android.WeiBo.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_screen_toolbar = global::EsMo.Android.WeiBo.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_dropdown_item_icons_2line = global::EsMo.Android.WeiBo.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_search_view = global::EsMo.Android.WeiBo.Resource.Layout.abc_search_view;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.abc_select_dialog_material = global::EsMo.Android.WeiBo.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_bottom_sheet_dialog = global::EsMo.Android.WeiBo.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar = global::EsMo.Android.WeiBo.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_snackbar_include = global::EsMo.Android.WeiBo.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_icon = global::EsMo.Android.WeiBo.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_layout_tab_text = global::EsMo.Android.WeiBo.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_menu_item_action_area = global::EsMo.Android.WeiBo.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_header = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_separator = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_item_subheader = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.design_navigation_menu_item = global::EsMo.Android.WeiBo.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_action = global::EsMo.Android.WeiBo.Resource.Layout.notification_media_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_media_cancel_action = global::EsMo.Android.WeiBo.Resource.Layout.notification_media_cancel_action;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_big_media;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_big_media_narrow = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_big_media_narrow;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_lines = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_lines;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_media = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_media;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_chronometer = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.notification_template_part_time = global::EsMo.Android.WeiBo.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_item_material = global::EsMo.Android.WeiBo.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_multichoice_material = global::EsMo.Android.WeiBo.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.select_dialog_singlechoice_material = global::EsMo.Android.WeiBo.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Droid.Support.Design.Resource.Layout.support_simple_spinner_dropdown_item = global::EsMo.Android.WeiBo.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_description = global::EsMo.Android.WeiBo.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_description_format = global::EsMo.Android.WeiBo.Resource.String.abc_action_bar_home_description_format;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_home_subtitle_description_format = global::EsMo.Android.WeiBo.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_bar_up_description = global::EsMo.Android.WeiBo.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_menu_overflow_description = global::EsMo.Android.WeiBo.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_action_mode_done = global::EsMo.Android.WeiBo.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activity_chooser_view_see_all = global::EsMo.Android.WeiBo.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_activitychooserview_choose_application = global::EsMo.Android.WeiBo.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_off = global::EsMo.Android.WeiBo.Resource.String.abc_capital_off;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_capital_on = global::EsMo.Android.WeiBo.Resource.String.abc_capital_on;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_search_hint = global::EsMo.Android.WeiBo.Resource.String.abc_search_hint;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_clear = global::EsMo.Android.WeiBo.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_query = global::EsMo.Android.WeiBo.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_search = global::EsMo.Android.WeiBo.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_submit = global::EsMo.Android.WeiBo.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_searchview_description_voice = global::EsMo.Android.WeiBo.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with = global::EsMo.Android.WeiBo.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_shareactionprovider_share_with_application = global::EsMo.Android.WeiBo.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Droid.Support.Design.Resource.String.abc_toolbar_collapse_description = global::EsMo.Android.WeiBo.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Droid.Support.Design.Resource.String.appbar_scrolling_view_behavior = global::EsMo.Android.WeiBo.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.bottom_sheet_behavior = global::EsMo.Android.WeiBo.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.character_counter_pattern = global::EsMo.Android.WeiBo.Resource.String.character_counter_pattern;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_shrink_grow_autohide_behavior = global::EsMo.Android.WeiBo.Resource.String.fab_scroll_shrink_grow_autohide_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.fab_scroll_translation_autohide_behavior = global::EsMo.Android.WeiBo.Resource.String.fab_scroll_translation_autohide_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.String.status_bar_notification_info_overflow = global::EsMo.Android.WeiBo.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.AlertDialog_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_AppCompat_DropDownUp = global::EsMo.Android.WeiBo.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Animation_Design_BottomSheetDialog = global::EsMo.Android.WeiBo.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_AlertDialog_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::EsMo.Android.WeiBo.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitle_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Button = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::EsMo.Android.WeiBo.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::EsMo.Android.WeiBo.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::EsMo.Android.WeiBo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::EsMo.Android.WeiBo.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::EsMo.Android.WeiBo.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V22_Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V23_Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::EsMo.Android.WeiBo.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActionMode = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Button_Small = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_EditText = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ImageButton = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_SeekBar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Base_Widget_Design_TabLayout = global::EsMo.Android.WeiBo.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::EsMo.Android.WeiBo.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Platform_V11_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V11_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Platform_V11_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Platform_V14_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_V14_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Platform_V14_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Platform_Widget_AppCompat_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::EsMo.Android.WeiBo.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::EsMo.Android.WeiBo.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::EsMo.Android.WeiBo.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body1 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Body2 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Button = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Caption = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display1 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display2 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display3 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Display4 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Headline = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Menu = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Counter_Overflow = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Error = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Hint = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Snackbar_Message = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Design_Tab = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::EsMo.Android.WeiBo.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_CompactMenu = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_Alert = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_AppCompat_NoActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_BottomSheetDialog = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_Light_NoActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Theme_Design_NoActionBar = global::EsMo.Android.WeiBo.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat = global::EsMo.Android.WeiBo.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark = global::EsMo.Android.WeiBo.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.ThemeOverlay_AppCompat_Light = global::EsMo.Android.WeiBo.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActionMode = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ActivityChooserView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Colored = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Button_Small = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_EditText = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ImageButton = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_SearchView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListPopupWindow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_DropDown = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ListView_Menu = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_PopupWindow = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_RatingBar_Small = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_SeekBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::EsMo.Android.WeiBo.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_AppBarLayout = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_BottomSheet_Modal = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CollapsingToolbar = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_CoordinatorLayout = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_FloatingActionButton = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_NavigationView = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_Snackbar = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TabLayout = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Style.Widget_Design_TextInputLayout = global::EsMo.Android.WeiBo.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_background = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundSplit = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_backgroundStacked = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetEnd = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetLeft = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetRight = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_contentInsetStart = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_customNavigationLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_displayOptions = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_divider = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_elevation = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_height = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_hideOnContentScroll = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeAsUpIndicator = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_homeLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_icon = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_itemPadding = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_logo = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_navigationMode = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_popupTheme = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarPadding = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_progressBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_subtitleTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_title = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBar_titleTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::EsMo.Android.WeiBo.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuItemView_android_minWidth = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMenuView = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_background = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_backgroundSplit = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_closeItemLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_height = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_subtitleTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActionMode_titleTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView = global::EsMo.Android.WeiBo.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ActivityChooserView_initialActivityCount = global::EsMo.Android.WeiBo.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_android_layout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listItemLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_listLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_android_background = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_elevation = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_expanded = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::EsMo.Android.WeiBo.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_android_src = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatImageView_srcCompat = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_android_textAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTextView_textAllCaps = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarDivider = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSize = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkboxStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorAccent = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlActivated = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorControlNormal = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimary = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_controlBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dialogTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dividerVertical = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_editTextStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_searchViewStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_seekBarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_spinnerStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_switchStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_toolbarStyle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBar = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.AppCompatTheme_windowNoTitle = global::EsMo.Android.WeiBo.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params = global::EsMo.Android.WeiBo.Resource.Styleable.BottomSheetBehavior_Params;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::EsMo.Android.WeiBo.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::EsMo.Android.WeiBo.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ButtonBarLayout_allowStacking = global::EsMo.Android.WeiBo.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_title = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::EsMo.Android.WeiBo.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton = global::EsMo.Android.WeiBo.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_android_button = global::EsMo.Android.WeiBo.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTint = global::EsMo.Android.WeiBo.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CompoundButton_buttonTintMode = global::EsMo.Android.WeiBo.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_keylines = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::EsMo.Android.WeiBo.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme = global::EsMo.Android.WeiBo.Resource.Styleable.DesignTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::EsMo.Android.WeiBo.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_bottomSheetStyle = global::EsMo.Android.WeiBo.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DesignTheme_textColorError = global::EsMo.Android.WeiBo.Resource.Styleable.DesignTheme_textColorError;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_barLength = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_color = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_drawableSize = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_spinBars = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.DrawerArrowToggle_thickness = global::EsMo.Android.WeiBo.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTint = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_borderWidth = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_elevation = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_fabSize = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_rippleColor = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.FloatingActionButton_useCompatPadding = global::EsMo.Android.WeiBo.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::EsMo.Android.WeiBo.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::EsMo.Android.WeiBo.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::EsMo.Android.WeiBo.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_gravity = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_orientation = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_divider = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_showDividers = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::EsMo.Android.WeiBo.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow = global::EsMo.Android.WeiBo.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::EsMo.Android.WeiBo.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::EsMo.Android.WeiBo.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_checkableBehavior = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_enabled = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_id = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_menuCategory = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_orderInCategory = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuGroup_android_visible = global::EsMo.Android.WeiBo.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionLayout = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionProviderClass = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_actionViewClass = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checkable = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_checked = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_enabled = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_icon = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_id = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_menuCategory = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_numericShortcut = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_onClick = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_orderInCategory = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_title = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_titleCondensed = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_android_visible = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuItem_showAsAction = global::EsMo.Android.WeiBo.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_headerBackground = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_horizontalDivider = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemBackground = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_itemTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_verticalDivider = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_android_windowAnimationStyle = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MenuView_preserveIconSpacing = global::EsMo.Android.WeiBo.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding = global::EsMo.Android.WeiBo.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxBind = global::EsMo.Android.WeiBo.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxBinding_MvxLang = global::EsMo.Android.WeiBo.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl = global::EsMo.Android.WeiBo.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxControl_MvxTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView = global::EsMo.Android.WeiBo.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxImageView = global::EsMo.Android.WeiBo.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxImageView_MvxSource = global::EsMo.Android.WeiBo.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.MvxListView_MvxItemTemplate = global::EsMo.Android.WeiBo.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_background = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_android_maxWidth = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_elevation = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_headerLayout = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemBackground = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemIconTint = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_itemTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.NavigationView_menu = global::EsMo.Android.WeiBo.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow = global::EsMo.Android.WeiBo.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_android_popupBackground = global::EsMo.Android.WeiBo.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindow_overlapAnchor = global::EsMo.Android.WeiBo.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState = global::EsMo.Android.WeiBo.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::EsMo.Android.WeiBo.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_android_orientation = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_layoutManager = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_reverseLayout = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_spanCount = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.RecyclerView_stackFromEnd = global::EsMo.Android.WeiBo.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout = global::EsMo.Android.WeiBo.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::EsMo.Android.WeiBo.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Params = global::EsMo.Android.WeiBo.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::EsMo.Android.WeiBo.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_focusable = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_imeOptions = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_inputType = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_android_maxWidth = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_closeIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_commitIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_defaultQueryHint = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_goIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_iconifiedByDefault = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_layout = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryBackground = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_queryHint = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchHintIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_searchIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_submitBackground = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_suggestionRowLayout = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SearchView_voiceIcon = global::EsMo.Android.WeiBo.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout = global::EsMo.Android.WeiBo.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_android_maxWidth = global::EsMo.Android.WeiBo.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_elevation = global::EsMo.Android.WeiBo.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::EsMo.Android.WeiBo.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_dropDownWidth = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_entries = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_popupBackground = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_android_prompt = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Spinner_popupTheme = global::EsMo.Android.WeiBo.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOff = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_textOn = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_android_thumb = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_showText = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_splitTrack = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchMinWidth = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchPadding = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_switchTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_thumbTextPadding = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.SwitchCompat_track = global::EsMo.Android.WeiBo.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem = global::EsMo.Android.WeiBo.Resource.Styleable.TabItem;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_icon = global::EsMo.Android.WeiBo.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_layout = global::EsMo.Android.WeiBo.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabItem_android_text = global::EsMo.Android.WeiBo.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabBackground = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabContentStart = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabGravity = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorColor = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabIndicatorHeight = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMaxWidth = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMinWidth = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabMode = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPadding = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingBottom = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingEnd = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingStart = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabPaddingTop = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabSelectedTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TabLayout_tabTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowColor = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDx = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowDy = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_shadowRadius = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textColor = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textSize = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_textStyle = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_android_typeface = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextAppearance_textAllCaps = global::EsMo.Android.WeiBo.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_hint = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_android_textColorHint = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterEnabled = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterMaxLength = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_counterTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorEnabled = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_errorTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintEnabled = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.TextInputLayout_hintTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_gravity = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_android_minHeight = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseContentDescription = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_collapseIcon = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetEnd = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetLeft = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetRight = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_contentInsetStart = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logo = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_logoDescription = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_maxButtonHeight = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationContentDescription = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_navigationIcon = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_popupTheme = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitle = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_subtitleTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_title = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginBottom = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginEnd = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginStart = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMarginTop = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleMargins = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextAppearance = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.Toolbar_titleTextColor = global::EsMo.Android.WeiBo.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View = global::EsMo.Android.WeiBo.Resource.Styleable.View;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_focusable = global::EsMo.Android.WeiBo.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_android_theme = global::EsMo.Android.WeiBo.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingEnd = global::EsMo.Android.WeiBo.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_paddingStart = global::EsMo.Android.WeiBo.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.View_theme = global::EsMo.Android.WeiBo.Resource.Styleable.View_theme;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper = global::EsMo.Android.WeiBo.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_android_background = global::EsMo.Android.WeiBo.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::EsMo.Android.WeiBo.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::EsMo.Android.WeiBo.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat = global::EsMo.Android.WeiBo.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_id = global::EsMo.Android.WeiBo.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_inflatedId = global::EsMo.Android.WeiBo.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Droid.Support.Design.Resource.Styleable.ViewStubCompat_android_layout = global::EsMo.Android.WeiBo.Resource.Styleable.ViewStubCompat_android_layout;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxBind = global::EsMo.Android.WeiBo.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxDropDownItemTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::EsMo.Android.WeiBo.Resource.Attribute.MvxGroupItemTemplate;
@@ -136,6 +1717,24 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
 			
+			// aapt resource value: 0x7f04000a
+			public const int design_bottom_sheet_slide_in = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int design_bottom_sheet_slide_out = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int design_fab_in = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int design_fab_out = 2130968589;
+			
+			// aapt resource value: 0x7f04000e
+			public const int design_snackbar_in = 2130968590;
+			
+			// aapt resource value: 0x7f04000f
+			public const int design_snackbar_out = 2130968591;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -171,29 +1770,29 @@ namespace EsMo.Android.WeiBo
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f0100d6
-			public const int MvxBind = 2130772182;
+			// aapt resource value: 0x7f01011b
+			public const int MvxBind = 2130772251;
 			
-			// aapt resource value: 0x7f0100da
-			public const int MvxDropDownItemTemplate = 2130772186;
+			// aapt resource value: 0x7f01011f
+			public const int MvxDropDownItemTemplate = 2130772255;
 			
-			// aapt resource value: 0x7f0100db
-			public const int MvxGroupItemTemplate = 2130772187;
+			// aapt resource value: 0x7f010120
+			public const int MvxGroupItemTemplate = 2130772256;
 			
-			// aapt resource value: 0x7f0100d9
-			public const int MvxItemTemplate = 2130772185;
+			// aapt resource value: 0x7f01011e
+			public const int MvxItemTemplate = 2130772254;
 			
-			// aapt resource value: 0x7f0100d7
-			public const int MvxLang = 2130772183;
+			// aapt resource value: 0x7f01011c
+			public const int MvxLang = 2130772252;
 			
-			// aapt resource value: 0x7f0100dc
-			public const int MvxSource = 2130772188;
+			// aapt resource value: 0x7f010121
+			public const int MvxSource = 2130772257;
 			
-			// aapt resource value: 0x7f0100d8
-			public const int MvxTemplate = 2130772184;
+			// aapt resource value: 0x7f01011d
+			public const int MvxTemplate = 2130772253;
 			
-			// aapt resource value: 0x7f0100d5
-			public const int MvxTemplateSelector = 2130772181;
+			// aapt resource value: 0x7f01011a
+			public const int MvxTemplateSelector = 2130772250;
 			
 			// aapt resource value: 0x7f01003f
 			public const int actionBarDivider = 2130772031;
@@ -339,14 +1938,32 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100a1
 			public const int barLength = 2130772129;
 			
-			// aapt resource value: 0x7f0100e8
-			public const int bg_timeline_item = 2130772200;
+			// aapt resource value: 0x7f0100d9
+			public const int behavior_hideable = 2130772185;
 			
-			// aapt resource value: 0x7f0100e6
-			public const int bg_timline_item = 2130772198;
+			// aapt resource value: 0x7f0100ff
+			public const int behavior_overlapTop = 2130772223;
+			
+			// aapt resource value: 0x7f0100d8
+			public const int behavior_peekHeight = 2130772184;
+			
+			// aapt resource value: 0x7f01012d
+			public const int bg_timeline_item = 2130772269;
+			
+			// aapt resource value: 0x7f01012b
+			public const int bg_timline_item = 2130772267;
+			
+			// aapt resource value: 0x7f0100f5
+			public const int borderWidth = 2130772213;
 			
 			// aapt resource value: 0x7f01005e
 			public const int borderlessButtonStyle = 2130772062;
+			
+			// aapt resource value: 0x7f0100ef
+			public const int bottomSheetDialogTheme = 2130772207;
+			
+			// aapt resource value: 0x7f0100f0
+			public const int bottomSheetStyle = 2130772208;
 			
 			// aapt resource value: 0x7f01005b
 			public const int buttonBarButtonStyle = 2130772059;
@@ -396,6 +2013,12 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100c9
 			public const int collapseIcon = 2130772169;
 			
+			// aapt resource value: 0x7f0100e6
+			public const int collapsedTitleGravity = 2130772198;
+			
+			// aapt resource value: 0x7f0100e2
+			public const int collapsedTitleTextAppearance = 2130772194;
+			
 			// aapt resource value: 0x7f01009b
 			public const int color = 2130772123;
 			
@@ -438,8 +2061,23 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01001a
 			public const int contentInsetStart = 2130771994;
 			
+			// aapt resource value: 0x7f0100e3
+			public const int contentScrim = 2130772195;
+			
 			// aapt resource value: 0x7f010082
 			public const int controlBackground = 2130772098;
+			
+			// aapt resource value: 0x7f010115
+			public const int counterEnabled = 2130772245;
+			
+			// aapt resource value: 0x7f010116
+			public const int counterMaxLength = 2130772246;
+			
+			// aapt resource value: 0x7f010118
+			public const int counterOverflowTextAppearance = 2130772248;
+			
+			// aapt resource value: 0x7f010117
+			public const int counterTextAppearance = 2130772247;
 			
 			// aapt resource value: 0x7f010013
 			public const int customNavigationLayout = 2130771987;
@@ -468,8 +2106,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01005f
 			public const int dividerVertical = 2130772063;
 			
-			// aapt resource value: 0x7f0100e5
-			public const int divider_timeline_item = 2130772197;
+			// aapt resource value: 0x7f01012a
+			public const int divider_timeline_item = 2130772266;
 			
 			// aapt resource value: 0x7f01009d
 			public const int drawableSize = 2130772125;
@@ -495,14 +2133,50 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01001e
 			public const int elevation = 2130771998;
 			
+			// aapt resource value: 0x7f010113
+			public const int errorEnabled = 2130772243;
+			
+			// aapt resource value: 0x7f010114
+			public const int errorTextAppearance = 2130772244;
+			
 			// aapt resource value: 0x7f010022
 			public const int expandActivityOverflowButtonDrawable = 2130772002;
 			
-			// aapt resource value: 0x7f0100e1
-			public const int fits_windows = 2130772193;
+			// aapt resource value: 0x7f0100d5
+			public const int expanded = 2130772181;
+			
+			// aapt resource value: 0x7f0100e7
+			public const int expandedTitleGravity = 2130772199;
+			
+			// aapt resource value: 0x7f0100dc
+			public const int expandedTitleMargin = 2130772188;
 			
 			// aapt resource value: 0x7f0100e0
-			public const int flat_text = 2130772192;
+			public const int expandedTitleMarginBottom = 2130772192;
+			
+			// aapt resource value: 0x7f0100df
+			public const int expandedTitleMarginEnd = 2130772191;
+			
+			// aapt resource value: 0x7f0100dd
+			public const int expandedTitleMarginStart = 2130772189;
+			
+			// aapt resource value: 0x7f0100de
+			public const int expandedTitleMarginTop = 2130772190;
+			
+			// aapt resource value: 0x7f0100e1
+			public const int expandedTitleTextAppearance = 2130772193;
+			
+			// aapt resource value: 0x7f0100f3
+			public const int fabSize = 2130772211;
+			
+			// aapt resource value: 0x7f010126
+			public const int fits_windows = 2130772262;
+			
+			// aapt resource value: 0x7f010125
+			public const int flat_text = 2130772261;
+			
+			// aapt resource value: 0x7f0100f7
+			public const int foregroundInsidePadding = 2130772215;
 			
 			// aapt resource value: 0x7f01009e
 			public const int gapBetweenBars = 2130772126;
@@ -510,11 +2184,23 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100b2
 			public const int goIcon = 2130772146;
 			
+			// aapt resource value: 0x7f0100fd
+			public const int headerLayout = 2130772221;
+			
 			// aapt resource value: 0x7f010005
 			public const int height = 2130771973;
 			
 			// aapt resource value: 0x7f010019
 			public const int hideOnContentScroll = 2130771993;
+			
+			// aapt resource value: 0x7f010119
+			public const int hintAnimationEnabled = 2130772249;
+			
+			// aapt resource value: 0x7f010112
+			public const int hintEnabled = 2130772242;
+			
+			// aapt resource value: 0x7f010111
+			public const int hintTextAppearance = 2130772241;
 			
 			// aapt resource value: 0x7f010058
 			public const int homeAsUpIndicator = 2130772056;
@@ -537,17 +2223,59 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f010021
 			public const int initialActivityCount = 2130772001;
 			
+			// aapt resource value: 0x7f0100fe
+			public const int insetForeground = 2130772222;
+			
 			// aapt resource value: 0x7f010006
 			public const int isLightTheme = 2130771974;
 			
+			// aapt resource value: 0x7f0100fb
+			public const int itemBackground = 2130772219;
+			
+			// aapt resource value: 0x7f0100f9
+			public const int itemIconTint = 2130772217;
+			
 			// aapt resource value: 0x7f010018
 			public const int itemPadding = 2130771992;
+			
+			// aapt resource value: 0x7f0100fc
+			public const int itemTextAppearance = 2130772220;
+			
+			// aapt resource value: 0x7f0100fa
+			public const int itemTextColor = 2130772218;
+			
+			// aapt resource value: 0x7f0100e9
+			public const int keylines = 2130772201;
 			
 			// aapt resource value: 0x7f0100ad
 			public const int layout = 2130772141;
 			
 			// aapt resource value: 0x7f010000
 			public const int layoutManager = 2130771968;
+			
+			// aapt resource value: 0x7f0100ec
+			public const int layout_anchor = 2130772204;
+			
+			// aapt resource value: 0x7f0100ee
+			public const int layout_anchorGravity = 2130772206;
+			
+			// aapt resource value: 0x7f0100eb
+			public const int layout_behavior = 2130772203;
+			
+			// aapt resource value: 0x7f0100da
+			public const int layout_collapseMode = 2130772186;
+			
+			// aapt resource value: 0x7f0100db
+			public const int layout_collapseParallaxMultiplier = 2130772187;
+			
+			// aapt resource value: 0x7f0100ed
+			public const int layout_keyline = 2130772205;
+			
+			// aapt resource value: 0x7f0100d6
+			public const int layout_scrollFlags = 2130772182;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int layout_scrollInterpolator = 2130772183;
 			
 			// aapt resource value: 0x7f010079
 			public const int listChoiceBackgroundIndicator = 2130772089;
@@ -585,14 +2313,20 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100cd
 			public const int logoDescription = 2130772173;
 			
+			// aapt resource value: 0x7f010100
+			public const int maxActionInlineWidth = 2130772224;
+			
 			// aapt resource value: 0x7f0100c8
 			public const int maxButtonHeight = 2130772168;
 			
 			// aapt resource value: 0x7f0100a3
 			public const int measureWithLargestChild = 2130772131;
 			
-			// aapt resource value: 0x7f0100e7
-			public const int menu_header_height = 2130772199;
+			// aapt resource value: 0x7f0100f8
+			public const int menu = 2130772216;
+			
+			// aapt resource value: 0x7f01012c
+			public const int menu_header_height = 2130772268;
 			
 			// aapt resource value: 0x7f010025
 			public const int multiChoiceItemLayout = 2130772005;
@@ -636,6 +2370,9 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100aa
 			public const int preserveIconSpacing = 2130772138;
 			
+			// aapt resource value: 0x7f0100f4
+			public const int pressedTranslationZ = 2130772212;
+			
 			// aapt resource value: 0x7f010017
 			public const int progressBarPadding = 2130771991;
 			
@@ -662,6 +2399,9 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f010002
 			public const int reverseLayout = 2130771970;
+			
+			// aapt resource value: 0x7f0100f2
+			public const int rippleColor = 2130772210;
 			
 			// aapt resource value: 0x7f0100b4
 			public const int searchHintIcon = 2130772148;
@@ -717,6 +2457,12 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100ac
 			public const int state_above_anchor = 2130772140;
 			
+			// aapt resource value: 0x7f0100ea
+			public const int statusBarBackground = 2130772202;
+			
+			// aapt resource value: 0x7f0100e4
+			public const int statusBarScrim = 2130772196;
+			
 			// aapt resource value: 0x7f0100b9
 			public const int submitBackground = 2130772153;
 			
@@ -747,6 +2493,54 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100bc
 			public const int switchTextAppearance = 2130772156;
 			
+			// aapt resource value: 0x7f010104
+			public const int tabBackground = 2130772228;
+			
+			// aapt resource value: 0x7f010103
+			public const int tabContentStart = 2130772227;
+			
+			// aapt resource value: 0x7f010106
+			public const int tabGravity = 2130772230;
+			
+			// aapt resource value: 0x7f010101
+			public const int tabIndicatorColor = 2130772225;
+			
+			// aapt resource value: 0x7f010102
+			public const int tabIndicatorHeight = 2130772226;
+			
+			// aapt resource value: 0x7f010108
+			public const int tabMaxWidth = 2130772232;
+			
+			// aapt resource value: 0x7f010107
+			public const int tabMinWidth = 2130772231;
+			
+			// aapt resource value: 0x7f010105
+			public const int tabMode = 2130772229;
+			
+			// aapt resource value: 0x7f010110
+			public const int tabPadding = 2130772240;
+			
+			// aapt resource value: 0x7f01010f
+			public const int tabPaddingBottom = 2130772239;
+			
+			// aapt resource value: 0x7f01010e
+			public const int tabPaddingEnd = 2130772238;
+			
+			// aapt resource value: 0x7f01010c
+			public const int tabPaddingStart = 2130772236;
+			
+			// aapt resource value: 0x7f01010d
+			public const int tabPaddingTop = 2130772237;
+			
+			// aapt resource value: 0x7f01010b
+			public const int tabSelectedTextColor = 2130772235;
+			
+			// aapt resource value: 0x7f010109
+			public const int tabTextAppearance = 2130772233;
+			
+			// aapt resource value: 0x7f01010a
+			public const int tabTextColor = 2130772234;
+			
 			// aapt resource value: 0x7f010029
 			public const int textAllCaps = 2130772009;
 			
@@ -771,29 +2565,32 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f010087
 			public const int textColorAlertDialogListItem = 2130772103;
 			
+			// aapt resource value: 0x7f0100f1
+			public const int textColorError = 2130772209;
+			
 			// aapt resource value: 0x7f01006b
 			public const int textColorSearchUrl = 2130772075;
 			
-			// aapt resource value: 0x7f0100e4
-			public const int text_body = 2130772196;
+			// aapt resource value: 0x7f010129
+			public const int text_body = 2130772265;
 			
-			// aapt resource value: 0x7f0100e3
-			public const int text_subhead = 2130772195;
+			// aapt resource value: 0x7f010128
+			public const int text_subhead = 2130772264;
 			
-			// aapt resource value: 0x7f0100e2
-			public const int text_title = 2130772194;
+			// aapt resource value: 0x7f010127
+			public const int text_title = 2130772263;
 			
 			// aapt resource value: 0x7f0100d2
 			public const int theme = 2130772178;
 			
-			// aapt resource value: 0x7f0100df
-			public const int theme_background = 2130772191;
+			// aapt resource value: 0x7f010124
+			public const int theme_background = 2130772260;
 			
-			// aapt resource value: 0x7f0100dd
-			public const int theme_color = 2130772189;
+			// aapt resource value: 0x7f010122
+			public const int theme_color = 2130772258;
 			
-			// aapt resource value: 0x7f0100de
-			public const int theme_statusbar_color = 2130772190;
+			// aapt resource value: 0x7f010123
+			public const int theme_statusbar_color = 2130772259;
 			
 			// aapt resource value: 0x7f0100a2
 			public const int thickness = 2130772130;
@@ -803,6 +2600,9 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f010007
 			public const int title = 2130771975;
+			
+			// aapt resource value: 0x7f0100e8
+			public const int titleEnabled = 2130772200;
 			
 			// aapt resource value: 0x7f0100c7
 			public const int titleMarginBottom = 2130772167;
@@ -828,6 +2628,9 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01000b
 			public const int titleTextStyle = 2130771979;
 			
+			// aapt resource value: 0x7f0100e5
+			public const int toolbarId = 2130772197;
+			
 			// aapt resource value: 0x7f010063
 			public const int toolbarNavigationButtonStyle = 2130772067;
 			
@@ -836,6 +2639,9 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f0100ba
 			public const int track = 2130772154;
+			
+			// aapt resource value: 0x7f0100f6
+			public const int useCompatPadding = 2130772214;
 			
 			// aapt resource value: 0x7f0100b5
 			public const int voiceIcon = 2130772149;
@@ -920,32 +2726,32 @@ namespace EsMo.Android.WeiBo
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b014f
-			public const int abc_background_cache_hint_selector_material_dark = 2131427663;
+			// aapt resource value: 0x7f0b0159
+			public const int abc_background_cache_hint_selector_material_dark = 2131427673;
 			
-			// aapt resource value: 0x7f0b0150
-			public const int abc_background_cache_hint_selector_material_light = 2131427664;
+			// aapt resource value: 0x7f0b015a
+			public const int abc_background_cache_hint_selector_material_light = 2131427674;
 			
-			// aapt resource value: 0x7f0b0151
-			public const int abc_color_highlight_material = 2131427665;
+			// aapt resource value: 0x7f0b015b
+			public const int abc_color_highlight_material = 2131427675;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b0152
-			public const int abc_primary_text_disable_only_material_dark = 2131427666;
+			// aapt resource value: 0x7f0b015c
+			public const int abc_primary_text_disable_only_material_dark = 2131427676;
 			
-			// aapt resource value: 0x7f0b0153
-			public const int abc_primary_text_disable_only_material_light = 2131427667;
+			// aapt resource value: 0x7f0b015d
+			public const int abc_primary_text_disable_only_material_light = 2131427677;
 			
-			// aapt resource value: 0x7f0b0154
-			public const int abc_primary_text_material_dark = 2131427668;
+			// aapt resource value: 0x7f0b015e
+			public const int abc_primary_text_material_dark = 2131427678;
 			
-			// aapt resource value: 0x7f0b0155
-			public const int abc_primary_text_material_light = 2131427669;
+			// aapt resource value: 0x7f0b015f
+			public const int abc_primary_text_material_light = 2131427679;
 			
-			// aapt resource value: 0x7f0b0156
-			public const int abc_search_url_text = 2131427670;
+			// aapt resource value: 0x7f0b0160
+			public const int abc_search_url_text = 2131427680;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -956,11 +2762,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0157
-			public const int abc_secondary_text_material_dark = 2131427671;
+			// aapt resource value: 0x7f0b0161
+			public const int abc_secondary_text_material_dark = 2131427681;
 			
-			// aapt resource value: 0x7f0b0158
-			public const int abc_secondary_text_material_light = 2131427672;
+			// aapt resource value: 0x7f0b0162
+			public const int abc_secondary_text_material_light = 2131427682;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -980,11 +2786,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0009
 			public const int background_material_light = 2131427337;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int bg_emotion = 2131427404;
+			// aapt resource value: 0x7f0b0056
+			public const int bg_emotion = 2131427414;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int bg_followers_counter = 2131427403;
+			// aapt resource value: 0x7f0b0055
+			public const int bg_followers_counter = 2131427413;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int bright_foreground_disabled_material_dark = 2131427338;
@@ -1010,11 +2816,41 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0011
 			public const int button_material_light = 2131427345;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int chglib_background_default_divider_color = 2131427405;
+			// aapt resource value: 0x7f0b0057
+			public const int chglib_background_default_divider_color = 2131427415;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int comm_white = 2131427406;
+			// aapt resource value: 0x7f0b0058
+			public const int comm_white = 2131427416;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int design_fab_shadow_end_color = 2131427386;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int design_fab_shadow_mid_color = 2131427387;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int design_fab_shadow_start_color = 2131427388;
+			
+			// aapt resource value: 0x7f0b003d
+			public const int design_fab_stroke_end_inner_color = 2131427389;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int design_fab_stroke_end_outer_color = 2131427390;
+			
+			// aapt resource value: 0x7f0b003f
+			public const int design_fab_stroke_top_inner_color = 2131427391;
+			
+			// aapt resource value: 0x7f0b0040
+			public const int design_fab_stroke_top_outer_color = 2131427392;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int design_snackbar_background_color = 2131427393;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int design_textinput_error_color_dark = 2131427394;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int design_textinput_error_color_light = 2131427395;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int dim_foreground_disabled_material_dark = 2131427346;
@@ -1028,11 +2864,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0015
 			public const int dim_foreground_material_light = 2131427349;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int divider = 2131427396;
+			// aapt resource value: 0x7f0b004e
+			public const int divider = 2131427406;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int edit_hint = 2131427397;
+			// aapt resource value: 0x7f0b004f
+			public const int edit_hint = 2131427407;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int foreground_material_dark = 2131427350;
@@ -1040,17 +2876,17 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0017
 			public const int foreground_material_light = 2131427351;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int gplus_color_1 = 2131427399;
+			// aapt resource value: 0x7f0b0051
+			public const int gplus_color_1 = 2131427409;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int gplus_color_2 = 2131427400;
+			// aapt resource value: 0x7f0b0052
+			public const int gplus_color_2 = 2131427410;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int gplus_color_3 = 2131427401;
+			// aapt resource value: 0x7f0b0053
+			public const int gplus_color_3 = 2131427411;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int gplus_color_4 = 2131427402;
+			// aapt resource value: 0x7f0b0054
+			public const int gplus_color_4 = 2131427412;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int highlighted_text_material_dark = 2131427352;
@@ -1100,773 +2936,773 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0027
 			public const int material_grey_900 = 2131427367;
 			
-			// aapt resource value: 0x7f0b0106
-			public const int md_amber_100 = 2131427590;
-			
-			// aapt resource value: 0x7f0b0107
-			public const int md_amber_200 = 2131427591;
-			
-			// aapt resource value: 0x7f0b0108
-			public const int md_amber_300 = 2131427592;
-			
-			// aapt resource value: 0x7f0b0109
-			public const int md_amber_400 = 2131427593;
-			
-			// aapt resource value: 0x7f0b0105
-			public const int md_amber_50 = 2131427589;
-			
-			// aapt resource value: 0x7f0b010a
-			public const int md_amber_500 = 2131427594;
-			
-			// aapt resource value: 0x7f0b010b
-			public const int md_amber_600 = 2131427595;
-			
-			// aapt resource value: 0x7f0b010c
-			public const int md_amber_700 = 2131427596;
-			
-			// aapt resource value: 0x7f0b010d
-			public const int md_amber_800 = 2131427597;
-			
-			// aapt resource value: 0x7f0b010e
-			public const int md_amber_900 = 2131427598;
-			
-			// aapt resource value: 0x7f0b010f
-			public const int md_amber_a100 = 2131427599;
-			
 			// aapt resource value: 0x7f0b0110
-			public const int md_amber_a200 = 2131427600;
+			public const int md_amber_100 = 2131427600;
 			
 			// aapt resource value: 0x7f0b0111
-			public const int md_amber_a400 = 2131427601;
+			public const int md_amber_200 = 2131427601;
 			
 			// aapt resource value: 0x7f0b0112
-			public const int md_amber_a700 = 2131427602;
-			
-			// aapt resource value: 0x7f0b0143
-			public const int md_black = 2131427651;
-			
-			// aapt resource value: 0x7f0b0096
-			public const int md_blue_100 = 2131427478;
-			
-			// aapt resource value: 0x7f0b0097
-			public const int md_blue_200 = 2131427479;
-			
-			// aapt resource value: 0x7f0b0098
-			public const int md_blue_300 = 2131427480;
-			
-			// aapt resource value: 0x7f0b0099
-			public const int md_blue_400 = 2131427481;
-			
-			// aapt resource value: 0x7f0b0095
-			public const int md_blue_50 = 2131427477;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int md_blue_500 = 2131427482;
-			
-			// aapt resource value: 0x7f0b009b
-			public const int md_blue_600 = 2131427483;
-			
-			// aapt resource value: 0x7f0b009c
-			public const int md_blue_700 = 2131427484;
-			
-			// aapt resource value: 0x7f0b009d
-			public const int md_blue_800 = 2131427485;
-			
-			// aapt resource value: 0x7f0b009e
-			public const int md_blue_900 = 2131427486;
-			
-			// aapt resource value: 0x7f0b009f
-			public const int md_blue_a100 = 2131427487;
-			
-			// aapt resource value: 0x7f0b00a0
-			public const int md_blue_a200 = 2131427488;
-			
-			// aapt resource value: 0x7f0b00a1
-			public const int md_blue_a400 = 2131427489;
-			
-			// aapt resource value: 0x7f0b00a2
-			public const int md_blue_a700 = 2131427490;
-			
-			// aapt resource value: 0x7f0b0146
-			public const int md_blue_grey_100 = 2131427654;
-			
-			// aapt resource value: 0x7f0b0147
-			public const int md_blue_grey_200 = 2131427655;
-			
-			// aapt resource value: 0x7f0b0148
-			public const int md_blue_grey_300 = 2131427656;
-			
-			// aapt resource value: 0x7f0b0149
-			public const int md_blue_grey_400 = 2131427657;
-			
-			// aapt resource value: 0x7f0b0145
-			public const int md_blue_grey_50 = 2131427653;
-			
-			// aapt resource value: 0x7f0b014a
-			public const int md_blue_grey_500 = 2131427658;
-			
-			// aapt resource value: 0x7f0b014b
-			public const int md_blue_grey_600 = 2131427659;
-			
-			// aapt resource value: 0x7f0b014c
-			public const int md_blue_grey_700 = 2131427660;
-			
-			// aapt resource value: 0x7f0b014d
-			public const int md_blue_grey_800 = 2131427661;
-			
-			// aapt resource value: 0x7f0b014e
-			public const int md_blue_grey_900 = 2131427662;
-			
-			// aapt resource value: 0x7f0b0130
-			public const int md_brown_100 = 2131427632;
-			
-			// aapt resource value: 0x7f0b0131
-			public const int md_brown_200 = 2131427633;
-			
-			// aapt resource value: 0x7f0b0132
-			public const int md_brown_300 = 2131427634;
-			
-			// aapt resource value: 0x7f0b0133
-			public const int md_brown_400 = 2131427635;
-			
-			// aapt resource value: 0x7f0b012f
-			public const int md_brown_50 = 2131427631;
-			
-			// aapt resource value: 0x7f0b0134
-			public const int md_brown_500 = 2131427636;
-			
-			// aapt resource value: 0x7f0b0135
-			public const int md_brown_600 = 2131427637;
-			
-			// aapt resource value: 0x7f0b0136
-			public const int md_brown_700 = 2131427638;
-			
-			// aapt resource value: 0x7f0b0137
-			public const int md_brown_800 = 2131427639;
-			
-			// aapt resource value: 0x7f0b0138
-			public const int md_brown_900 = 2131427640;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int md_cyan_100 = 2131427506;
-			
-			// aapt resource value: 0x7f0b00b3
-			public const int md_cyan_200 = 2131427507;
-			
-			// aapt resource value: 0x7f0b00b4
-			public const int md_cyan_300 = 2131427508;
-			
-			// aapt resource value: 0x7f0b00b5
-			public const int md_cyan_400 = 2131427509;
-			
-			// aapt resource value: 0x7f0b00b1
-			public const int md_cyan_50 = 2131427505;
-			
-			// aapt resource value: 0x7f0b00b6
-			public const int md_cyan_500 = 2131427510;
-			
-			// aapt resource value: 0x7f0b00b7
-			public const int md_cyan_600 = 2131427511;
-			
-			// aapt resource value: 0x7f0b00b8
-			public const int md_cyan_700 = 2131427512;
-			
-			// aapt resource value: 0x7f0b00b9
-			public const int md_cyan_800 = 2131427513;
-			
-			// aapt resource value: 0x7f0b00ba
-			public const int md_cyan_900 = 2131427514;
-			
-			// aapt resource value: 0x7f0b00bb
-			public const int md_cyan_a100 = 2131427515;
-			
-			// aapt resource value: 0x7f0b00bc
-			public const int md_cyan_a200 = 2131427516;
-			
-			// aapt resource value: 0x7f0b00bd
-			public const int md_cyan_a400 = 2131427517;
-			
-			// aapt resource value: 0x7f0b00be
-			public const int md_cyan_a700 = 2131427518;
-			
-			// aapt resource value: 0x7f0b0122
-			public const int md_deep_orange_100 = 2131427618;
-			
-			// aapt resource value: 0x7f0b0123
-			public const int md_deep_orange_200 = 2131427619;
-			
-			// aapt resource value: 0x7f0b0124
-			public const int md_deep_orange_300 = 2131427620;
-			
-			// aapt resource value: 0x7f0b0125
-			public const int md_deep_orange_400 = 2131427621;
-			
-			// aapt resource value: 0x7f0b0121
-			public const int md_deep_orange_50 = 2131427617;
-			
-			// aapt resource value: 0x7f0b0126
-			public const int md_deep_orange_500 = 2131427622;
-			
-			// aapt resource value: 0x7f0b0127
-			public const int md_deep_orange_600 = 2131427623;
-			
-			// aapt resource value: 0x7f0b0128
-			public const int md_deep_orange_700 = 2131427624;
-			
-			// aapt resource value: 0x7f0b0129
-			public const int md_deep_orange_800 = 2131427625;
-			
-			// aapt resource value: 0x7f0b012a
-			public const int md_deep_orange_900 = 2131427626;
-			
-			// aapt resource value: 0x7f0b012b
-			public const int md_deep_orange_a100 = 2131427627;
-			
-			// aapt resource value: 0x7f0b012c
-			public const int md_deep_orange_a200 = 2131427628;
-			
-			// aapt resource value: 0x7f0b012d
-			public const int md_deep_orange_a400 = 2131427629;
-			
-			// aapt resource value: 0x7f0b012e
-			public const int md_deep_orange_a700 = 2131427630;
-			
-			// aapt resource value: 0x7f0b007a
-			public const int md_deep_purple_100 = 2131427450;
-			
-			// aapt resource value: 0x7f0b007b
-			public const int md_deep_purple_200 = 2131427451;
-			
-			// aapt resource value: 0x7f0b007c
-			public const int md_deep_purple_300 = 2131427452;
-			
-			// aapt resource value: 0x7f0b007d
-			public const int md_deep_purple_400 = 2131427453;
-			
-			// aapt resource value: 0x7f0b0079
-			public const int md_deep_purple_50 = 2131427449;
-			
-			// aapt resource value: 0x7f0b007e
-			public const int md_deep_purple_500 = 2131427454;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int md_deep_purple_600 = 2131427455;
-			
-			// aapt resource value: 0x7f0b0080
-			public const int md_deep_purple_700 = 2131427456;
-			
-			// aapt resource value: 0x7f0b0081
-			public const int md_deep_purple_800 = 2131427457;
-			
-			// aapt resource value: 0x7f0b0082
-			public const int md_deep_purple_900 = 2131427458;
-			
-			// aapt resource value: 0x7f0b0083
-			public const int md_deep_purple_a100 = 2131427459;
-			
-			// aapt resource value: 0x7f0b0084
-			public const int md_deep_purple_a200 = 2131427460;
-			
-			// aapt resource value: 0x7f0b0085
-			public const int md_deep_purple_a400 = 2131427461;
-			
-			// aapt resource value: 0x7f0b0086
-			public const int md_deep_purple_a700 = 2131427462;
-			
-			// aapt resource value: 0x7f0b00ce
-			public const int md_green_100 = 2131427534;
-			
-			// aapt resource value: 0x7f0b00cf
-			public const int md_green_200 = 2131427535;
-			
-			// aapt resource value: 0x7f0b00d0
-			public const int md_green_300 = 2131427536;
-			
-			// aapt resource value: 0x7f0b00d1
-			public const int md_green_400 = 2131427537;
-			
-			// aapt resource value: 0x7f0b00cd
-			public const int md_green_50 = 2131427533;
-			
-			// aapt resource value: 0x7f0b00d2
-			public const int md_green_500 = 2131427538;
-			
-			// aapt resource value: 0x7f0b00d3
-			public const int md_green_600 = 2131427539;
-			
-			// aapt resource value: 0x7f0b00d4
-			public const int md_green_700 = 2131427540;
-			
-			// aapt resource value: 0x7f0b00d5
-			public const int md_green_800 = 2131427541;
-			
-			// aapt resource value: 0x7f0b00d6
-			public const int md_green_900 = 2131427542;
-			
-			// aapt resource value: 0x7f0b00d7
-			public const int md_green_a100 = 2131427543;
-			
-			// aapt resource value: 0x7f0b00d8
-			public const int md_green_a200 = 2131427544;
-			
-			// aapt resource value: 0x7f0b00d9
-			public const int md_green_a400 = 2131427545;
-			
-			// aapt resource value: 0x7f0b00da
-			public const int md_green_a700 = 2131427546;
-			
-			// aapt resource value: 0x7f0b013a
-			public const int md_grey_100 = 2131427642;
-			
-			// aapt resource value: 0x7f0b013b
-			public const int md_grey_200 = 2131427643;
-			
-			// aapt resource value: 0x7f0b013c
-			public const int md_grey_300 = 2131427644;
-			
-			// aapt resource value: 0x7f0b013d
-			public const int md_grey_400 = 2131427645;
-			
-			// aapt resource value: 0x7f0b0139
-			public const int md_grey_50 = 2131427641;
-			
-			// aapt resource value: 0x7f0b013e
-			public const int md_grey_500 = 2131427646;
-			
-			// aapt resource value: 0x7f0b013f
-			public const int md_grey_600 = 2131427647;
-			
-			// aapt resource value: 0x7f0b0140
-			public const int md_grey_700 = 2131427648;
-			
-			// aapt resource value: 0x7f0b0141
-			public const int md_grey_800 = 2131427649;
-			
-			// aapt resource value: 0x7f0b0142
-			public const int md_grey_900 = 2131427650;
-			
-			// aapt resource value: 0x7f0b0088
-			public const int md_indigo_100 = 2131427464;
-			
-			// aapt resource value: 0x7f0b0089
-			public const int md_indigo_200 = 2131427465;
-			
-			// aapt resource value: 0x7f0b008a
-			public const int md_indigo_300 = 2131427466;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int md_indigo_400 = 2131427467;
-			
-			// aapt resource value: 0x7f0b0087
-			public const int md_indigo_50 = 2131427463;
-			
-			// aapt resource value: 0x7f0b008c
-			public const int md_indigo_500 = 2131427468;
-			
-			// aapt resource value: 0x7f0b008d
-			public const int md_indigo_600 = 2131427469;
-			
-			// aapt resource value: 0x7f0b008e
-			public const int md_indigo_700 = 2131427470;
-			
-			// aapt resource value: 0x7f0b008f
-			public const int md_indigo_800 = 2131427471;
-			
-			// aapt resource value: 0x7f0b0090
-			public const int md_indigo_900 = 2131427472;
-			
-			// aapt resource value: 0x7f0b0091
-			public const int md_indigo_a100 = 2131427473;
-			
-			// aapt resource value: 0x7f0b0092
-			public const int md_indigo_a200 = 2131427474;
-			
-			// aapt resource value: 0x7f0b0093
-			public const int md_indigo_a400 = 2131427475;
-			
-			// aapt resource value: 0x7f0b0094
-			public const int md_indigo_a700 = 2131427476;
-			
-			// aapt resource value: 0x7f0b00a4
-			public const int md_light_blue_100 = 2131427492;
-			
-			// aapt resource value: 0x7f0b00a5
-			public const int md_light_blue_200 = 2131427493;
-			
-			// aapt resource value: 0x7f0b00a6
-			public const int md_light_blue_300 = 2131427494;
-			
-			// aapt resource value: 0x7f0b00a7
-			public const int md_light_blue_400 = 2131427495;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int md_light_blue_50 = 2131427491;
-			
-			// aapt resource value: 0x7f0b00a8
-			public const int md_light_blue_500 = 2131427496;
-			
-			// aapt resource value: 0x7f0b00a9
-			public const int md_light_blue_600 = 2131427497;
-			
-			// aapt resource value: 0x7f0b00aa
-			public const int md_light_blue_700 = 2131427498;
-			
-			// aapt resource value: 0x7f0b00ab
-			public const int md_light_blue_800 = 2131427499;
-			
-			// aapt resource value: 0x7f0b00ac
-			public const int md_light_blue_900 = 2131427500;
-			
-			// aapt resource value: 0x7f0b00ad
-			public const int md_light_blue_a100 = 2131427501;
-			
-			// aapt resource value: 0x7f0b00ae
-			public const int md_light_blue_a200 = 2131427502;
-			
-			// aapt resource value: 0x7f0b00af
-			public const int md_light_blue_a400 = 2131427503;
-			
-			// aapt resource value: 0x7f0b00b0
-			public const int md_light_blue_a700 = 2131427504;
-			
-			// aapt resource value: 0x7f0b00dc
-			public const int md_light_green_100 = 2131427548;
-			
-			// aapt resource value: 0x7f0b00dd
-			public const int md_light_green_200 = 2131427549;
-			
-			// aapt resource value: 0x7f0b00de
-			public const int md_light_green_300 = 2131427550;
-			
-			// aapt resource value: 0x7f0b00df
-			public const int md_light_green_400 = 2131427551;
-			
-			// aapt resource value: 0x7f0b00db
-			public const int md_light_green_50 = 2131427547;
-			
-			// aapt resource value: 0x7f0b00e0
-			public const int md_light_green_500 = 2131427552;
-			
-			// aapt resource value: 0x7f0b00e1
-			public const int md_light_green_600 = 2131427553;
-			
-			// aapt resource value: 0x7f0b00e2
-			public const int md_light_green_700 = 2131427554;
-			
-			// aapt resource value: 0x7f0b00e3
-			public const int md_light_green_800 = 2131427555;
-			
-			// aapt resource value: 0x7f0b00e4
-			public const int md_light_green_900 = 2131427556;
-			
-			// aapt resource value: 0x7f0b00e5
-			public const int md_light_green_a100 = 2131427557;
-			
-			// aapt resource value: 0x7f0b00e6
-			public const int md_light_green_a200 = 2131427558;
-			
-			// aapt resource value: 0x7f0b00e7
-			public const int md_light_green_a400 = 2131427559;
-			
-			// aapt resource value: 0x7f0b00e8
-			public const int md_light_green_a700 = 2131427560;
-			
-			// aapt resource value: 0x7f0b00ea
-			public const int md_lime_100 = 2131427562;
-			
-			// aapt resource value: 0x7f0b00eb
-			public const int md_lime_200 = 2131427563;
-			
-			// aapt resource value: 0x7f0b00ec
-			public const int md_lime_300 = 2131427564;
-			
-			// aapt resource value: 0x7f0b00ed
-			public const int md_lime_400 = 2131427565;
-			
-			// aapt resource value: 0x7f0b00e9
-			public const int md_lime_50 = 2131427561;
-			
-			// aapt resource value: 0x7f0b00ee
-			public const int md_lime_500 = 2131427566;
-			
-			// aapt resource value: 0x7f0b00ef
-			public const int md_lime_600 = 2131427567;
-			
-			// aapt resource value: 0x7f0b00f0
-			public const int md_lime_700 = 2131427568;
-			
-			// aapt resource value: 0x7f0b00f1
-			public const int md_lime_800 = 2131427569;
-			
-			// aapt resource value: 0x7f0b00f2
-			public const int md_lime_900 = 2131427570;
-			
-			// aapt resource value: 0x7f0b00f3
-			public const int md_lime_a100 = 2131427571;
-			
-			// aapt resource value: 0x7f0b00f4
-			public const int md_lime_a200 = 2131427572;
-			
-			// aapt resource value: 0x7f0b00f5
-			public const int md_lime_a400 = 2131427573;
-			
-			// aapt resource value: 0x7f0b00f6
-			public const int md_lime_a700 = 2131427574;
-			
-			// aapt resource value: 0x7f0b0114
-			public const int md_orange_100 = 2131427604;
-			
-			// aapt resource value: 0x7f0b0115
-			public const int md_orange_200 = 2131427605;
-			
-			// aapt resource value: 0x7f0b0116
-			public const int md_orange_300 = 2131427606;
-			
-			// aapt resource value: 0x7f0b0117
-			public const int md_orange_400 = 2131427607;
+			public const int md_amber_300 = 2131427602;
 			
 			// aapt resource value: 0x7f0b0113
-			public const int md_orange_50 = 2131427603;
+			public const int md_amber_400 = 2131427603;
+			
+			// aapt resource value: 0x7f0b010f
+			public const int md_amber_50 = 2131427599;
+			
+			// aapt resource value: 0x7f0b0114
+			public const int md_amber_500 = 2131427604;
+			
+			// aapt resource value: 0x7f0b0115
+			public const int md_amber_600 = 2131427605;
+			
+			// aapt resource value: 0x7f0b0116
+			public const int md_amber_700 = 2131427606;
+			
+			// aapt resource value: 0x7f0b0117
+			public const int md_amber_800 = 2131427607;
 			
 			// aapt resource value: 0x7f0b0118
-			public const int md_orange_500 = 2131427608;
+			public const int md_amber_900 = 2131427608;
 			
 			// aapt resource value: 0x7f0b0119
-			public const int md_orange_600 = 2131427609;
+			public const int md_amber_a100 = 2131427609;
 			
 			// aapt resource value: 0x7f0b011a
-			public const int md_orange_700 = 2131427610;
+			public const int md_amber_a200 = 2131427610;
 			
 			// aapt resource value: 0x7f0b011b
-			public const int md_orange_800 = 2131427611;
+			public const int md_amber_a400 = 2131427611;
 			
 			// aapt resource value: 0x7f0b011c
-			public const int md_orange_900 = 2131427612;
+			public const int md_amber_a700 = 2131427612;
 			
-			// aapt resource value: 0x7f0b011d
-			public const int md_orange_a100 = 2131427613;
+			// aapt resource value: 0x7f0b014d
+			public const int md_black = 2131427661;
 			
-			// aapt resource value: 0x7f0b011e
-			public const int md_orange_a200 = 2131427614;
+			// aapt resource value: 0x7f0b00a0
+			public const int md_blue_100 = 2131427488;
 			
-			// aapt resource value: 0x7f0b011f
-			public const int md_orange_a400 = 2131427615;
+			// aapt resource value: 0x7f0b00a1
+			public const int md_blue_200 = 2131427489;
 			
-			// aapt resource value: 0x7f0b0120
-			public const int md_orange_a700 = 2131427616;
+			// aapt resource value: 0x7f0b00a2
+			public const int md_blue_300 = 2131427490;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int md_pink_100 = 2131427422;
+			// aapt resource value: 0x7f0b00a3
+			public const int md_blue_400 = 2131427491;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int md_pink_200 = 2131427423;
+			// aapt resource value: 0x7f0b009f
+			public const int md_blue_50 = 2131427487;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int md_pink_300 = 2131427424;
+			// aapt resource value: 0x7f0b00a4
+			public const int md_blue_500 = 2131427492;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int md_pink_400 = 2131427425;
+			// aapt resource value: 0x7f0b00a5
+			public const int md_blue_600 = 2131427493;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int md_pink_50 = 2131427421;
+			// aapt resource value: 0x7f0b00a6
+			public const int md_blue_700 = 2131427494;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int md_pink_500 = 2131427426;
+			// aapt resource value: 0x7f0b00a7
+			public const int md_blue_800 = 2131427495;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int md_pink_600 = 2131427427;
+			// aapt resource value: 0x7f0b00a8
+			public const int md_blue_900 = 2131427496;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int md_pink_700 = 2131427428;
+			// aapt resource value: 0x7f0b00a9
+			public const int md_blue_a100 = 2131427497;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int md_pink_800 = 2131427429;
+			// aapt resource value: 0x7f0b00aa
+			public const int md_blue_a200 = 2131427498;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int md_pink_900 = 2131427430;
+			// aapt resource value: 0x7f0b00ab
+			public const int md_blue_a400 = 2131427499;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int md_pink_a100 = 2131427431;
+			// aapt resource value: 0x7f0b00ac
+			public const int md_blue_a700 = 2131427500;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int md_pink_a200 = 2131427432;
+			// aapt resource value: 0x7f0b0150
+			public const int md_blue_grey_100 = 2131427664;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int md_pink_a400 = 2131427433;
+			// aapt resource value: 0x7f0b0151
+			public const int md_blue_grey_200 = 2131427665;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int md_pink_a700 = 2131427434;
+			// aapt resource value: 0x7f0b0152
+			public const int md_blue_grey_300 = 2131427666;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int md_purple_100 = 2131427436;
+			// aapt resource value: 0x7f0b0153
+			public const int md_blue_grey_400 = 2131427667;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int md_purple_200 = 2131427437;
+			// aapt resource value: 0x7f0b014f
+			public const int md_blue_grey_50 = 2131427663;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int md_purple_300 = 2131427438;
+			// aapt resource value: 0x7f0b0154
+			public const int md_blue_grey_500 = 2131427668;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int md_purple_400 = 2131427439;
+			// aapt resource value: 0x7f0b0155
+			public const int md_blue_grey_600 = 2131427669;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int md_purple_50 = 2131427435;
+			// aapt resource value: 0x7f0b0156
+			public const int md_blue_grey_700 = 2131427670;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int md_purple_500 = 2131427440;
+			// aapt resource value: 0x7f0b0157
+			public const int md_blue_grey_800 = 2131427671;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int md_purple_600 = 2131427441;
+			// aapt resource value: 0x7f0b0158
+			public const int md_blue_grey_900 = 2131427672;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int md_purple_700 = 2131427442;
+			// aapt resource value: 0x7f0b013a
+			public const int md_brown_100 = 2131427642;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int md_purple_800 = 2131427443;
+			// aapt resource value: 0x7f0b013b
+			public const int md_brown_200 = 2131427643;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int md_purple_900 = 2131427444;
+			// aapt resource value: 0x7f0b013c
+			public const int md_brown_300 = 2131427644;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int md_purple_a100 = 2131427445;
+			// aapt resource value: 0x7f0b013d
+			public const int md_brown_400 = 2131427645;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int md_purple_a200 = 2131427446;
+			// aapt resource value: 0x7f0b0139
+			public const int md_brown_50 = 2131427641;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int md_purple_a400 = 2131427447;
+			// aapt resource value: 0x7f0b013e
+			public const int md_brown_500 = 2131427646;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int md_purple_a700 = 2131427448;
+			// aapt resource value: 0x7f0b013f
+			public const int md_brown_600 = 2131427647;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int md_red_100 = 2131427408;
+			// aapt resource value: 0x7f0b0140
+			public const int md_brown_700 = 2131427648;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int md_red_200 = 2131427409;
+			// aapt resource value: 0x7f0b0141
+			public const int md_brown_800 = 2131427649;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int md_red_300 = 2131427410;
+			// aapt resource value: 0x7f0b0142
+			public const int md_brown_900 = 2131427650;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int md_red_400 = 2131427411;
+			// aapt resource value: 0x7f0b00bc
+			public const int md_cyan_100 = 2131427516;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int md_red_50 = 2131427407;
+			// aapt resource value: 0x7f0b00bd
+			public const int md_cyan_200 = 2131427517;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int md_red_500 = 2131427412;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int md_red_600 = 2131427413;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int md_red_700 = 2131427414;
-			
-			// aapt resource value: 0x7f0b0057
-			public const int md_red_800 = 2131427415;
-			
-			// aapt resource value: 0x7f0b0058
-			public const int md_red_900 = 2131427416;
-			
-			// aapt resource value: 0x7f0b0059
-			public const int md_red_a100 = 2131427417;
-			
-			// aapt resource value: 0x7f0b005a
-			public const int md_red_a200 = 2131427418;
-			
-			// aapt resource value: 0x7f0b005b
-			public const int md_red_a400 = 2131427419;
-			
-			// aapt resource value: 0x7f0b005c
-			public const int md_red_a700 = 2131427420;
-			
-			// aapt resource value: 0x7f0b00c0
-			public const int md_teal_100 = 2131427520;
-			
-			// aapt resource value: 0x7f0b00c1
-			public const int md_teal_200 = 2131427521;
-			
-			// aapt resource value: 0x7f0b00c2
-			public const int md_teal_300 = 2131427522;
-			
-			// aapt resource value: 0x7f0b00c3
-			public const int md_teal_400 = 2131427523;
+			// aapt resource value: 0x7f0b00be
+			public const int md_cyan_300 = 2131427518;
 			
 			// aapt resource value: 0x7f0b00bf
-			public const int md_teal_50 = 2131427519;
+			public const int md_cyan_400 = 2131427519;
+			
+			// aapt resource value: 0x7f0b00bb
+			public const int md_cyan_50 = 2131427515;
+			
+			// aapt resource value: 0x7f0b00c0
+			public const int md_cyan_500 = 2131427520;
+			
+			// aapt resource value: 0x7f0b00c1
+			public const int md_cyan_600 = 2131427521;
+			
+			// aapt resource value: 0x7f0b00c2
+			public const int md_cyan_700 = 2131427522;
+			
+			// aapt resource value: 0x7f0b00c3
+			public const int md_cyan_800 = 2131427523;
 			
 			// aapt resource value: 0x7f0b00c4
-			public const int md_teal_500 = 2131427524;
+			public const int md_cyan_900 = 2131427524;
 			
 			// aapt resource value: 0x7f0b00c5
-			public const int md_teal_600 = 2131427525;
+			public const int md_cyan_a100 = 2131427525;
 			
 			// aapt resource value: 0x7f0b00c6
-			public const int md_teal_700 = 2131427526;
+			public const int md_cyan_a200 = 2131427526;
 			
 			// aapt resource value: 0x7f0b00c7
-			public const int md_teal_800 = 2131427527;
+			public const int md_cyan_a400 = 2131427527;
 			
 			// aapt resource value: 0x7f0b00c8
-			public const int md_teal_900 = 2131427528;
+			public const int md_cyan_a700 = 2131427528;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int md_teal_a100 = 2131427529;
+			// aapt resource value: 0x7f0b012c
+			public const int md_deep_orange_100 = 2131427628;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int md_teal_a200 = 2131427530;
+			// aapt resource value: 0x7f0b012d
+			public const int md_deep_orange_200 = 2131427629;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int md_teal_a400 = 2131427531;
+			// aapt resource value: 0x7f0b012e
+			public const int md_deep_orange_300 = 2131427630;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int md_teal_a700 = 2131427532;
+			// aapt resource value: 0x7f0b012f
+			public const int md_deep_orange_400 = 2131427631;
+			
+			// aapt resource value: 0x7f0b012b
+			public const int md_deep_orange_50 = 2131427627;
+			
+			// aapt resource value: 0x7f0b0130
+			public const int md_deep_orange_500 = 2131427632;
+			
+			// aapt resource value: 0x7f0b0131
+			public const int md_deep_orange_600 = 2131427633;
+			
+			// aapt resource value: 0x7f0b0132
+			public const int md_deep_orange_700 = 2131427634;
+			
+			// aapt resource value: 0x7f0b0133
+			public const int md_deep_orange_800 = 2131427635;
+			
+			// aapt resource value: 0x7f0b0134
+			public const int md_deep_orange_900 = 2131427636;
+			
+			// aapt resource value: 0x7f0b0135
+			public const int md_deep_orange_a100 = 2131427637;
+			
+			// aapt resource value: 0x7f0b0136
+			public const int md_deep_orange_a200 = 2131427638;
+			
+			// aapt resource value: 0x7f0b0137
+			public const int md_deep_orange_a400 = 2131427639;
+			
+			// aapt resource value: 0x7f0b0138
+			public const int md_deep_orange_a700 = 2131427640;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int md_deep_purple_100 = 2131427460;
+			
+			// aapt resource value: 0x7f0b0085
+			public const int md_deep_purple_200 = 2131427461;
+			
+			// aapt resource value: 0x7f0b0086
+			public const int md_deep_purple_300 = 2131427462;
+			
+			// aapt resource value: 0x7f0b0087
+			public const int md_deep_purple_400 = 2131427463;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int md_deep_purple_50 = 2131427459;
+			
+			// aapt resource value: 0x7f0b0088
+			public const int md_deep_purple_500 = 2131427464;
+			
+			// aapt resource value: 0x7f0b0089
+			public const int md_deep_purple_600 = 2131427465;
+			
+			// aapt resource value: 0x7f0b008a
+			public const int md_deep_purple_700 = 2131427466;
+			
+			// aapt resource value: 0x7f0b008b
+			public const int md_deep_purple_800 = 2131427467;
+			
+			// aapt resource value: 0x7f0b008c
+			public const int md_deep_purple_900 = 2131427468;
+			
+			// aapt resource value: 0x7f0b008d
+			public const int md_deep_purple_a100 = 2131427469;
+			
+			// aapt resource value: 0x7f0b008e
+			public const int md_deep_purple_a200 = 2131427470;
+			
+			// aapt resource value: 0x7f0b008f
+			public const int md_deep_purple_a400 = 2131427471;
+			
+			// aapt resource value: 0x7f0b0090
+			public const int md_deep_purple_a700 = 2131427472;
+			
+			// aapt resource value: 0x7f0b00d8
+			public const int md_green_100 = 2131427544;
+			
+			// aapt resource value: 0x7f0b00d9
+			public const int md_green_200 = 2131427545;
+			
+			// aapt resource value: 0x7f0b00da
+			public const int md_green_300 = 2131427546;
+			
+			// aapt resource value: 0x7f0b00db
+			public const int md_green_400 = 2131427547;
+			
+			// aapt resource value: 0x7f0b00d7
+			public const int md_green_50 = 2131427543;
+			
+			// aapt resource value: 0x7f0b00dc
+			public const int md_green_500 = 2131427548;
+			
+			// aapt resource value: 0x7f0b00dd
+			public const int md_green_600 = 2131427549;
+			
+			// aapt resource value: 0x7f0b00de
+			public const int md_green_700 = 2131427550;
+			
+			// aapt resource value: 0x7f0b00df
+			public const int md_green_800 = 2131427551;
+			
+			// aapt resource value: 0x7f0b00e0
+			public const int md_green_900 = 2131427552;
+			
+			// aapt resource value: 0x7f0b00e1
+			public const int md_green_a100 = 2131427553;
+			
+			// aapt resource value: 0x7f0b00e2
+			public const int md_green_a200 = 2131427554;
+			
+			// aapt resource value: 0x7f0b00e3
+			public const int md_green_a400 = 2131427555;
+			
+			// aapt resource value: 0x7f0b00e4
+			public const int md_green_a700 = 2131427556;
 			
 			// aapt resource value: 0x7f0b0144
-			public const int md_white = 2131427652;
+			public const int md_grey_100 = 2131427652;
 			
-			// aapt resource value: 0x7f0b00f8
-			public const int md_yellow_100 = 2131427576;
+			// aapt resource value: 0x7f0b0145
+			public const int md_grey_200 = 2131427653;
 			
-			// aapt resource value: 0x7f0b00f9
-			public const int md_yellow_200 = 2131427577;
+			// aapt resource value: 0x7f0b0146
+			public const int md_grey_300 = 2131427654;
 			
-			// aapt resource value: 0x7f0b00fa
-			public const int md_yellow_300 = 2131427578;
+			// aapt resource value: 0x7f0b0147
+			public const int md_grey_400 = 2131427655;
 			
-			// aapt resource value: 0x7f0b00fb
-			public const int md_yellow_400 = 2131427579;
+			// aapt resource value: 0x7f0b0143
+			public const int md_grey_50 = 2131427651;
+			
+			// aapt resource value: 0x7f0b0148
+			public const int md_grey_500 = 2131427656;
+			
+			// aapt resource value: 0x7f0b0149
+			public const int md_grey_600 = 2131427657;
+			
+			// aapt resource value: 0x7f0b014a
+			public const int md_grey_700 = 2131427658;
+			
+			// aapt resource value: 0x7f0b014b
+			public const int md_grey_800 = 2131427659;
+			
+			// aapt resource value: 0x7f0b014c
+			public const int md_grey_900 = 2131427660;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int md_indigo_100 = 2131427474;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int md_indigo_200 = 2131427475;
+			
+			// aapt resource value: 0x7f0b0094
+			public const int md_indigo_300 = 2131427476;
+			
+			// aapt resource value: 0x7f0b0095
+			public const int md_indigo_400 = 2131427477;
+			
+			// aapt resource value: 0x7f0b0091
+			public const int md_indigo_50 = 2131427473;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int md_indigo_500 = 2131427478;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int md_indigo_600 = 2131427479;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int md_indigo_700 = 2131427480;
+			
+			// aapt resource value: 0x7f0b0099
+			public const int md_indigo_800 = 2131427481;
+			
+			// aapt resource value: 0x7f0b009a
+			public const int md_indigo_900 = 2131427482;
+			
+			// aapt resource value: 0x7f0b009b
+			public const int md_indigo_a100 = 2131427483;
+			
+			// aapt resource value: 0x7f0b009c
+			public const int md_indigo_a200 = 2131427484;
+			
+			// aapt resource value: 0x7f0b009d
+			public const int md_indigo_a400 = 2131427485;
+			
+			// aapt resource value: 0x7f0b009e
+			public const int md_indigo_a700 = 2131427486;
+			
+			// aapt resource value: 0x7f0b00ae
+			public const int md_light_blue_100 = 2131427502;
+			
+			// aapt resource value: 0x7f0b00af
+			public const int md_light_blue_200 = 2131427503;
+			
+			// aapt resource value: 0x7f0b00b0
+			public const int md_light_blue_300 = 2131427504;
+			
+			// aapt resource value: 0x7f0b00b1
+			public const int md_light_blue_400 = 2131427505;
+			
+			// aapt resource value: 0x7f0b00ad
+			public const int md_light_blue_50 = 2131427501;
+			
+			// aapt resource value: 0x7f0b00b2
+			public const int md_light_blue_500 = 2131427506;
+			
+			// aapt resource value: 0x7f0b00b3
+			public const int md_light_blue_600 = 2131427507;
+			
+			// aapt resource value: 0x7f0b00b4
+			public const int md_light_blue_700 = 2131427508;
+			
+			// aapt resource value: 0x7f0b00b5
+			public const int md_light_blue_800 = 2131427509;
+			
+			// aapt resource value: 0x7f0b00b6
+			public const int md_light_blue_900 = 2131427510;
+			
+			// aapt resource value: 0x7f0b00b7
+			public const int md_light_blue_a100 = 2131427511;
+			
+			// aapt resource value: 0x7f0b00b8
+			public const int md_light_blue_a200 = 2131427512;
+			
+			// aapt resource value: 0x7f0b00b9
+			public const int md_light_blue_a400 = 2131427513;
+			
+			// aapt resource value: 0x7f0b00ba
+			public const int md_light_blue_a700 = 2131427514;
+			
+			// aapt resource value: 0x7f0b00e6
+			public const int md_light_green_100 = 2131427558;
+			
+			// aapt resource value: 0x7f0b00e7
+			public const int md_light_green_200 = 2131427559;
+			
+			// aapt resource value: 0x7f0b00e8
+			public const int md_light_green_300 = 2131427560;
+			
+			// aapt resource value: 0x7f0b00e9
+			public const int md_light_green_400 = 2131427561;
+			
+			// aapt resource value: 0x7f0b00e5
+			public const int md_light_green_50 = 2131427557;
+			
+			// aapt resource value: 0x7f0b00ea
+			public const int md_light_green_500 = 2131427562;
+			
+			// aapt resource value: 0x7f0b00eb
+			public const int md_light_green_600 = 2131427563;
+			
+			// aapt resource value: 0x7f0b00ec
+			public const int md_light_green_700 = 2131427564;
+			
+			// aapt resource value: 0x7f0b00ed
+			public const int md_light_green_800 = 2131427565;
+			
+			// aapt resource value: 0x7f0b00ee
+			public const int md_light_green_900 = 2131427566;
+			
+			// aapt resource value: 0x7f0b00ef
+			public const int md_light_green_a100 = 2131427567;
+			
+			// aapt resource value: 0x7f0b00f0
+			public const int md_light_green_a200 = 2131427568;
+			
+			// aapt resource value: 0x7f0b00f1
+			public const int md_light_green_a400 = 2131427569;
+			
+			// aapt resource value: 0x7f0b00f2
+			public const int md_light_green_a700 = 2131427570;
+			
+			// aapt resource value: 0x7f0b00f4
+			public const int md_lime_100 = 2131427572;
+			
+			// aapt resource value: 0x7f0b00f5
+			public const int md_lime_200 = 2131427573;
+			
+			// aapt resource value: 0x7f0b00f6
+			public const int md_lime_300 = 2131427574;
 			
 			// aapt resource value: 0x7f0b00f7
-			public const int md_yellow_50 = 2131427575;
+			public const int md_lime_400 = 2131427575;
+			
+			// aapt resource value: 0x7f0b00f3
+			public const int md_lime_50 = 2131427571;
+			
+			// aapt resource value: 0x7f0b00f8
+			public const int md_lime_500 = 2131427576;
+			
+			// aapt resource value: 0x7f0b00f9
+			public const int md_lime_600 = 2131427577;
+			
+			// aapt resource value: 0x7f0b00fa
+			public const int md_lime_700 = 2131427578;
+			
+			// aapt resource value: 0x7f0b00fb
+			public const int md_lime_800 = 2131427579;
 			
 			// aapt resource value: 0x7f0b00fc
-			public const int md_yellow_500 = 2131427580;
+			public const int md_lime_900 = 2131427580;
 			
 			// aapt resource value: 0x7f0b00fd
-			public const int md_yellow_600 = 2131427581;
+			public const int md_lime_a100 = 2131427581;
 			
 			// aapt resource value: 0x7f0b00fe
-			public const int md_yellow_700 = 2131427582;
+			public const int md_lime_a200 = 2131427582;
 			
 			// aapt resource value: 0x7f0b00ff
-			public const int md_yellow_800 = 2131427583;
+			public const int md_lime_a400 = 2131427583;
 			
 			// aapt resource value: 0x7f0b0100
-			public const int md_yellow_900 = 2131427584;
+			public const int md_lime_a700 = 2131427584;
 			
-			// aapt resource value: 0x7f0b0101
-			public const int md_yellow_a100 = 2131427585;
+			// aapt resource value: 0x7f0b011e
+			public const int md_orange_100 = 2131427614;
+			
+			// aapt resource value: 0x7f0b011f
+			public const int md_orange_200 = 2131427615;
+			
+			// aapt resource value: 0x7f0b0120
+			public const int md_orange_300 = 2131427616;
+			
+			// aapt resource value: 0x7f0b0121
+			public const int md_orange_400 = 2131427617;
+			
+			// aapt resource value: 0x7f0b011d
+			public const int md_orange_50 = 2131427613;
+			
+			// aapt resource value: 0x7f0b0122
+			public const int md_orange_500 = 2131427618;
+			
+			// aapt resource value: 0x7f0b0123
+			public const int md_orange_600 = 2131427619;
+			
+			// aapt resource value: 0x7f0b0124
+			public const int md_orange_700 = 2131427620;
+			
+			// aapt resource value: 0x7f0b0125
+			public const int md_orange_800 = 2131427621;
+			
+			// aapt resource value: 0x7f0b0126
+			public const int md_orange_900 = 2131427622;
+			
+			// aapt resource value: 0x7f0b0127
+			public const int md_orange_a100 = 2131427623;
+			
+			// aapt resource value: 0x7f0b0128
+			public const int md_orange_a200 = 2131427624;
+			
+			// aapt resource value: 0x7f0b0129
+			public const int md_orange_a400 = 2131427625;
+			
+			// aapt resource value: 0x7f0b012a
+			public const int md_orange_a700 = 2131427626;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int md_pink_100 = 2131427432;
+			
+			// aapt resource value: 0x7f0b0069
+			public const int md_pink_200 = 2131427433;
+			
+			// aapt resource value: 0x7f0b006a
+			public const int md_pink_300 = 2131427434;
+			
+			// aapt resource value: 0x7f0b006b
+			public const int md_pink_400 = 2131427435;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int md_pink_50 = 2131427431;
+			
+			// aapt resource value: 0x7f0b006c
+			public const int md_pink_500 = 2131427436;
+			
+			// aapt resource value: 0x7f0b006d
+			public const int md_pink_600 = 2131427437;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int md_pink_700 = 2131427438;
+			
+			// aapt resource value: 0x7f0b006f
+			public const int md_pink_800 = 2131427439;
+			
+			// aapt resource value: 0x7f0b0070
+			public const int md_pink_900 = 2131427440;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int md_pink_a100 = 2131427441;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int md_pink_a200 = 2131427442;
+			
+			// aapt resource value: 0x7f0b0073
+			public const int md_pink_a400 = 2131427443;
+			
+			// aapt resource value: 0x7f0b0074
+			public const int md_pink_a700 = 2131427444;
+			
+			// aapt resource value: 0x7f0b0076
+			public const int md_purple_100 = 2131427446;
+			
+			// aapt resource value: 0x7f0b0077
+			public const int md_purple_200 = 2131427447;
+			
+			// aapt resource value: 0x7f0b0078
+			public const int md_purple_300 = 2131427448;
+			
+			// aapt resource value: 0x7f0b0079
+			public const int md_purple_400 = 2131427449;
+			
+			// aapt resource value: 0x7f0b0075
+			public const int md_purple_50 = 2131427445;
+			
+			// aapt resource value: 0x7f0b007a
+			public const int md_purple_500 = 2131427450;
+			
+			// aapt resource value: 0x7f0b007b
+			public const int md_purple_600 = 2131427451;
+			
+			// aapt resource value: 0x7f0b007c
+			public const int md_purple_700 = 2131427452;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int md_purple_800 = 2131427453;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int md_purple_900 = 2131427454;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int md_purple_a100 = 2131427455;
+			
+			// aapt resource value: 0x7f0b0080
+			public const int md_purple_a200 = 2131427456;
+			
+			// aapt resource value: 0x7f0b0081
+			public const int md_purple_a400 = 2131427457;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int md_purple_a700 = 2131427458;
+			
+			// aapt resource value: 0x7f0b005a
+			public const int md_red_100 = 2131427418;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int md_red_200 = 2131427419;
+			
+			// aapt resource value: 0x7f0b005c
+			public const int md_red_300 = 2131427420;
+			
+			// aapt resource value: 0x7f0b005d
+			public const int md_red_400 = 2131427421;
+			
+			// aapt resource value: 0x7f0b0059
+			public const int md_red_50 = 2131427417;
+			
+			// aapt resource value: 0x7f0b005e
+			public const int md_red_500 = 2131427422;
+			
+			// aapt resource value: 0x7f0b005f
+			public const int md_red_600 = 2131427423;
+			
+			// aapt resource value: 0x7f0b0060
+			public const int md_red_700 = 2131427424;
+			
+			// aapt resource value: 0x7f0b0061
+			public const int md_red_800 = 2131427425;
+			
+			// aapt resource value: 0x7f0b0062
+			public const int md_red_900 = 2131427426;
+			
+			// aapt resource value: 0x7f0b0063
+			public const int md_red_a100 = 2131427427;
+			
+			// aapt resource value: 0x7f0b0064
+			public const int md_red_a200 = 2131427428;
+			
+			// aapt resource value: 0x7f0b0065
+			public const int md_red_a400 = 2131427429;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int md_red_a700 = 2131427430;
+			
+			// aapt resource value: 0x7f0b00ca
+			public const int md_teal_100 = 2131427530;
+			
+			// aapt resource value: 0x7f0b00cb
+			public const int md_teal_200 = 2131427531;
+			
+			// aapt resource value: 0x7f0b00cc
+			public const int md_teal_300 = 2131427532;
+			
+			// aapt resource value: 0x7f0b00cd
+			public const int md_teal_400 = 2131427533;
+			
+			// aapt resource value: 0x7f0b00c9
+			public const int md_teal_50 = 2131427529;
+			
+			// aapt resource value: 0x7f0b00ce
+			public const int md_teal_500 = 2131427534;
+			
+			// aapt resource value: 0x7f0b00cf
+			public const int md_teal_600 = 2131427535;
+			
+			// aapt resource value: 0x7f0b00d0
+			public const int md_teal_700 = 2131427536;
+			
+			// aapt resource value: 0x7f0b00d1
+			public const int md_teal_800 = 2131427537;
+			
+			// aapt resource value: 0x7f0b00d2
+			public const int md_teal_900 = 2131427538;
+			
+			// aapt resource value: 0x7f0b00d3
+			public const int md_teal_a100 = 2131427539;
+			
+			// aapt resource value: 0x7f0b00d4
+			public const int md_teal_a200 = 2131427540;
+			
+			// aapt resource value: 0x7f0b00d5
+			public const int md_teal_a400 = 2131427541;
+			
+			// aapt resource value: 0x7f0b00d6
+			public const int md_teal_a700 = 2131427542;
+			
+			// aapt resource value: 0x7f0b014e
+			public const int md_white = 2131427662;
 			
 			// aapt resource value: 0x7f0b0102
-			public const int md_yellow_a200 = 2131427586;
+			public const int md_yellow_100 = 2131427586;
 			
 			// aapt resource value: 0x7f0b0103
-			public const int md_yellow_a400 = 2131427587;
+			public const int md_yellow_200 = 2131427587;
 			
 			// aapt resource value: 0x7f0b0104
-			public const int md_yellow_a700 = 2131427588;
+			public const int md_yellow_300 = 2131427588;
+			
+			// aapt resource value: 0x7f0b0105
+			public const int md_yellow_400 = 2131427589;
+			
+			// aapt resource value: 0x7f0b0101
+			public const int md_yellow_50 = 2131427585;
+			
+			// aapt resource value: 0x7f0b0106
+			public const int md_yellow_500 = 2131427590;
+			
+			// aapt resource value: 0x7f0b0107
+			public const int md_yellow_600 = 2131427591;
+			
+			// aapt resource value: 0x7f0b0108
+			public const int md_yellow_700 = 2131427592;
+			
+			// aapt resource value: 0x7f0b0109
+			public const int md_yellow_800 = 2131427593;
+			
+			// aapt resource value: 0x7f0b010a
+			public const int md_yellow_900 = 2131427594;
+			
+			// aapt resource value: 0x7f0b010b
+			public const int md_yellow_a100 = 2131427595;
+			
+			// aapt resource value: 0x7f0b010c
+			public const int md_yellow_a200 = 2131427596;
+			
+			// aapt resource value: 0x7f0b010d
+			public const int md_yellow_a400 = 2131427597;
+			
+			// aapt resource value: 0x7f0b010e
+			public const int md_yellow_a700 = 2131427598;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int primary_dark_material_dark = 2131427368;
@@ -1898,8 +3734,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0031
 			public const int ripple_material_light = 2131427377;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int search_text_color = 2131427398;
+			// aapt resource value: 0x7f0b0050
+			public const int search_text_color = 2131427408;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int secondary_text_default_material_dark = 2131427378;
@@ -1919,11 +3755,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b0159
-			public const int switch_thumb_material_dark = 2131427673;
+			// aapt resource value: 0x7f0b0163
+			public const int switch_thumb_material_dark = 2131427683;
 			
-			// aapt resource value: 0x7f0b015a
-			public const int switch_thumb_material_light = 2131427674;
+			// aapt resource value: 0x7f0b0164
+			public const int switch_thumb_material_light = 2131427684;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
@@ -1931,35 +3767,35 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_light = 2131427385;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int text_100 = 2131427386;
+			// aapt resource value: 0x7f0b0044
+			public const int text_100 = 2131427396;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int text_100_inverse = 2131427391;
+			// aapt resource value: 0x7f0b0049
+			public const int text_100_inverse = 2131427401;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int text_54 = 2131427390;
+			// aapt resource value: 0x7f0b0048
+			public const int text_54 = 2131427400;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int text_54_inverse = 2131427395;
+			// aapt resource value: 0x7f0b004d
+			public const int text_54_inverse = 2131427405;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int text_60 = 2131427389;
+			// aapt resource value: 0x7f0b0047
+			public const int text_60 = 2131427399;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int text_60_inverse = 2131427394;
+			// aapt resource value: 0x7f0b004c
+			public const int text_60_inverse = 2131427404;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int text_80 = 2131427388;
+			// aapt resource value: 0x7f0b0046
+			public const int text_80 = 2131427398;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int text_80_inverse = 2131427393;
+			// aapt resource value: 0x7f0b004b
+			public const int text_80_inverse = 2131427403;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int text_87 = 2131427387;
+			// aapt resource value: 0x7f0b0045
+			public const int text_87 = 2131427397;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int text_87_inverse = 2131427392;
+			// aapt resource value: 0x7f0b004a
+			public const int text_87_inverse = 2131427402;
 			
 			static Color()
 			{
@@ -2174,6 +4010,93 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f050007
 			public const int abc_text_size_title_material_toolbar = 2131034119;
+			
+			// aapt resource value: 0x7f050056
+			public const int design_appbar_elevation = 2131034198;
+			
+			// aapt resource value: 0x7f050057
+			public const int design_bottom_sheet_modal_elevation = 2131034199;
+			
+			// aapt resource value: 0x7f050058
+			public const int design_bottom_sheet_modal_peek_height = 2131034200;
+			
+			// aapt resource value: 0x7f050059
+			public const int design_fab_border_width = 2131034201;
+			
+			// aapt resource value: 0x7f05005a
+			public const int design_fab_elevation = 2131034202;
+			
+			// aapt resource value: 0x7f05005b
+			public const int design_fab_image_size = 2131034203;
+			
+			// aapt resource value: 0x7f05005c
+			public const int design_fab_size_mini = 2131034204;
+			
+			// aapt resource value: 0x7f05005d
+			public const int design_fab_size_normal = 2131034205;
+			
+			// aapt resource value: 0x7f05005e
+			public const int design_fab_translation_z_pressed = 2131034206;
+			
+			// aapt resource value: 0x7f05005f
+			public const int design_navigation_elevation = 2131034207;
+			
+			// aapt resource value: 0x7f050060
+			public const int design_navigation_icon_padding = 2131034208;
+			
+			// aapt resource value: 0x7f050061
+			public const int design_navigation_icon_size = 2131034209;
+			
+			// aapt resource value: 0x7f05004e
+			public const int design_navigation_max_width = 2131034190;
+			
+			// aapt resource value: 0x7f050062
+			public const int design_navigation_padding_bottom = 2131034210;
+			
+			// aapt resource value: 0x7f050063
+			public const int design_navigation_separator_vertical_padding = 2131034211;
+			
+			// aapt resource value: 0x7f05004f
+			public const int design_snackbar_action_inline_max_width = 2131034191;
+			
+			// aapt resource value: 0x7f050050
+			public const int design_snackbar_background_corner_radius = 2131034192;
+			
+			// aapt resource value: 0x7f050064
+			public const int design_snackbar_elevation = 2131034212;
+			
+			// aapt resource value: 0x7f050051
+			public const int design_snackbar_extra_spacing_horizontal = 2131034193;
+			
+			// aapt resource value: 0x7f050052
+			public const int design_snackbar_max_width = 2131034194;
+			
+			// aapt resource value: 0x7f050053
+			public const int design_snackbar_min_width = 2131034195;
+			
+			// aapt resource value: 0x7f050065
+			public const int design_snackbar_padding_horizontal = 2131034213;
+			
+			// aapt resource value: 0x7f050066
+			public const int design_snackbar_padding_vertical = 2131034214;
+			
+			// aapt resource value: 0x7f050054
+			public const int design_snackbar_padding_vertical_2lines = 2131034196;
+			
+			// aapt resource value: 0x7f050067
+			public const int design_snackbar_text_size = 2131034215;
+			
+			// aapt resource value: 0x7f050068
+			public const int design_tab_max_width = 2131034216;
+			
+			// aapt resource value: 0x7f050055
+			public const int design_tab_scrollable_min_width = 2131034197;
+			
+			// aapt resource value: 0x7f050069
+			public const int design_tab_text_size = 2131034217;
+			
+			// aapt resource value: 0x7f05006a
+			public const int design_tab_text_size_2line = 2131034218;
 			
 			// aapt resource value: 0x7f050046
 			public const int disabled_alpha_material_dark = 2131034182;
@@ -2453,25 +4376,31 @@ namespace EsMo.Android.WeiBo
 			public const int defaultSplash = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int divider_horizontal_bright_opaque = 2130837581;
+			public const int design_fab_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_circular_overflow_dark = 2130837582;
+			public const int design_snackbar_background = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_menu_moreoverflow_card_dark_normal = 2130837583;
+			public const int divider_horizontal_bright_opaque = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int Icon = 2130837584;
-			
-			// aapt resource value: 0x7f020053
-			public const int notification_template_icon_bg = 2130837587;
+			public const int ic_circular_overflow_dark = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int selector_card_menu = 2130837585;
+			public const int ic_menu_moreoverflow_card_dark_normal = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int timeline_publish_single_normal = 2130837586;
+			public const int Icon = 2130837586;
+			
+			// aapt resource value: 0x7f020055
+			public const int notification_template_icon_bg = 2130837589;
+			
+			// aapt resource value: 0x7f020053
+			public const int selector_card_menu = 2130837587;
+			
+			// aapt resource value: 0x7f020054
+			public const int timeline_publish_single_normal = 2130837588;
 			
 			static Drawable()
 			{
@@ -2486,41 +4415,41 @@ namespace EsMo.Android.WeiBo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000a
-			public const int MvvmCrossTagId = 2131099658;
-			
 			// aapt resource value: 0x7f06000b
-			public const int MvxBindingTagUnique = 2131099659;
+			public const int MvvmCrossTagId = 2131099659;
 			
-			// aapt resource value: 0x7f060053
-			public const int action0 = 2131099731;
+			// aapt resource value: 0x7f06000c
+			public const int MvxBindingTagUnique = 2131099660;
 			
-			// aapt resource value: 0x7f060044
-			public const int action_bar = 2131099716;
+			// aapt resource value: 0x7f060077
+			public const int action0 = 2131099767;
+			
+			// aapt resource value: 0x7f06005c
+			public const int action_bar = 2131099740;
 			
 			// aapt resource value: 0x7f060001
 			public const int action_bar_activity_content = 2131099649;
 			
-			// aapt resource value: 0x7f060043
-			public const int action_bar_container = 2131099715;
+			// aapt resource value: 0x7f06005b
+			public const int action_bar_container = 2131099739;
 			
-			// aapt resource value: 0x7f06003f
-			public const int action_bar_root = 2131099711;
+			// aapt resource value: 0x7f060057
+			public const int action_bar_root = 2131099735;
 			
 			// aapt resource value: 0x7f060002
 			public const int action_bar_spinner = 2131099650;
 			
-			// aapt resource value: 0x7f060025
-			public const int action_bar_subtitle = 2131099685;
+			// aapt resource value: 0x7f06003d
+			public const int action_bar_subtitle = 2131099709;
 			
-			// aapt resource value: 0x7f060024
-			public const int action_bar_title = 2131099684;
+			// aapt resource value: 0x7f06003c
+			public const int action_bar_title = 2131099708;
 			
-			// aapt resource value: 0x7f060045
-			public const int action_context_bar = 2131099717;
+			// aapt resource value: 0x7f06005d
+			public const int action_context_bar = 2131099741;
 			
-			// aapt resource value: 0x7f060057
-			public const int action_divider = 2131099735;
+			// aapt resource value: 0x7f06007b
+			public const int action_divider = 2131099771;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2528,131 +4457,206 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f060004
 			public const int action_menu_presenter = 2131099652;
 			
-			// aapt resource value: 0x7f060041
-			public const int action_mode_bar = 2131099713;
+			// aapt resource value: 0x7f060059
+			public const int action_mode_bar = 2131099737;
 			
-			// aapt resource value: 0x7f060040
-			public const int action_mode_bar_stub = 2131099712;
+			// aapt resource value: 0x7f060058
+			public const int action_mode_bar_stub = 2131099736;
 			
-			// aapt resource value: 0x7f060026
-			public const int action_mode_close_button = 2131099686;
+			// aapt resource value: 0x7f06003e
+			public const int action_mode_close_button = 2131099710;
 			
-			// aapt resource value: 0x7f060027
-			public const int activity_chooser_view_content = 2131099687;
+			// aapt resource value: 0x7f06003f
+			public const int activity_chooser_view_content = 2131099711;
 			
-			// aapt resource value: 0x7f060033
-			public const int alertTitle = 2131099699;
-			
-			// aapt resource value: 0x7f06001f
-			public const int always = 2131099679;
-			
-			// aapt resource value: 0x7f06001c
-			public const int beginning = 2131099676;
-			
-			// aapt resource value: 0x7f06002e
-			public const int buttonPanel = 2131099694;
-			
-			// aapt resource value: 0x7f060054
-			public const int cancel_action = 2131099732;
-			
-			// aapt resource value: 0x7f06003c
-			public const int checkbox = 2131099708;
-			
-			// aapt resource value: 0x7f06005a
-			public const int chronometer = 2131099738;
+			// aapt resource value: 0x7f06004b
+			public const int alertTitle = 2131099723;
 			
 			// aapt resource value: 0x7f060020
-			public const int collapseActionView = 2131099680;
+			public const int always = 2131099680;
 			
-			// aapt resource value: 0x7f060034
-			public const int contentPanel = 2131099700;
-			
-			// aapt resource value: 0x7f06003a
-			public const int custom = 2131099706;
-			
-			// aapt resource value: 0x7f060039
-			public const int customPanel = 2131099705;
-			
-			// aapt resource value: 0x7f060042
-			public const int decor_content_parent = 2131099714;
-			
-			// aapt resource value: 0x7f06002a
-			public const int default_activity_button = 2131099690;
-			
-			// aapt resource value: 0x7f06000f
-			public const int disableHome = 2131099663;
-			
-			// aapt resource value: 0x7f060046
-			public const int edit_query = 2131099718;
+			// aapt resource value: 0x7f060075
+			public const int authLayout = 2131099765;
 			
 			// aapt resource value: 0x7f06001d
-			public const int end = 2131099677;
+			public const int beginning = 2131099677;
 			
-			// aapt resource value: 0x7f06005f
-			public const int end_padder = 2131099743;
+			// aapt resource value: 0x7f06002c
+			public const int bottom = 2131099692;
 			
-			// aapt resource value: 0x7f060028
-			public const int expand_activities_button = 2131099688;
+			// aapt resource value: 0x7f060046
+			public const int buttonPanel = 2131099718;
 			
-			// aapt resource value: 0x7f06003b
-			public const int expanded_menu = 2131099707;
+			// aapt resource value: 0x7f060078
+			public const int cancel_action = 2131099768;
+			
+			// aapt resource value: 0x7f06002d
+			public const int center = 2131099693;
+			
+			// aapt resource value: 0x7f06002e
+			public const int center_horizontal = 2131099694;
+			
+			// aapt resource value: 0x7f06002f
+			public const int center_vertical = 2131099695;
+			
+			// aapt resource value: 0x7f060054
+			public const int checkbox = 2131099732;
+			
+			// aapt resource value: 0x7f06007e
+			public const int chronometer = 2131099774;
+			
+			// aapt resource value: 0x7f060035
+			public const int clip_horizontal = 2131099701;
+			
+			// aapt resource value: 0x7f060036
+			public const int clip_vertical = 2131099702;
+			
+			// aapt resource value: 0x7f060021
+			public const int collapseActionView = 2131099681;
+			
+			// aapt resource value: 0x7f06004c
+			public const int contentPanel = 2131099724;
+			
+			// aapt resource value: 0x7f060052
+			public const int custom = 2131099730;
+			
+			// aapt resource value: 0x7f060051
+			public const int customPanel = 2131099729;
+			
+			// aapt resource value: 0x7f06005a
+			public const int decor_content_parent = 2131099738;
+			
+			// aapt resource value: 0x7f060042
+			public const int default_activity_button = 2131099714;
+			
+			// aapt resource value: 0x7f06006c
+			public const int design_bottom_sheet = 2131099756;
+			
+			// aapt resource value: 0x7f060073
+			public const int design_menu_item_action_area = 2131099763;
+			
+			// aapt resource value: 0x7f060072
+			public const int design_menu_item_action_area_stub = 2131099762;
+			
+			// aapt resource value: 0x7f060071
+			public const int design_menu_item_text = 2131099761;
+			
+			// aapt resource value: 0x7f060070
+			public const int design_navigation_view = 2131099760;
+			
+			// aapt resource value: 0x7f060010
+			public const int disableHome = 2131099664;
+			
+			// aapt resource value: 0x7f06005e
+			public const int edit_query = 2131099742;
+			
+			// aapt resource value: 0x7f06001e
+			public const int end = 2131099678;
+			
+			// aapt resource value: 0x7f060083
+			public const int end_padder = 2131099779;
+			
+			// aapt resource value: 0x7f060025
+			public const int enterAlways = 2131099685;
+			
+			// aapt resource value: 0x7f060026
+			public const int enterAlwaysCollapsed = 2131099686;
+			
+			// aapt resource value: 0x7f060027
+			public const int exitUntilCollapsed = 2131099687;
+			
+			// aapt resource value: 0x7f060040
+			public const int expand_activities_button = 2131099712;
+			
+			// aapt resource value: 0x7f060053
+			public const int expanded_menu = 2131099731;
+			
+			// aapt resource value: 0x7f060037
+			public const int fill = 2131099703;
+			
+			// aapt resource value: 0x7f060038
+			public const int fill_horizontal = 2131099704;
+			
+			// aapt resource value: 0x7f060030
+			public const int fill_vertical = 2131099696;
+			
+			// aapt resource value: 0x7f06003a
+			public const int @fixed = 2131099706;
 			
 			// aapt resource value: 0x7f060005
 			public const int home = 2131099653;
 			
-			// aapt resource value: 0x7f060010
-			public const int homeAsUp = 2131099664;
+			// aapt resource value: 0x7f060011
+			public const int homeAsUp = 2131099665;
 			
-			// aapt resource value: 0x7f06002c
-			public const int icon = 2131099692;
+			// aapt resource value: 0x7f060044
+			public const int icon = 2131099716;
 			
-			// aapt resource value: 0x7f060021
-			public const int ifRoom = 2131099681;
+			// aapt resource value: 0x7f060022
+			public const int ifRoom = 2131099682;
 			
-			// aapt resource value: 0x7f060029
-			public const int image = 2131099689;
+			// aapt resource value: 0x7f060041
+			public const int image = 2131099713;
 			
-			// aapt resource value: 0x7f06005e
-			public const int info = 2131099742;
+			// aapt resource value: 0x7f060082
+			public const int info = 2131099778;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
-			// aapt resource value: 0x7f060058
-			public const int line1 = 2131099736;
+			// aapt resource value: 0x7f060031
+			public const int left = 2131099697;
 			
-			// aapt resource value: 0x7f06005c
-			public const int line3 = 2131099740;
+			// aapt resource value: 0x7f06007c
+			public const int line1 = 2131099772;
 			
-			// aapt resource value: 0x7f060060
-			public const int linearLayout1 = 2131099744;
+			// aapt resource value: 0x7f060080
+			public const int line3 = 2131099776;
 			
-			// aapt resource value: 0x7f06000c
-			public const int listMode = 2131099660;
-			
-			// aapt resource value: 0x7f06002b
-			public const int list_item = 2131099691;
-			
-			// aapt resource value: 0x7f060056
-			public const int media_actions = 2131099734;
-			
-			// aapt resource value: 0x7f06001e
-			public const int middle = 2131099678;
-			
-			// aapt resource value: 0x7f060017
-			public const int multiply = 2131099671;
-			
-			// aapt resource value: 0x7f060022
-			public const int never = 2131099682;
-			
-			// aapt resource value: 0x7f060011
-			public const int none = 2131099665;
+			// aapt resource value: 0x7f060084
+			public const int linearLayout1 = 2131099780;
 			
 			// aapt resource value: 0x7f06000d
-			public const int normal = 2131099661;
+			public const int listMode = 2131099661;
 			
-			// aapt resource value: 0x7f060030
-			public const int parentPanel = 2131099696;
+			// aapt resource value: 0x7f060043
+			public const int list_item = 2131099715;
+			
+			// aapt resource value: 0x7f06007a
+			public const int media_actions = 2131099770;
+			
+			// aapt resource value: 0x7f06001f
+			public const int middle = 2131099679;
+			
+			// aapt resource value: 0x7f060039
+			public const int mini = 2131099705;
+			
+			// aapt resource value: 0x7f060018
+			public const int multiply = 2131099672;
+			
+			// aapt resource value: 0x7f06006f
+			public const int navigation_header_container = 2131099759;
+			
+			// aapt resource value: 0x7f060023
+			public const int never = 2131099683;
+			
+			// aapt resource value: 0x7f060012
+			public const int none = 2131099666;
+			
+			// aapt resource value: 0x7f06000e
+			public const int normal = 2131099662;
+			
+			// aapt resource value: 0x7f06002a
+			public const int parallax = 2131099690;
+			
+			// aapt resource value: 0x7f060048
+			public const int parentPanel = 2131099720;
+			
+			// aapt resource value: 0x7f06002b
+			public const int pin = 2131099691;
+			
+			// aapt resource value: 0x7f060076
+			public const int progressBar = 2131099766;
 			
 			// aapt resource value: 0x7f060006
 			public const int progress_circular = 2131099654;
@@ -2660,122 +4664,158 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f060007
 			public const int progress_horizontal = 2131099655;
 			
-			// aapt resource value: 0x7f06003e
-			public const int radio = 2131099710;
+			// aapt resource value: 0x7f060056
+			public const int radio = 2131099734;
 			
-			// aapt resource value: 0x7f060018
-			public const int screen = 2131099672;
+			// aapt resource value: 0x7f060032
+			public const int right = 2131099698;
 			
-			// aapt resource value: 0x7f060038
-			public const int scrollIndicatorDown = 2131099704;
+			// aapt resource value: 0x7f060019
+			public const int screen = 2131099673;
 			
-			// aapt resource value: 0x7f060035
-			public const int scrollIndicatorUp = 2131099701;
-			
-			// aapt resource value: 0x7f060036
-			public const int scrollView = 2131099702;
-			
-			// aapt resource value: 0x7f060048
-			public const int search_badge = 2131099720;
-			
-			// aapt resource value: 0x7f060047
-			public const int search_bar = 2131099719;
-			
-			// aapt resource value: 0x7f060049
-			public const int search_button = 2131099721;
-			
-			// aapt resource value: 0x7f06004e
-			public const int search_close_btn = 2131099726;
-			
-			// aapt resource value: 0x7f06004a
-			public const int search_edit_frame = 2131099722;
+			// aapt resource value: 0x7f060028
+			public const int scroll = 2131099688;
 			
 			// aapt resource value: 0x7f060050
-			public const int search_go_btn = 2131099728;
-			
-			// aapt resource value: 0x7f06004b
-			public const int search_mag_icon = 2131099723;
-			
-			// aapt resource value: 0x7f06004c
-			public const int search_plate = 2131099724;
+			public const int scrollIndicatorDown = 2131099728;
 			
 			// aapt resource value: 0x7f06004d
-			public const int search_src_text = 2131099725;
+			public const int scrollIndicatorUp = 2131099725;
 			
-			// aapt resource value: 0x7f060051
-			public const int search_voice_btn = 2131099729;
+			// aapt resource value: 0x7f06004e
+			public const int scrollView = 2131099726;
 			
-			// aapt resource value: 0x7f060052
-			public const int select_dialog_listview = 2131099730;
+			// aapt resource value: 0x7f06003b
+			public const int scrollable = 2131099707;
 			
-			// aapt resource value: 0x7f06003d
-			public const int shortcut = 2131099709;
+			// aapt resource value: 0x7f060060
+			public const int search_badge = 2131099744;
 			
-			// aapt resource value: 0x7f060012
-			public const int showCustom = 2131099666;
+			// aapt resource value: 0x7f06005f
+			public const int search_bar = 2131099743;
+			
+			// aapt resource value: 0x7f060061
+			public const int search_button = 2131099745;
+			
+			// aapt resource value: 0x7f060066
+			public const int search_close_btn = 2131099750;
+			
+			// aapt resource value: 0x7f060062
+			public const int search_edit_frame = 2131099746;
+			
+			// aapt resource value: 0x7f060068
+			public const int search_go_btn = 2131099752;
+			
+			// aapt resource value: 0x7f060063
+			public const int search_mag_icon = 2131099747;
+			
+			// aapt resource value: 0x7f060064
+			public const int search_plate = 2131099748;
+			
+			// aapt resource value: 0x7f060065
+			public const int search_src_text = 2131099749;
+			
+			// aapt resource value: 0x7f060069
+			public const int search_voice_btn = 2131099753;
+			
+			// aapt resource value: 0x7f06006a
+			public const int select_dialog_listview = 2131099754;
+			
+			// aapt resource value: 0x7f060055
+			public const int shortcut = 2131099733;
 			
 			// aapt resource value: 0x7f060013
-			public const int showHome = 2131099667;
+			public const int showCustom = 2131099667;
 			
 			// aapt resource value: 0x7f060014
-			public const int showTitle = 2131099668;
+			public const int showHome = 2131099668;
 			
-			// aapt resource value: 0x7f06002f
-			public const int spacer = 2131099695;
+			// aapt resource value: 0x7f060015
+			public const int showTitle = 2131099669;
+			
+			// aapt resource value: 0x7f06006e
+			public const int snackbar_action = 2131099758;
+			
+			// aapt resource value: 0x7f06006d
+			public const int snackbar_text = 2131099757;
+			
+			// aapt resource value: 0x7f060029
+			public const int snap = 2131099689;
+			
+			// aapt resource value: 0x7f060047
+			public const int spacer = 2131099719;
 			
 			// aapt resource value: 0x7f060008
 			public const int split_action_bar = 2131099656;
 			
-			// aapt resource value: 0x7f060019
-			public const int src_atop = 2131099673;
-			
 			// aapt resource value: 0x7f06001a
-			public const int src_in = 2131099674;
+			public const int src_atop = 2131099674;
 			
 			// aapt resource value: 0x7f06001b
-			public const int src_over = 2131099675;
+			public const int src_in = 2131099675;
 			
-			// aapt resource value: 0x7f060055
-			public const int status_bar_latest_event_content = 2131099733;
+			// aapt resource value: 0x7f06001c
+			public const int src_over = 2131099676;
+			
+			// aapt resource value: 0x7f060033
+			public const int start = 2131099699;
+			
+			// aapt resource value: 0x7f060079
+			public const int status_bar_latest_event_content = 2131099769;
+			
+			// aapt resource value: 0x7f060067
+			public const int submit_area = 2131099751;
+			
+			// aapt resource value: 0x7f06000f
+			public const int tabMode = 2131099663;
+			
+			// aapt resource value: 0x7f060081
+			public const int text = 2131099777;
+			
+			// aapt resource value: 0x7f06007f
+			public const int text2 = 2131099775;
 			
 			// aapt resource value: 0x7f06004f
-			public const int submit_area = 2131099727;
+			public const int textSpacerNoButtons = 2131099727;
 			
-			// aapt resource value: 0x7f06000e
-			public const int tabMode = 2131099662;
+			// aapt resource value: 0x7f06007d
+			public const int time = 2131099773;
 			
-			// aapt resource value: 0x7f06005d
-			public const int text = 2131099741;
+			// aapt resource value: 0x7f060045
+			public const int title = 2131099717;
 			
-			// aapt resource value: 0x7f06005b
-			public const int text2 = 2131099739;
+			// aapt resource value: 0x7f06004a
+			public const int title_template = 2131099722;
 			
-			// aapt resource value: 0x7f060037
-			public const int textSpacerNoButtons = 2131099703;
+			// aapt resource value: 0x7f060074
+			public const int toolbar1 = 2131099764;
 			
-			// aapt resource value: 0x7f060059
-			public const int time = 2131099737;
+			// aapt resource value: 0x7f060034
+			public const int top = 2131099700;
 			
-			// aapt resource value: 0x7f06002d
-			public const int title = 2131099693;
+			// aapt resource value: 0x7f060049
+			public const int topPanel = 2131099721;
 			
-			// aapt resource value: 0x7f060032
-			public const int title_template = 2131099698;
-			
-			// aapt resource value: 0x7f060031
-			public const int topPanel = 2131099697;
+			// aapt resource value: 0x7f06006b
+			public const int touch_outside = 2131099755;
 			
 			// aapt resource value: 0x7f060009
 			public const int up = 2131099657;
 			
-			// aapt resource value: 0x7f060015
-			public const int useLogo = 2131099669;
-			
-			// aapt resource value: 0x7f060023
-			public const int withText = 2131099683;
-			
 			// aapt resource value: 0x7f060016
-			public const int wrap_content = 2131099670;
+			public const int useLogo = 2131099670;
+			
+			// aapt resource value: 0x7f06000a
+			public const int view_offset_helper = 2131099658;
+			
+			// aapt resource value: 0x7f060024
+			public const int withText = 2131099684;
+			
+			// aapt resource value: 0x7f060017
+			public const int wrap_content = 2131099671;
+			
+			// aapt resource value: 0x7f060085
+			public const int wvAuth = 2131099781;
 			
 			static Id()
 			{
@@ -2799,8 +4839,14 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0a0000
 			public const int abc_max_action_buttons = 2131361792;
 			
+			// aapt resource value: 0x7f0a0006
+			public const int bottom_sheet_slide_duration = 2131361798;
+			
 			// aapt resource value: 0x7f0a0003
 			public const int cancel_button_image_alpha = 2131361795;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int design_snackbar_text_max_lines = 2131361797;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int status_bar_notification_info_maxnum = 2131361796;
@@ -2894,46 +4940,85 @@ namespace EsMo.Android.WeiBo
 			public const int abc_select_dialog_material = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int LoginView = 2130903065;
+			public const int design_bottom_sheet_dialog = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int notification_media_action = 2130903066;
+			public const int design_layout_snackbar = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int notification_media_cancel_action = 2130903067;
+			public const int design_layout_snackbar_include = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int notification_template_big_media = 2130903068;
+			public const int design_layout_tab_icon = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int notification_template_big_media_narrow = 2130903069;
+			public const int design_layout_tab_text = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int notification_template_lines = 2130903070;
+			public const int design_menu_item_action_area = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int notification_template_media = 2130903071;
+			public const int design_navigation_item = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_template_part_chronometer = 2130903072;
+			public const int design_navigation_item_header = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_template_part_time = 2130903073;
+			public const int design_navigation_item_separator = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int select_dialog_item_material = 2130903074;
+			public const int design_navigation_item_subheader = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int select_dialog_multichoice_material = 2130903075;
+			public const int design_navigation_menu = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int select_dialog_singlechoice_material = 2130903076;
+			public const int design_navigation_menu_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int SplashScreen = 2130903077;
+			public const int LoginView = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int support_simple_spinner_dropdown_item = 2130903078;
+			public const int notification_media_action = 2130903078;
+			
+			// aapt resource value: 0x7f030027
+			public const int notification_media_cancel_action = 2130903079;
+			
+			// aapt resource value: 0x7f030028
+			public const int notification_template_big_media = 2130903080;
+			
+			// aapt resource value: 0x7f030029
+			public const int notification_template_big_media_narrow = 2130903081;
+			
+			// aapt resource value: 0x7f03002a
+			public const int notification_template_lines = 2130903082;
+			
+			// aapt resource value: 0x7f03002b
+			public const int notification_template_media = 2130903083;
+			
+			// aapt resource value: 0x7f03002c
+			public const int notification_template_part_chronometer = 2130903084;
+			
+			// aapt resource value: 0x7f03002d
+			public const int notification_template_part_time = 2130903085;
+			
+			// aapt resource value: 0x7f03002e
+			public const int select_dialog_item_material = 2130903086;
+			
+			// aapt resource value: 0x7f03002f
+			public const int select_dialog_multichoice_material = 2130903087;
+			
+			// aapt resource value: 0x7f030030
+			public const int select_dialog_singlechoice_material = 2130903088;
+			
+			// aapt resource value: 0x7f030031
+			public const int SplashScreen = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int support_simple_spinner_dropdown_item = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int WebAuth = 2130903091;
 			
 			static Layout()
 			{
@@ -2948,11 +5033,11 @@ namespace EsMo.Android.WeiBo
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070015
-			public const int ApplicationName = 2131165205;
+			// aapt resource value: 0x7f07001a
+			public const int ApplicationName = 2131165210;
 			
-			// aapt resource value: 0x7f070014
-			public const int Hello = 2131165204;
+			// aapt resource value: 0x7f070019
+			public const int Hello = 2131165209;
 			
 			// aapt resource value: 0x7f070000
 			public const int abc_action_bar_home_description = 2131165184;
@@ -3011,6 +5096,42 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f070012
 			public const int abc_toolbar_collapse_description = 2131165202;
 			
+			// aapt resource value: 0x7f070014
+			public const int appbar_scrolling_view_behavior = 2131165204;
+			
+			// aapt resource value: 0x7f070015
+			public const int bottom_sheet_behavior = 2131165205;
+			
+			// aapt resource value: 0x7f070016
+			public const int character_counter_pattern = 2131165206;
+			
+			// aapt resource value: 0x7f07001d
+			public const int clickAuth = 2131165213;
+			
+			// aapt resource value: 0x7f07001f
+			public const int comment = 2131165215;
+			
+			// aapt resource value: 0x7f07001e
+			public const int defaultLoadingDesc = 2131165214;
+			
+			// aapt resource value: 0x7f070021
+			public const int drawerClose = 2131165217;
+			
+			// aapt resource value: 0x7f070020
+			public const int drawerOpen = 2131165216;
+			
+			// aapt resource value: 0x7f070017
+			public const int fab_scroll_shrink_grow_autohide_behavior = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public const int fab_scroll_translation_autohide_behavior = 2131165208;
+			
+			// aapt resource value: 0x7f07001c
+			public const int home = 2131165212;
+			
+			// aapt resource value: 0x7f07001b
+			public const int managerAccount = 2131165211;
+			
 			// aapt resource value: 0x7f070013
 			public const int status_bar_notification_info_overflow = 2131165203;
 			
@@ -3039,203 +5160,206 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f090089
 			public const int Animation_AppCompat_DropDownUp = 2131296393;
 			
-			// aapt resource value: 0x7f090147
-			public const int AppBaseTheme = 2131296583;
-			
 			// aapt resource value: 0x7f09013f
-			public const int AppTheme = 2131296575;
-			
-			// aapt resource value: 0x7f090173
-			public const int AppTheme_Amber = 2131296627;
-			
-			// aapt resource value: 0x7f090141
-			public const int AppTheme_AppBarOverlay = 2131296577;
-			
-			// aapt resource value: 0x7f09015b
-			public const int AppTheme_Blue = 2131296603;
-			
-			// aapt resource value: 0x7f090182
-			public const int AppTheme_BlueGrey = 2131296642;
-			
-			// aapt resource value: 0x7f09017c
-			public const int AppTheme_Brown = 2131296636;
-			
-			// aapt resource value: 0x7f090161
-			public const int AppTheme_Cyan = 2131296609;
-			
-			// aapt resource value: 0x7f090179
-			public const int AppTheme_DeepOrange = 2131296633;
-			
-			// aapt resource value: 0x7f090155
-			public const int AppTheme_DeepPurple = 2131296597;
-			
-			// aapt resource value: 0x7f090167
-			public const int AppTheme_Green = 2131296615;
-			
-			// aapt resource value: 0x7f09017f
-			public const int AppTheme_Grey = 2131296639;
-			
-			// aapt resource value: 0x7f090158
-			public const int AppTheme_Indigo = 2131296600;
-			
-			// aapt resource value: 0x7f09015e
-			public const int AppTheme_LightBlue = 2131296606;
-			
-			// aapt resource value: 0x7f09016a
-			public const int AppTheme_LightGreen = 2131296618;
-			
-			// aapt resource value: 0x7f09016d
-			public const int AppTheme_Lime = 2131296621;
-			
-			// aapt resource value: 0x7f090148
-			public const int AppTheme_Main = 2131296584;
-			
-			// aapt resource value: 0x7f090174
-			public const int AppTheme_Main_Amber = 2131296628;
-			
-			// aapt resource value: 0x7f09015c
-			public const int AppTheme_Main_Blue = 2131296604;
-			
-			// aapt resource value: 0x7f090183
-			public const int AppTheme_Main_BlueGrey = 2131296643;
-			
-			// aapt resource value: 0x7f09017d
-			public const int AppTheme_Main_Brown = 2131296637;
-			
-			// aapt resource value: 0x7f090162
-			public const int AppTheme_Main_Cyan = 2131296610;
-			
-			// aapt resource value: 0x7f09017a
-			public const int AppTheme_Main_DeepOrange = 2131296634;
-			
-			// aapt resource value: 0x7f090156
-			public const int AppTheme_Main_DeepPurple = 2131296598;
-			
-			// aapt resource value: 0x7f090168
-			public const int AppTheme_Main_Green = 2131296616;
-			
-			// aapt resource value: 0x7f090180
-			public const int AppTheme_Main_Grey = 2131296640;
-			
-			// aapt resource value: 0x7f090159
-			public const int AppTheme_Main_Indigo = 2131296601;
-			
-			// aapt resource value: 0x7f09015f
-			public const int AppTheme_Main_LightBlue = 2131296607;
-			
-			// aapt resource value: 0x7f09016b
-			public const int AppTheme_Main_LightGreen = 2131296619;
-			
-			// aapt resource value: 0x7f09016e
-			public const int AppTheme_Main_Lime = 2131296622;
-			
-			// aapt resource value: 0x7f090177
-			public const int AppTheme_Main_Orange = 2131296631;
-			
-			// aapt resource value: 0x7f090150
-			public const int AppTheme_Main_Pink = 2131296592;
-			
-			// aapt resource value: 0x7f090153
-			public const int AppTheme_Main_Purple = 2131296595;
-			
-			// aapt resource value: 0x7f09014d
-			public const int AppTheme_Main_Red = 2131296589;
-			
-			// aapt resource value: 0x7f090165
-			public const int AppTheme_Main_Teal = 2131296613;
-			
-			// aapt resource value: 0x7f090171
-			public const int AppTheme_Main_Yellow = 2131296625;
-			
-			// aapt resource value: 0x7f090140
-			public const int AppTheme_NoActionBar = 2131296576;
-			
-			// aapt resource value: 0x7f090176
-			public const int AppTheme_Orange = 2131296630;
-			
-			// aapt resource value: 0x7f09014b
-			public const int AppTheme_Pics = 2131296587;
-			
-			// aapt resource value: 0x7f09014f
-			public const int AppTheme_Pink = 2131296591;
-			
-			// aapt resource value: 0x7f090142
-			public const int AppTheme_PopupOverlay = 2131296578;
-			
-			// aapt resource value: 0x7f090149
-			public const int AppTheme_Profile = 2131296585;
-			
-			// aapt resource value: 0x7f090175
-			public const int AppTheme_Profile_Amber = 2131296629;
-			
-			// aapt resource value: 0x7f09015d
-			public const int AppTheme_Profile_Blue = 2131296605;
-			
-			// aapt resource value: 0x7f090184
-			public const int AppTheme_Profile_BlueGrey = 2131296644;
-			
-			// aapt resource value: 0x7f09017e
-			public const int AppTheme_Profile_Brown = 2131296638;
-			
-			// aapt resource value: 0x7f090163
-			public const int AppTheme_Profile_Cyan = 2131296611;
-			
-			// aapt resource value: 0x7f09017b
-			public const int AppTheme_Profile_DeepOrange = 2131296635;
-			
-			// aapt resource value: 0x7f090157
-			public const int AppTheme_Profile_DeepPurple = 2131296599;
-			
-			// aapt resource value: 0x7f090169
-			public const int AppTheme_Profile_Green = 2131296617;
-			
-			// aapt resource value: 0x7f090181
-			public const int AppTheme_Profile_Grey = 2131296641;
-			
-			// aapt resource value: 0x7f09015a
-			public const int AppTheme_Profile_Indigo = 2131296602;
+			public const int Animation_Design_BottomSheetDialog = 2131296575;
 			
 			// aapt resource value: 0x7f090160
-			public const int AppTheme_Profile_LightBlue = 2131296608;
+			public const int AppBaseTheme = 2131296608;
 			
-			// aapt resource value: 0x7f09016c
-			public const int AppTheme_Profile_LightGreen = 2131296620;
+			// aapt resource value: 0x7f090158
+			public const int AppTheme = 2131296600;
+			
+			// aapt resource value: 0x7f09018c
+			public const int AppTheme_Amber = 2131296652;
+			
+			// aapt resource value: 0x7f09015a
+			public const int AppTheme_AppBarOverlay = 2131296602;
+			
+			// aapt resource value: 0x7f090174
+			public const int AppTheme_Blue = 2131296628;
+			
+			// aapt resource value: 0x7f09019b
+			public const int AppTheme_BlueGrey = 2131296667;
+			
+			// aapt resource value: 0x7f090195
+			public const int AppTheme_Brown = 2131296661;
+			
+			// aapt resource value: 0x7f09017a
+			public const int AppTheme_Cyan = 2131296634;
+			
+			// aapt resource value: 0x7f090192
+			public const int AppTheme_DeepOrange = 2131296658;
+			
+			// aapt resource value: 0x7f09016e
+			public const int AppTheme_DeepPurple = 2131296622;
+			
+			// aapt resource value: 0x7f090180
+			public const int AppTheme_Green = 2131296640;
+			
+			// aapt resource value: 0x7f090198
+			public const int AppTheme_Grey = 2131296664;
+			
+			// aapt resource value: 0x7f090171
+			public const int AppTheme_Indigo = 2131296625;
+			
+			// aapt resource value: 0x7f090177
+			public const int AppTheme_LightBlue = 2131296631;
+			
+			// aapt resource value: 0x7f090183
+			public const int AppTheme_LightGreen = 2131296643;
+			
+			// aapt resource value: 0x7f090186
+			public const int AppTheme_Lime = 2131296646;
+			
+			// aapt resource value: 0x7f090161
+			public const int AppTheme_Main = 2131296609;
+			
+			// aapt resource value: 0x7f09018d
+			public const int AppTheme_Main_Amber = 2131296653;
+			
+			// aapt resource value: 0x7f090175
+			public const int AppTheme_Main_Blue = 2131296629;
+			
+			// aapt resource value: 0x7f09019c
+			public const int AppTheme_Main_BlueGrey = 2131296668;
+			
+			// aapt resource value: 0x7f090196
+			public const int AppTheme_Main_Brown = 2131296662;
+			
+			// aapt resource value: 0x7f09017b
+			public const int AppTheme_Main_Cyan = 2131296635;
+			
+			// aapt resource value: 0x7f090193
+			public const int AppTheme_Main_DeepOrange = 2131296659;
 			
 			// aapt resource value: 0x7f09016f
-			public const int AppTheme_Profile_Lime = 2131296623;
+			public const int AppTheme_Main_DeepPurple = 2131296623;
 			
-			// aapt resource value: 0x7f090178
-			public const int AppTheme_Profile_Orange = 2131296632;
+			// aapt resource value: 0x7f090181
+			public const int AppTheme_Main_Green = 2131296641;
 			
-			// aapt resource value: 0x7f090151
-			public const int AppTheme_Profile_Pink = 2131296593;
-			
-			// aapt resource value: 0x7f090154
-			public const int AppTheme_Profile_Purple = 2131296596;
-			
-			// aapt resource value: 0x7f09014e
-			public const int AppTheme_Profile_Red = 2131296590;
-			
-			// aapt resource value: 0x7f090166
-			public const int AppTheme_Profile_Teal = 2131296614;
+			// aapt resource value: 0x7f090199
+			public const int AppTheme_Main_Grey = 2131296665;
 			
 			// aapt resource value: 0x7f090172
-			public const int AppTheme_Profile_Yellow = 2131296626;
+			public const int AppTheme_Main_Indigo = 2131296626;
 			
-			// aapt resource value: 0x7f090152
-			public const int AppTheme_Purple = 2131296594;
+			// aapt resource value: 0x7f090178
+			public const int AppTheme_Main_LightBlue = 2131296632;
 			
-			// aapt resource value: 0x7f09014c
-			public const int AppTheme_Red = 2131296588;
+			// aapt resource value: 0x7f090184
+			public const int AppTheme_Main_LightGreen = 2131296644;
 			
-			// aapt resource value: 0x7f09014a
-			public const int AppTheme_Splash = 2131296586;
+			// aapt resource value: 0x7f090187
+			public const int AppTheme_Main_Lime = 2131296647;
+			
+			// aapt resource value: 0x7f090190
+			public const int AppTheme_Main_Orange = 2131296656;
+			
+			// aapt resource value: 0x7f090169
+			public const int AppTheme_Main_Pink = 2131296617;
+			
+			// aapt resource value: 0x7f09016c
+			public const int AppTheme_Main_Purple = 2131296620;
+			
+			// aapt resource value: 0x7f090166
+			public const int AppTheme_Main_Red = 2131296614;
+			
+			// aapt resource value: 0x7f09017e
+			public const int AppTheme_Main_Teal = 2131296638;
+			
+			// aapt resource value: 0x7f09018a
+			public const int AppTheme_Main_Yellow = 2131296650;
+			
+			// aapt resource value: 0x7f090159
+			public const int AppTheme_NoActionBar = 2131296601;
+			
+			// aapt resource value: 0x7f09018f
+			public const int AppTheme_Orange = 2131296655;
 			
 			// aapt resource value: 0x7f090164
-			public const int AppTheme_Teal = 2131296612;
+			public const int AppTheme_Pics = 2131296612;
+			
+			// aapt resource value: 0x7f090168
+			public const int AppTheme_Pink = 2131296616;
+			
+			// aapt resource value: 0x7f09015b
+			public const int AppTheme_PopupOverlay = 2131296603;
+			
+			// aapt resource value: 0x7f090162
+			public const int AppTheme_Profile = 2131296610;
+			
+			// aapt resource value: 0x7f09018e
+			public const int AppTheme_Profile_Amber = 2131296654;
+			
+			// aapt resource value: 0x7f090176
+			public const int AppTheme_Profile_Blue = 2131296630;
+			
+			// aapt resource value: 0x7f09019d
+			public const int AppTheme_Profile_BlueGrey = 2131296669;
+			
+			// aapt resource value: 0x7f090197
+			public const int AppTheme_Profile_Brown = 2131296663;
+			
+			// aapt resource value: 0x7f09017c
+			public const int AppTheme_Profile_Cyan = 2131296636;
+			
+			// aapt resource value: 0x7f090194
+			public const int AppTheme_Profile_DeepOrange = 2131296660;
 			
 			// aapt resource value: 0x7f090170
-			public const int AppTheme_Yellow = 2131296624;
+			public const int AppTheme_Profile_DeepPurple = 2131296624;
+			
+			// aapt resource value: 0x7f090182
+			public const int AppTheme_Profile_Green = 2131296642;
+			
+			// aapt resource value: 0x7f09019a
+			public const int AppTheme_Profile_Grey = 2131296666;
+			
+			// aapt resource value: 0x7f090173
+			public const int AppTheme_Profile_Indigo = 2131296627;
+			
+			// aapt resource value: 0x7f090179
+			public const int AppTheme_Profile_LightBlue = 2131296633;
+			
+			// aapt resource value: 0x7f090185
+			public const int AppTheme_Profile_LightGreen = 2131296645;
+			
+			// aapt resource value: 0x7f090188
+			public const int AppTheme_Profile_Lime = 2131296648;
+			
+			// aapt resource value: 0x7f090191
+			public const int AppTheme_Profile_Orange = 2131296657;
+			
+			// aapt resource value: 0x7f09016a
+			public const int AppTheme_Profile_Pink = 2131296618;
+			
+			// aapt resource value: 0x7f09016d
+			public const int AppTheme_Profile_Purple = 2131296621;
+			
+			// aapt resource value: 0x7f090167
+			public const int AppTheme_Profile_Red = 2131296615;
+			
+			// aapt resource value: 0x7f09017f
+			public const int AppTheme_Profile_Teal = 2131296639;
+			
+			// aapt resource value: 0x7f09018b
+			public const int AppTheme_Profile_Yellow = 2131296651;
+			
+			// aapt resource value: 0x7f09016b
+			public const int AppTheme_Purple = 2131296619;
+			
+			// aapt resource value: 0x7f090165
+			public const int AppTheme_Red = 2131296613;
+			
+			// aapt resource value: 0x7f090163
+			public const int AppTheme_Splash = 2131296611;
+			
+			// aapt resource value: 0x7f09017d
+			public const int AppTheme_Teal = 2131296637;
+			
+			// aapt resource value: 0x7f090189
+			public const int AppTheme_Yellow = 2131296649;
 			
 			// aapt resource value: 0x7f09008a
 			public const int Base_AlertDialog_AppCompat = 2131296394;
@@ -3663,8 +5787,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f090079
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131296377;
 			
-			// aapt resource value: 0x7f090146
-			public const int BaseTheme_Light = 2131296582;
+			// aapt resource value: 0x7f090140
+			public const int Base_Widget_Design_TabLayout = 2131296576;
+			
+			// aapt resource value: 0x7f09015f
+			public const int BaseTheme_Light = 2131296607;
 			
 			// aapt resource value: 0x7f090017
 			public const int Platform_AppCompat = 2131296279;
@@ -3870,6 +5997,27 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0900e1
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131296481;
 			
+			// aapt resource value: 0x7f090141
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131296577;
+			
+			// aapt resource value: 0x7f090142
+			public const int TextAppearance_Design_Counter = 2131296578;
+			
+			// aapt resource value: 0x7f090143
+			public const int TextAppearance_Design_Counter_Overflow = 2131296579;
+			
+			// aapt resource value: 0x7f090144
+			public const int TextAppearance_Design_Error = 2131296580;
+			
+			// aapt resource value: 0x7f090145
+			public const int TextAppearance_Design_Hint = 2131296581;
+			
+			// aapt resource value: 0x7f090146
+			public const int TextAppearance_Design_Snackbar_Message = 2131296582;
+			
+			// aapt resource value: 0x7f090147
+			public const int TextAppearance_Design_Tab = 2131296583;
+			
 			// aapt resource value: 0x7f090023
 			public const int TextAppearance_StatusBar_EventContent = 2131296291;
 			
@@ -3894,14 +6042,14 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0900e4
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131296484;
 			
-			// aapt resource value: 0x7f090145
-			public const int TextBody = 2131296581;
+			// aapt resource value: 0x7f09015e
+			public const int TextBody = 2131296606;
 			
-			// aapt resource value: 0x7f090144
-			public const int TextSubhead = 2131296580;
+			// aapt resource value: 0x7f09015d
+			public const int TextSubhead = 2131296605;
 			
-			// aapt resource value: 0x7f090143
-			public const int TextTitle = 2131296579;
+			// aapt resource value: 0x7f09015c
+			public const int TextTitle = 2131296604;
 			
 			// aapt resource value: 0x7f0900e5
 			public const int Theme_AppCompat = 2131296485;
@@ -3966,8 +6114,26 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0900f2
 			public const int Theme_AppCompat_NoActionBar = 2131296498;
 			
-			// aapt resource value: 0x7f09013e
-			public const int Theme_Splash = 2131296574;
+			// aapt resource value: 0x7f090148
+			public const int Theme_Design = 2131296584;
+			
+			// aapt resource value: 0x7f090149
+			public const int Theme_Design_BottomSheetDialog = 2131296585;
+			
+			// aapt resource value: 0x7f09014a
+			public const int Theme_Design_Light = 2131296586;
+			
+			// aapt resource value: 0x7f09014b
+			public const int Theme_Design_Light_BottomSheetDialog = 2131296587;
+			
+			// aapt resource value: 0x7f09014c
+			public const int Theme_Design_Light_NoActionBar = 2131296588;
+			
+			// aapt resource value: 0x7f09014d
+			public const int Theme_Design_NoActionBar = 2131296589;
+			
+			// aapt resource value: 0x7f090157
+			public const int Theme_Splash = 2131296599;
 			
 			// aapt resource value: 0x7f0900f3
 			public const int ThemeOverlay_AppCompat = 2131296499;
@@ -4194,6 +6360,36 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f09013d
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131296573;
 			
+			// aapt resource value: 0x7f09014e
+			public const int Widget_Design_AppBarLayout = 2131296590;
+			
+			// aapt resource value: 0x7f09014f
+			public const int Widget_Design_BottomSheet_Modal = 2131296591;
+			
+			// aapt resource value: 0x7f090150
+			public const int Widget_Design_CollapsingToolbar = 2131296592;
+			
+			// aapt resource value: 0x7f090151
+			public const int Widget_Design_CoordinatorLayout = 2131296593;
+			
+			// aapt resource value: 0x7f090152
+			public const int Widget_Design_FloatingActionButton = 2131296594;
+			
+			// aapt resource value: 0x7f090153
+			public const int Widget_Design_NavigationView = 2131296595;
+			
+			// aapt resource value: 0x7f090154
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131296596;
+			
+			// aapt resource value: 0x7f090155
+			public const int Widget_Design_Snackbar = 2131296597;
+			
+			// aapt resource value: 0x7f09013e
+			public const int Widget_Design_TabLayout = 2131296574;
+			
+			// aapt resource value: 0x7f090156
+			public const int Widget_Design_TextInputLayout = 2131296598;
+			
 			static Style()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -4392,6 +6588,30 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 4
 			public const int AlertDialog_singleChoiceItemLayout = 4;
+			
+			public static int[] AppBarLayout = new int[] {
+					16842964,
+					2130771998,
+					2130772181};
+			
+			// aapt resource value: 0
+			public const int AppBarLayout_android_background = 0;
+			
+			// aapt resource value: 1
+			public const int AppBarLayout_elevation = 1;
+			
+			// aapt resource value: 2
+			public const int AppBarLayout_expanded = 2;
+			
+			public static int[] AppBarLayout_LayoutParams = new int[] {
+					2130772182,
+					2130772183};
+			
+			// aapt resource value: 0
+			public const int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
+			
+			// aapt resource value: 1
+			public const int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
 			
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
@@ -4863,11 +7083,89 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 3
 			public const int AppCompatTheme_windowNoTitle = 3;
 			
+			public static int[] BottomSheetBehavior_Params = new int[] {
+					2130772184,
+					2130772185};
+			
+			// aapt resource value: 1
+			public const int BottomSheetBehavior_Params_behavior_hideable = 1;
+			
+			// aapt resource value: 0
+			public const int BottomSheetBehavior_Params_behavior_peekHeight = 0;
+			
 			public static int[] ButtonBarLayout = new int[] {
 					2130772120};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
+			
+			public static int[] CollapsingAppBarLayout_LayoutParams = new int[] {
+					2130772186,
+					2130772187};
+			
+			// aapt resource value: 0
+			public const int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
+			
+			// aapt resource value: 1
+			public const int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
+			
+			public static int[] CollapsingToolbarLayout = new int[] {
+					2130771975,
+					2130772188,
+					2130772189,
+					2130772190,
+					2130772191,
+					2130772192,
+					2130772193,
+					2130772194,
+					2130772195,
+					2130772196,
+					2130772197,
+					2130772198,
+					2130772199,
+					2130772200};
+			
+			// aapt resource value: 11
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 11;
+			
+			// aapt resource value: 7
+			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
+			
+			// aapt resource value: 8
+			public const int CollapsingToolbarLayout_contentScrim = 8;
+			
+			// aapt resource value: 12
+			public const int CollapsingToolbarLayout_expandedTitleGravity = 12;
+			
+			// aapt resource value: 1
+			public const int CollapsingToolbarLayout_expandedTitleMargin = 1;
+			
+			// aapt resource value: 5
+			public const int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
+			
+			// aapt resource value: 4
+			public const int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
+			
+			// aapt resource value: 2
+			public const int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
+			
+			// aapt resource value: 3
+			public const int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
+			
+			// aapt resource value: 6
+			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
+			
+			// aapt resource value: 9
+			public const int CollapsingToolbarLayout_statusBarScrim = 9;
+			
+			// aapt resource value: 0
+			public const int CollapsingToolbarLayout_title = 0;
+			
+			// aapt resource value: 13
+			public const int CollapsingToolbarLayout_titleEnabled = 13;
+			
+			// aapt resource value: 10
+			public const int CollapsingToolbarLayout_toolbarId = 10;
 			
 			public static int[] CompoundButton = new int[] {
 					16843015,
@@ -4882,6 +7180,52 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
+			
+			public static int[] CoordinatorLayout = new int[] {
+					2130772201,
+					2130772202};
+			
+			// aapt resource value: 0
+			public const int CoordinatorLayout_keylines = 0;
+			
+			// aapt resource value: 1
+			public const int CoordinatorLayout_statusBarBackground = 1;
+			
+			public static int[] CoordinatorLayout_LayoutParams = new int[] {
+					16842931,
+					2130772203,
+					2130772204,
+					2130772205,
+					2130772206};
+			
+			// aapt resource value: 0
+			public const int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
+			
+			// aapt resource value: 2
+			public const int CoordinatorLayout_LayoutParams_layout_anchor = 2;
+			
+			// aapt resource value: 4
+			public const int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
+			
+			// aapt resource value: 1
+			public const int CoordinatorLayout_LayoutParams_layout_behavior = 1;
+			
+			// aapt resource value: 3
+			public const int CoordinatorLayout_LayoutParams_layout_keyline = 3;
+			
+			public static int[] DesignTheme = new int[] {
+					2130772207,
+					2130772208,
+					2130772209};
+			
+			// aapt resource value: 0
+			public const int DesignTheme_bottomSheetDialogTheme = 0;
+			
+			// aapt resource value: 1
+			public const int DesignTheme_bottomSheetStyle = 1;
+			
+			// aapt resource value: 2
+			public const int DesignTheme_textColorError = 2;
 			
 			public static int[] DrawerArrowToggle = new int[] {
 					2130772123,
@@ -4916,6 +7260,54 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] FloatingActionButton = new int[] {
+					2130771998,
+					2130772179,
+					2130772180,
+					2130772210,
+					2130772211,
+					2130772212,
+					2130772213,
+					2130772214};
+			
+			// aapt resource value: 1
+			public const int FloatingActionButton_backgroundTint = 1;
+			
+			// aapt resource value: 2
+			public const int FloatingActionButton_backgroundTintMode = 2;
+			
+			// aapt resource value: 6
+			public const int FloatingActionButton_borderWidth = 6;
+			
+			// aapt resource value: 0
+			public const int FloatingActionButton_elevation = 0;
+			
+			// aapt resource value: 4
+			public const int FloatingActionButton_fabSize = 4;
+			
+			// aapt resource value: 5
+			public const int FloatingActionButton_pressedTranslationZ = 5;
+			
+			// aapt resource value: 3
+			public const int FloatingActionButton_rippleColor = 3;
+			
+			// aapt resource value: 7
+			public const int FloatingActionButton_useCompatPadding = 7;
+			
+			public static int[] ForegroundLinearLayout = new int[] {
+					16843017,
+					16843264,
+					2130772215};
+			
+			// aapt resource value: 0
+			public const int ForegroundLinearLayout_android_foreground = 0;
+			
+			// aapt resource value: 1
+			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
+			
+			// aapt resource value: 2
+			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
@@ -5114,8 +7506,8 @@ namespace EsMo.Android.WeiBo
 			public const int MenuView_preserveIconSpacing = 7;
 			
 			public static int[] MvxBinding = new int[] {
-					2130772182,
-					2130772183};
+					2130772251,
+					2130772252};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -5124,26 +7516,26 @@ namespace EsMo.Android.WeiBo
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130772184};
+					2130772253};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130772187};
+					2130772256};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130772188};
+					2130772257};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130772185,
-					2130772186};
+					2130772254,
+					2130772255};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
@@ -5152,10 +7544,52 @@ namespace EsMo.Android.WeiBo
 			public const int MvxListView_MvxItemTemplate = 0;
 			
 			public static int[] MvxRecyclerView = new int[] {
-					2130772181};
+					2130772250};
 			
 			// aapt resource value: 0
 			public const int MvxRecyclerView_MvxTemplateSelector = 0;
+			
+			public static int[] NavigationView = new int[] {
+					16842964,
+					16842973,
+					16843039,
+					2130771998,
+					2130772216,
+					2130772217,
+					2130772218,
+					2130772219,
+					2130772220,
+					2130772221};
+			
+			// aapt resource value: 0
+			public const int NavigationView_android_background = 0;
+			
+			// aapt resource value: 1
+			public const int NavigationView_android_fitsSystemWindows = 1;
+			
+			// aapt resource value: 2
+			public const int NavigationView_android_maxWidth = 2;
+			
+			// aapt resource value: 3
+			public const int NavigationView_elevation = 3;
+			
+			// aapt resource value: 9
+			public const int NavigationView_headerLayout = 9;
+			
+			// aapt resource value: 7
+			public const int NavigationView_itemBackground = 7;
+			
+			// aapt resource value: 5
+			public const int NavigationView_itemIconTint = 5;
+			
+			// aapt resource value: 8
+			public const int NavigationView_itemTextAppearance = 8;
+			
+			// aapt resource value: 6
+			public const int NavigationView_itemTextColor = 6;
+			
+			// aapt resource value: 4
+			public const int NavigationView_menu = 4;
 			
 			public static int[] PopupWindow = new int[] {
 					16843126,
@@ -5194,6 +7628,18 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 4
 			public const int RecyclerView_stackFromEnd = 4;
+			
+			public static int[] ScrimInsetsFrameLayout = new int[] {
+					2130772222};
+			
+			// aapt resource value: 0
+			public const int ScrimInsetsFrameLayout_insetForeground = 0;
+			
+			public static int[] ScrollingViewBehavior_Params = new int[] {
+					2130772223};
+			
+			// aapt resource value: 0
+			public const int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -5265,6 +7711,20 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
 			
+			public static int[] SnackbarLayout = new int[] {
+					16843039,
+					2130771998,
+					2130772224};
+			
+			// aapt resource value: 0
+			public const int SnackbarLayout_android_maxWidth = 0;
+			
+			// aapt resource value: 1
+			public const int SnackbarLayout_elevation = 1;
+			
+			// aapt resource value: 2
+			public const int SnackbarLayout_maxActionInlineWidth = 2;
+			
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
@@ -5329,6 +7789,86 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 3
 			public const int SwitchCompat_track = 3;
 			
+			public static int[] TabItem = new int[] {
+					16842754,
+					16842994,
+					16843087};
+			
+			// aapt resource value: 0
+			public const int TabItem_android_icon = 0;
+			
+			// aapt resource value: 1
+			public const int TabItem_android_layout = 1;
+			
+			// aapt resource value: 2
+			public const int TabItem_android_text = 2;
+			
+			public static int[] TabLayout = new int[] {
+					2130772225,
+					2130772226,
+					2130772227,
+					2130772228,
+					2130772229,
+					2130772230,
+					2130772231,
+					2130772232,
+					2130772233,
+					2130772234,
+					2130772235,
+					2130772236,
+					2130772237,
+					2130772238,
+					2130772239,
+					2130772240};
+			
+			// aapt resource value: 3
+			public const int TabLayout_tabBackground = 3;
+			
+			// aapt resource value: 2
+			public const int TabLayout_tabContentStart = 2;
+			
+			// aapt resource value: 5
+			public const int TabLayout_tabGravity = 5;
+			
+			// aapt resource value: 0
+			public const int TabLayout_tabIndicatorColor = 0;
+			
+			// aapt resource value: 1
+			public const int TabLayout_tabIndicatorHeight = 1;
+			
+			// aapt resource value: 7
+			public const int TabLayout_tabMaxWidth = 7;
+			
+			// aapt resource value: 6
+			public const int TabLayout_tabMinWidth = 6;
+			
+			// aapt resource value: 4
+			public const int TabLayout_tabMode = 4;
+			
+			// aapt resource value: 15
+			public const int TabLayout_tabPadding = 15;
+			
+			// aapt resource value: 14
+			public const int TabLayout_tabPaddingBottom = 14;
+			
+			// aapt resource value: 13
+			public const int TabLayout_tabPaddingEnd = 13;
+			
+			// aapt resource value: 11
+			public const int TabLayout_tabPaddingStart = 11;
+			
+			// aapt resource value: 12
+			public const int TabLayout_tabPaddingTop = 12;
+			
+			// aapt resource value: 10
+			public const int TabLayout_tabSelectedTextColor = 10;
+			
+			// aapt resource value: 8
+			public const int TabLayout_tabTextAppearance = 8;
+			
+			// aapt resource value: 9
+			public const int TabLayout_tabTextColor = 9;
+			
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -5366,6 +7906,52 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 8
 			public const int TextAppearance_textAllCaps = 8;
+			
+			public static int[] TextInputLayout = new int[] {
+					16842906,
+					16843088,
+					2130772241,
+					2130772242,
+					2130772243,
+					2130772244,
+					2130772245,
+					2130772246,
+					2130772247,
+					2130772248,
+					2130772249};
+			
+			// aapt resource value: 1
+			public const int TextInputLayout_android_hint = 1;
+			
+			// aapt resource value: 0
+			public const int TextInputLayout_android_textColorHint = 0;
+			
+			// aapt resource value: 6
+			public const int TextInputLayout_counterEnabled = 6;
+			
+			// aapt resource value: 7
+			public const int TextInputLayout_counterMaxLength = 7;
+			
+			// aapt resource value: 9
+			public const int TextInputLayout_counterOverflowTextAppearance = 9;
+			
+			// aapt resource value: 8
+			public const int TextInputLayout_counterTextAppearance = 8;
+			
+			// aapt resource value: 4
+			public const int TextInputLayout_errorEnabled = 4;
+			
+			// aapt resource value: 5
+			public const int TextInputLayout_errorTextAppearance = 5;
+			
+			// aapt resource value: 10
+			public const int TextInputLayout_hintAnimationEnabled = 10;
+			
+			// aapt resource value: 3
+			public const int TextInputLayout_hintEnabled = 3;
+			
+			// aapt resource value: 2
+			public const int TextInputLayout_hintTextAppearance = 2;
 			
 			public static int[] Toolbar = new int[] {
 					16842927,

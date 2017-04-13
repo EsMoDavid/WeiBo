@@ -60,10 +60,10 @@ namespace EsMo.Sina.SDK.Model
         {
             if(!fillAccount)
             {
-                this.webView.EvalJavaScript(FillAccount);
+                this.WebView.EvalJavaScript(FillAccount);
                 this.fillAccount = true;
             }
-            else if(this.webView.Uri.ToString()== "https://api.weibo.com/oauth2/authorize")
+            else if(this.WebView.Uri.ToString()== "https://api.weibo.com/oauth2/authorize")
             {
                 //authorize
             }
