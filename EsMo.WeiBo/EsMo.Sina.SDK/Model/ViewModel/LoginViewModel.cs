@@ -49,25 +49,27 @@ namespace EsMo.Sina.SDK.Model
 
         Task<string> GetLoginPage()
         {
-            return this.loginService.GetAuthPage(null, null);
+            //return this.loginService.GetAuthPage(null, null);
+            return this.loginService.GetAuthPage("chunxiangxue@sina.com", "xuE1112");
         }
-      
+
         public override void Appearing()
         {
             this.WebView.LoadHtmlString(GetLoginPage().Result, GlobalURI.SinaApi.ToSchemaHttps());
         }
         private void WebView_LoadFinished(object sender, EventArgs e)
         {
+            string url = this.WebView.Uri.ToString();
             if(!fillAccount)
             {
                 this.WebView.EvalJavaScript(FillAccount);
                 this.fillAccount = true;
             }
-            else if(this.WebView.Uri.ToString()== "https://api.weibo.com/oauth2/authorize")
+            else if(url.StartsWith("https://api.weibo.com/oauth2/authorize"))
             {
                 //authorize
             }
-            else 
+            else if(url.StartsWith(GlobalURI.XCallback))
             {
                 this.ShowViewModel<StartupViewModel>(new Dictionary<string, string> { { StartupViewModel.LoginUrl, this.WebView.Uri.ToString() } });
             }

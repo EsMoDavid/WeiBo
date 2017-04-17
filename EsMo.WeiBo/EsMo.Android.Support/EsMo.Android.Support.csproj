@@ -54,6 +54,7 @@
     <Compile Include="Async\AsyncTask.cs" />
     <Compile Include="Events\Events.cs" />
     <Compile Include="Extension.cs" />
+    <Compile Include="Utils\UIUtils.cs" />
     <Compile Include="Views\BaseHolder.cs" />
     <Compile Include="Views\MainListView.cs" />
     <Compile Include="Views\RefreshRecyclerView.cs" />

@@ -1770,29 +1770,29 @@ namespace EsMo.Android.WeiBo
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f01011b
-			public const int MvxBind = 2130772251;
-			
 			// aapt resource value: 0x7f01011f
-			public const int MvxDropDownItemTemplate = 2130772255;
+			public const int MvxBind = 2130772255;
+			
+			// aapt resource value: 0x7f010123
+			public const int MvxDropDownItemTemplate = 2130772259;
+			
+			// aapt resource value: 0x7f010124
+			public const int MvxGroupItemTemplate = 2130772260;
+			
+			// aapt resource value: 0x7f010122
+			public const int MvxItemTemplate = 2130772258;
 			
 			// aapt resource value: 0x7f010120
-			public const int MvxGroupItemTemplate = 2130772256;
+			public const int MvxLang = 2130772256;
 			
-			// aapt resource value: 0x7f01011e
-			public const int MvxItemTemplate = 2130772254;
-			
-			// aapt resource value: 0x7f01011c
-			public const int MvxLang = 2130772252;
+			// aapt resource value: 0x7f010125
+			public const int MvxSource = 2130772261;
 			
 			// aapt resource value: 0x7f010121
-			public const int MvxSource = 2130772257;
+			public const int MvxTemplate = 2130772257;
 			
-			// aapt resource value: 0x7f01011d
-			public const int MvxTemplate = 2130772253;
-			
-			// aapt resource value: 0x7f01011a
-			public const int MvxTemplateSelector = 2130772250;
+			// aapt resource value: 0x7f01011e
+			public const int MvxTemplateSelector = 2130772254;
 			
 			// aapt resource value: 0x7f01003f
 			public const int actionBarDivider = 2130772031;
@@ -1947,11 +1947,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100d8
 			public const int behavior_peekHeight = 2130772184;
 			
-			// aapt resource value: 0x7f01012d
-			public const int bg_timeline_item = 2130772269;
+			// aapt resource value: 0x7f010131
+			public const int bg_timeline_item = 2130772273;
 			
-			// aapt resource value: 0x7f01012b
-			public const int bg_timline_item = 2130772267;
+			// aapt resource value: 0x7f01012f
+			public const int bg_timline_item = 2130772271;
 			
 			// aapt resource value: 0x7f0100f5
 			public const int borderWidth = 2130772213;
@@ -2000,6 +2000,18 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f01008f
 			public const int checkedTextViewStyle = 2130772111;
+			
+			// aapt resource value: 0x7f01011b
+			public const int civ_border_color = 2130772251;
+			
+			// aapt resource value: 0x7f01011c
+			public const int civ_border_overlay = 2130772252;
+			
+			// aapt resource value: 0x7f01011a
+			public const int civ_border_width = 2130772250;
+			
+			// aapt resource value: 0x7f01011d
+			public const int civ_fill_color = 2130772253;
 			
 			// aapt resource value: 0x7f0100b1
 			public const int closeIcon = 2130772145;
@@ -2106,8 +2118,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01005f
 			public const int dividerVertical = 2130772063;
 			
-			// aapt resource value: 0x7f01012a
-			public const int divider_timeline_item = 2130772266;
+			// aapt resource value: 0x7f01012e
+			public const int divider_timeline_item = 2130772270;
 			
 			// aapt resource value: 0x7f01009d
 			public const int drawableSize = 2130772125;
@@ -2169,11 +2181,11 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100f3
 			public const int fabSize = 2130772211;
 			
-			// aapt resource value: 0x7f010126
-			public const int fits_windows = 2130772262;
+			// aapt resource value: 0x7f01012a
+			public const int fits_windows = 2130772266;
 			
-			// aapt resource value: 0x7f010125
-			public const int flat_text = 2130772261;
+			// aapt resource value: 0x7f010129
+			public const int flat_text = 2130772265;
 			
 			// aapt resource value: 0x7f0100f7
 			public const int foregroundInsidePadding = 2130772215;
@@ -2325,8 +2337,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0100f8
 			public const int menu = 2130772216;
 			
-			// aapt resource value: 0x7f01012c
-			public const int menu_header_height = 2130772268;
+			// aapt resource value: 0x7f010130
+			public const int menu_header_height = 2130772272;
 			
 			// aapt resource value: 0x7f010025
 			public const int multiChoiceItemLayout = 2130772005;
@@ -2571,26 +2583,26 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f01006b
 			public const int textColorSearchUrl = 2130772075;
 			
-			// aapt resource value: 0x7f010129
-			public const int text_body = 2130772265;
+			// aapt resource value: 0x7f01012d
+			public const int text_body = 2130772269;
 			
-			// aapt resource value: 0x7f010128
-			public const int text_subhead = 2130772264;
+			// aapt resource value: 0x7f01012c
+			public const int text_subhead = 2130772268;
 			
-			// aapt resource value: 0x7f010127
-			public const int text_title = 2130772263;
+			// aapt resource value: 0x7f01012b
+			public const int text_title = 2130772267;
 			
 			// aapt resource value: 0x7f0100d2
 			public const int theme = 2130772178;
 			
-			// aapt resource value: 0x7f010124
-			public const int theme_background = 2130772260;
+			// aapt resource value: 0x7f010128
+			public const int theme_background = 2130772264;
 			
-			// aapt resource value: 0x7f010122
-			public const int theme_color = 2130772258;
+			// aapt resource value: 0x7f010126
+			public const int theme_color = 2130772262;
 			
-			// aapt resource value: 0x7f010123
-			public const int theme_statusbar_color = 2130772259;
+			// aapt resource value: 0x7f010127
+			public const int theme_statusbar_color = 2130772263;
 			
 			// aapt resource value: 0x7f0100a2
 			public const int thickness = 2130772130;
@@ -4598,6 +4610,9 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f060041
 			public const int image = 2131099713;
 			
+			// aapt resource value: 0x7f060085
+			public const int imgProfile = 2131099781;
+			
 			// aapt resource value: 0x7f060082
 			public const int info = 2131099778;
 			
@@ -4814,8 +4829,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f060017
 			public const int wrap_content = 2131099671;
 			
-			// aapt resource value: 0x7f060085
-			public const int wvAuth = 2131099781;
+			// aapt resource value: 0x7f060086
+			public const int wvAuth = 2131099782;
 			
 			static Id()
 			{
@@ -5015,10 +5030,13 @@ namespace EsMo.Android.WeiBo
 			public const int SplashScreen = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int support_simple_spinner_dropdown_item = 2130903090;
+			public const int StartupView = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int WebAuth = 2130903091;
+			public const int support_simple_spinner_dropdown_item = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int WebAuth = 2130903092;
 			
 			static Layout()
 			{
@@ -7099,6 +7117,24 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
+			public static int[] CircleImageView = new int[] {
+					2130772250,
+					2130772251,
+					2130772252,
+					2130772253};
+			
+			// aapt resource value: 1
+			public const int CircleImageView_civ_border_color = 1;
+			
+			// aapt resource value: 2
+			public const int CircleImageView_civ_border_overlay = 2;
+			
+			// aapt resource value: 0
+			public const int CircleImageView_civ_border_width = 0;
+			
+			// aapt resource value: 3
+			public const int CircleImageView_civ_fill_color = 3;
+			
 			public static int[] CollapsingAppBarLayout_LayoutParams = new int[] {
 					2130772186,
 					2130772187};
@@ -7506,8 +7542,8 @@ namespace EsMo.Android.WeiBo
 			public const int MenuView_preserveIconSpacing = 7;
 			
 			public static int[] MvxBinding = new int[] {
-					2130772251,
-					2130772252};
+					2130772255,
+					2130772256};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -7516,26 +7552,26 @@ namespace EsMo.Android.WeiBo
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130772253};
+					2130772257};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130772256};
+					2130772260};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130772257};
+					2130772261};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130772254,
-					2130772255};
+					2130772258,
+					2130772259};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
@@ -7544,7 +7580,7 @@ namespace EsMo.Android.WeiBo
 			public const int MvxListView_MvxItemTemplate = 0;
 			
 			public static int[] MvxRecyclerView = new int[] {
-					2130772250};
+					2130772254};
 			
 			// aapt resource value: 0
 			public const int MvxRecyclerView_MvxTemplateSelector = 0;

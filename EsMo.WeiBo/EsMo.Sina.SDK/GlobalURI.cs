@@ -12,7 +12,7 @@ namespace EsMo.Sina.SDK
     {
         const string SchemaHttps = "https://";
         public const string SinaApi = "api.weibo.com";
-        public static string XCallback = "http://boyqiang520.s8.csome.cn/oauth2/";
+        public const string XCallback = "http://boyqiang520.s8.csome.cn/oauth2/";
 
         public static string Auth = SinaApi + "/" + string.Format("oauth2/authorize?client_id={0}&scope=friendships_groups_read,friendships_groups_write,statuses_to_me_read,follow_app_official_microblog&redirect_uri={1}&display=mobile&forcelogin=true"
             , App.ClientID, XCallback);

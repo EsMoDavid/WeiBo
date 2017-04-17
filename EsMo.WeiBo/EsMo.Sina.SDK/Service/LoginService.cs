@@ -13,10 +13,6 @@ namespace EsMo.Sina.SDK.Service
     public class LoginService :SinaNetworkService,  ILoginService
     {
         const string oauthPath = "EsMo.Sina.SDK.Assets.JS.oauth.js";
-
-        const string FillAccount = "fillAccount()";
-        const string CallBackUrl = "http://boyqiang520.s8.csome.cn/oauth2/";
-
         public LoginService()
         {
         }

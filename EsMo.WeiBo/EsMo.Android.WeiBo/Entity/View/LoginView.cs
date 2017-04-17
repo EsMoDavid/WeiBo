@@ -14,7 +14,7 @@ using EsMo.Sina.SDK.Model;
 using Android.Content.PM;
 using Android.Support.Design.Widget;
 using CheeseBind;
-using EsMo.Android.WeiBo.Entity.Element;
+using EsMo.Android.WeiBo.Entity;
 
 namespace EsMo.Android.WeiBo.Entity
 {
