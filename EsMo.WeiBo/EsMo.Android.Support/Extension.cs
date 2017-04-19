@@ -22,7 +22,7 @@ namespace EsMo.Android.Support
             return new Java.Lang.String(str);
         }
     }
-    internal static class ViewExtension
+    public static class ViewExtension
     {
         public static void SetTextPixelSize(this TextView textView, double pixelSize)
         {

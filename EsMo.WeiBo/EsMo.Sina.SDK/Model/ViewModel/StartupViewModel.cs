@@ -80,7 +80,6 @@ namespace EsMo.Sina.SDK.Model
         async Task Startup()
         {
             this.IsLoggingIn = true;
-
             this.StatusText = AppResources.Loading + " " + AppResources.User;
             Account account = await this.accountService.LoginWithToken(loginUrl);
             Debug.WriteLine("Login account");
@@ -96,8 +95,8 @@ namespace EsMo.Sina.SDK.Model
                 await Task.Delay(2000);
                 await this.accountService.InitialAccountInfo(account);
                 Debug.WriteLine("Initial Account");
-                this.ShowViewModel<MenuViewModel>();
-                this.ShowViewModel<MainViewModel>();
+                //this.ShowViewModel<MenuViewModel>();
+                //this.ShowViewModel<MainViewModel>();
             }
             this.IsLoggingIn = false;
         }

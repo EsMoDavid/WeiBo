@@ -111,25 +111,29 @@ namespace EsMo.Android.Support
 			
 			public static int[] RecyclerView = new int[] {
 					16842948,
+					16842993,
 					2130771968,
 					2130771969,
 					2130771970,
 					2130771971};
 			
+			// aapt resource value: 1
+			public static int RecyclerView_android_descendantFocusability = 1;
+			
 			// aapt resource value: 0
 			public static int RecyclerView_android_orientation = 0;
 			
-			// aapt resource value: 1
-			public static int RecyclerView_layoutManager = 1;
-			
-			// aapt resource value: 3
-			public static int RecyclerView_reverseLayout = 3;
-			
 			// aapt resource value: 2
-			public static int RecyclerView_spanCount = 2;
+			public static int RecyclerView_layoutManager = 2;
 			
 			// aapt resource value: 4
-			public static int RecyclerView_stackFromEnd = 4;
+			public static int RecyclerView_reverseLayout = 4;
+			
+			// aapt resource value: 3
+			public static int RecyclerView_spanCount = 3;
+			
+			// aapt resource value: 5
+			public static int RecyclerView_stackFromEnd = 5;
 			
 			static Styleable()
 			{

@@ -23,4 +23,5 @@ namespace EsMo.Android.WeiBo.Entity
             this.ViewModel.Appearing();
         }
     }
+    
 }
