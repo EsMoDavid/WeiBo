@@ -8,14 +8,15 @@
     android:minWidth="25px"
     android:minHeight="25px"
     android:background="#ffff0000">
-<!--<MvvmCross.Binding.Droid.Views.MvxImageView
+<MvvmCross.Binding.Droid.Views.MvxImageView
         android:layout_width="128dp"
         android:layout_height="128dp"
+        android:scaleType="fitXY"
         local:MvxBind="ImageUrl ProfileUrl"
-        android:id="@+id/imgProfile" />-->
+        android:id="@+id/imgProfile" />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#ffffffff" />
+        local:MvxBind="Text StatusText" />
 </LinearLayout>

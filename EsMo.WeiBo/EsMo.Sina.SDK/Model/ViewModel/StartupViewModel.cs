@@ -83,13 +83,13 @@ namespace EsMo.Sina.SDK.Model
             this.StatusText = AppResources.Loading + " " + AppResources.User;
             Account account = await this.accountService.LoginWithToken(loginUrl);
             Debug.WriteLine("Login account");
-            await Task.Delay(1000);
+            //await Task.Delay(1000);
             if (account != null)
             {
                 this.GetApplication().Account = account;
                 await this.accountService.InitialUserShow(account);
                 Debug.WriteLine("Get AccountShow");
-
+                
                 this.StatusText = AppResources.Loading + " " + account.Show.ScreenName;
                 this.ProfileUrl = account.Show.ProfileImageUrl;
                 await Task.Delay(2000);

@@ -21,7 +21,7 @@ namespace EsMo.Android.WeiBo.Entity
       )]
     public class StartupView : BaseView<StartupViewModel>
     {
-        //[BindView(Resource.Id.imgProfile)]
+        [BindView(Resource.Id.imgProfile)]
         MvxImageView imgProfile;
         [BindView(Resource.Id.textView1)]
         TextView textView1;
@@ -29,10 +29,9 @@ namespace EsMo.Android.WeiBo.Entity
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             this.SetContentView(Resource.Layout.StartupView);
+            this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             Cheeseknife.Bind(this);
-            this.textView1.Click += TextView1_Click;
             this.ViewModel.StartupCommand.Execute(null);
             if (this.ActionBar != null)
             {
@@ -41,33 +40,27 @@ namespace EsMo.Android.WeiBo.Entity
             }
         }
 
-        private void TextView1_Click(object sender, System.EventArgs e)
-        {
-            
-        }
+     
 
-        int count = 0;
-        private  void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        private void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            if(e.PropertyName=="StatusText")
-            {
-                count++;
-                this.textView1.Text = this.ViewModel.StatusText;
-            }
-            //string str = "http://tvax4.sinaimg.cn/default/images/default_avatar_male_50.gif";
-            //if (e.PropertyName == "ProfileUrl")
+            //if (e.PropertyName == "StatusText")
             //{
-            //    //Picasso.With(this).Load(this.ViewModel.ProfileUrl).Into(this.imgProfile);
-            //    HttpClient client = new HttpClient();
-            //    var response = await client.GetAsync(str);
-            //    if (response.IsSuccessStatusCode)
-            //    {
-            //        Stream stream = response.Content.ReadAsStreamAsync().Result;
-            //        //MvxImageView
-            //        this.imgProfile.SetImageSource(stream);
-            //        this.imgProfile.Ur
-            //    }
+            //    count++;
+            //    this.textView1.Text = this.ViewModel.StatusText;
             //}
+            string str = "http://tvax4.sinaimg.cn/default/images/default_avatar_male_50.gif";
+            if (e.PropertyName == "ProfileUrl")
+            {
+
+                //Picasso.With(this).Load(this.ViewModel.ProfileUrl).Into(this.imgProfile);
+                //imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
+                imgProfile.ImageUrl= "http://tvax4.sinaimg.cn/default/images/default_avatar_female_50.gif";
+               // HttpClient client = new HttpClient();
+               // var response =  client.GetAsync(str).Result;
+               //var stream= response.Content.ReadAsStreamAsync().Result;
+               // imgProfile.SetImageSource(stream);
+            }
         }
     }
 }
