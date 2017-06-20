@@ -16,6 +16,7 @@ using MvvmCross.Platform.IoC;
 using MvvmCross.Droid.Views;
 using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Platform;
+using System.Reflection;
 
 namespace EsMo.Android.WeiBo
 {
@@ -43,5 +44,19 @@ namespace EsMo.Android.WeiBo
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
             return mvxFragmentsPresenter;
         }
+
+        //protected override IDictionary<string, string> ViewNamespaceAbbreviations
+        //=> new Dictionary<string, string>
+        //{
+        //    {
+        //        "Mvx", "MvvmCross.Binding.Droid.Views"
+        //    }
+        //};
+        protected override IEnumerable<Assembly> AndroidViewAssemblies
+        => new List<Assembly>(base.AndroidViewAssemblies)
+        {
+            typeof(global::MvvmCross.Binding.Droid.Views.MvxImageView).Assembly,
+            //typeof(global::MvvmCross.Binding.Droid.Views.MvxListItemView).Assembly
+        };
     }
 }

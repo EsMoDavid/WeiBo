@@ -7,6 +7,7 @@ using CheeseBind;
 using EsMo.Android.Support;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Droid.Support.V7.AppCompat.Widget;
 using System.IO;
 using System.Net.Http;
 
@@ -22,16 +23,18 @@ namespace EsMo.Android.WeiBo.Entity
     public class StartupView : BaseView<StartupViewModel>
     {
         [BindView(Resource.Id.imgProfile)]
-        MvxImageView imgProfile;
+        MvxAppCompatImageView imgProfile;
         [BindView(Resource.Id.textView1)]
         TextView textView1;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            
             base.OnCreate(savedInstanceState);
             this.SetContentView(Resource.Layout.StartupView);
             this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             Cheeseknife.Bind(this);
+            this.imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
             this.ViewModel.StartupCommand.Execute(null);
             if (this.ActionBar != null)
             {

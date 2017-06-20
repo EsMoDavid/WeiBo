@@ -8,11 +8,11 @@
     android:minWidth="25px"
     android:minHeight="25px"
     android:background="#ffff0000">
-<MvvmCross.Binding.Droid.Views.MvxImageView
+    <MvxImageView
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:scaleType="fitXY"
-        local:MvxBind="ImageUrl ProfileUrl"
+     
         android:id="@+id/imgProfile" />
     <TextView
         android:id="@+id/textView1"
