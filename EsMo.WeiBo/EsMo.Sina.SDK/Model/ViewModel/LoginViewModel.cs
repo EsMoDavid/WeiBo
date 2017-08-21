@@ -19,6 +19,7 @@ namespace EsMo.Sina.SDK.Model
         ILoginService loginService;
         IWebView webView;
         bool fillAccount;
+        bool hasShowStartup;
         const string FillAccount = "fillAccount()";
         public LoginViewModel(ILoginService loginService, IAccountService accountService)
         {
@@ -69,9 +70,10 @@ namespace EsMo.Sina.SDK.Model
             {
                 //authorize
             }
-            else if(url.StartsWith(GlobalURI.XCallback))
+            else if(url.StartsWith(GlobalURI.XCallback) &&!this.hasShowStartup)
             {
                 this.ShowViewModel<StartupViewModel>(new Dictionary<string, string> { { StartupViewModel.LoginUrl, this.WebView.Uri.ToString() } });
+                this.hasShowStartup = true;
             }
         }
         #endregion
