@@ -2,6 +2,7 @@
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Android.Views;
 using Android.Widget;
 using CheeseBind;
 using EsMo.Android.Support;
@@ -18,7 +19,7 @@ namespace EsMo.Android.WeiBo.Entity
         LaunchMode = LaunchMode.SingleTop,
         ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize,
         Name = "esmo.android.weibo.entity.StartupView",
-        NoHistory =true
+        NoHistory = true
       )]
     public class StartupView : BaseView<StartupViewModel>
     {
@@ -26,42 +27,37 @@ namespace EsMo.Android.WeiBo.Entity
         MvxAppCompatImageView imgProfile;
         [BindView(Resource.Id.textView1)]
         TextView textView1;
-
+        [BindView(Resource.Id.progressBar)]
+        ProgressBar progressBar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             this.SetContentView(Resource.Layout.StartupView);
-            this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             Cheeseknife.Bind(this);
-            this.imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
             this.ViewModel.StartupCommand.Execute(null);
+            this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             if (this.ActionBar != null)
             {
                 this.ActionBar.SetDisplayHomeAsUpEnabled(true);
                 this.ActionBar.SetDisplayShowHomeEnabled(false);
             }
+            this.imgProfile.SetImageSource(this.ViewModel.UnknownProfile);
         }
-
-     
-
         private void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            //if (e.PropertyName == "StatusText")
-            //{
-            //    count++;
-            //    this.textView1.Text = this.ViewModel.StatusText;
-            //}
-            string str = "http://tvax4.sinaimg.cn/default/images/default_avatar_male_50.gif";
-            if (e.PropertyName == "ProfileUrl")
+            switch (e.PropertyName)
             {
-
-                //Picasso.With(this).Load(this.ViewModel.ProfileUrl).Into(this.imgProfile);
-                //imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
-                imgProfile.ImageUrl= "http://tvax4.sinaimg.cn/default/images/default_avatar_female_50.gif";
-               // HttpClient client = new HttpClient();
-               // var response =  client.GetAsync(str).Result;
-               //var stream= response.Content.ReadAsStreamAsync().Result;
-               // imgProfile.SetImageSource(stream);
+                //case nameof(this.ViewModel.IsLoggingIn):
+                //    if (this.ViewModel.IsLoggingIn)
+                //        this.progressBar.Visibility = ViewStates.Visible;
+                //    else
+                //        this.progressBar.Visibility = ViewStates.Gone;
+                //    break;
+                case nameof(this.ViewModel.ProfileUrl):
+                    this.imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
+                    break;
+                default:
+                    break;
             }
         }
     }

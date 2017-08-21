@@ -75,15 +75,13 @@ namespace EsMo.Sina.SDK.Model
             get { return new MvxAsyncCommand(Startup); }
         }
 
-       
-
         async Task Startup()
         {
             this.IsLoggingIn = true;
             this.StatusText = AppResources.Loading + " " + AppResources.User;
             Account account = await this.accountService.LoginWithToken(loginUrl);
             Debug.WriteLine("Login account");
-            //await Task.Delay(1000);
+            await Task.Delay(1000);
             if (account != null)
             {
                 this.GetApplication().Account = account;

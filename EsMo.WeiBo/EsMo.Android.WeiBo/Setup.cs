@@ -17,6 +17,8 @@ using MvvmCross.Droid.Views;
 using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Platform;
 using System.Reflection;
+using MvvmCross.Plugins.Visibility;
+using System.Collections;
 
 namespace EsMo.Android.WeiBo
 {
@@ -44,7 +46,15 @@ namespace EsMo.Android.WeiBo
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
             return mvxFragmentsPresenter;
         }
-
+        protected override IEnumerable<Assembly> ValueConverterAssemblies
+        {
+            get
+            {
+                var toReturn = base.ValueConverterAssemblies as IList;
+                toReturn.Add(typeof(MvxVisibilityValueConverter).Assembly);
+                return (IEnumerable<Assembly>)toReturn;
+            }
+        }
         //protected override IDictionary<string, string> ViewNamespaceAbbreviations
         //=> new Dictionary<string, string>
         //{

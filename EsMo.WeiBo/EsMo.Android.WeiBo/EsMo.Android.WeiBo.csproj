@@ -373,6 +373,10 @@
       <Project>{2ACC3355-C4FE-41F8-9EF1-58692A500631}</Project>
       <Name>EsMo.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EsMo.MvvmCross.Android.Support\EsMo.MvvmCross.Android.Support.csproj">
+      <Project>{015d7959-c53f-4dff-8d41-cf88657e934a}</Project>
+      <Name>EsMo.MvvmCross.Android.Support</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EsMo.MvvmCross.Support\EsMo.MvvmCross.Support.csproj">
       <Project>{ae550252-98a8-4f5b-8d3c-ac2dace69ec9}</Project>
       <Name>EsMo.MvvmCross.Support</Name>

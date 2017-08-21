@@ -6,17 +6,24 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical|center_horizontal"
     android:minWidth="25px"
-    android:minHeight="25px"
-    android:background="#ffff0000">
+    android:minHeight="25px">
     <MvxImageView
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:scaleType="fitXY"
-     
-        android:id="@+id/imgProfile" />
+        android:id="@+id/imgProfile"
+        />
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         local:MvxBind="Text StatusText" />
+  <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        local:MvxBind="Visibility IsLoggingIn, Converter=Visibility"
+        />
 </LinearLayout>
