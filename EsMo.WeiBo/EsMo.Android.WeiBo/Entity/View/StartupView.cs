@@ -29,7 +29,6 @@ namespace EsMo.Android.WeiBo.Entity
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            
             base.OnCreate(savedInstanceState);
             this.SetContentView(Resource.Layout.StartupView);
             this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
