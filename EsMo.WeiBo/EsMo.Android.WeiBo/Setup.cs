@@ -19,6 +19,8 @@ using MvvmCross.Platform;
 using System.Reflection;
 using MvvmCross.Plugins.Visibility;
 using System.Collections;
+using EsMo.Android.WeiBo.Entity.View;
+using MvvmCross.Platform.Droid.Platform;
 
 namespace EsMo.Android.WeiBo
 {
@@ -39,11 +41,31 @@ namespace EsMo.Android.WeiBo
              .AsInterfaces()
              .RegisterAsLazySingleton();
             return new App();
+            
         }
         protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
+            //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            //Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
+            //return mvxFragmentsPresenter;
             var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
+
+            //add a presentation hint handler to listen for pop to root
+            mvxFragmentsPresenter.AddPresentationHintHandler<MvxPanelPopToRootPresentationHint>(hint =>
+            {
+                var activity = Mvx.Resolve<IMvxAndroidCurrentTopActivity>().Activity;
+                var fragmentActivity = activity as global::Android.Support.V4.App.FragmentActivity;
+
+                for (int i = 0; i < fragmentActivity.SupportFragmentManager.BackStackEntryCount; i++)
+                {
+                    fragmentActivity.SupportFragmentManager.PopBackStack();
+                }
+                return true;
+            });
+            //register the presentation hint to pop to root
+            //picked up in the third view model
+            Mvx.RegisterSingleton<MvxPresentationHint>(() => new MvxPanelPopToRootPresentationHint());
             return mvxFragmentsPresenter;
         }
         protected override IEnumerable<Assembly> ValueConverterAssemblies

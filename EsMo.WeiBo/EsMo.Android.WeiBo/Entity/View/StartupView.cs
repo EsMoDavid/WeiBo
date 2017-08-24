@@ -27,8 +27,6 @@ namespace EsMo.Android.WeiBo.Entity
         MvxAppCompatImageView imgProfile;
         [BindView(Resource.Id.textView1)]
         TextView textView1;
-        [BindView(Resource.Id.progressBar)]
-        ProgressBar progressBar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -43,16 +41,11 @@ namespace EsMo.Android.WeiBo.Entity
             }
             this.imgProfile.SetImageSource(this.ViewModel.UnknownProfile);
         }
+
         private void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
             switch (e.PropertyName)
             {
-                //case nameof(this.ViewModel.IsLoggingIn):
-                //    if (this.ViewModel.IsLoggingIn)
-                //        this.progressBar.Visibility = ViewStates.Visible;
-                //    else
-                //        this.progressBar.Visibility = ViewStates.Gone;
-                //    break;
                 case nameof(this.ViewModel.ProfileUrl):
                     this.imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
                     break;

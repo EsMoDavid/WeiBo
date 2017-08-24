@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -12,6 +13,7 @@ namespace EsMo.Common
     {
         public static string StreamToString(this Stream stream, bool dispose = true)
         {
+            Debug.Assert(stream != null);
             stream.Seek(0, SeekOrigin.Begin);
             StreamReader sr = new StreamReader(stream);
             string str = sr.ReadToEnd();

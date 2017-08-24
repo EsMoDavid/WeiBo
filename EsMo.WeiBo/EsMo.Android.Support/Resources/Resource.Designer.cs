@@ -70,134 +70,134 @@ namespace EsMo.Android.Support
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010045
-			public static int actionBarDivider = 2130772037;
-			
-			// aapt resource value: 0x7f010046
-			public static int actionBarItemBackground = 2130772038;
-			
-			// aapt resource value: 0x7f01003f
-			public static int actionBarPopupTheme = 2130772031;
-			
-			// aapt resource value: 0x7f010044
-			public static int actionBarSize = 2130772036;
-			
-			// aapt resource value: 0x7f010041
-			public static int actionBarSplitStyle = 2130772033;
-			
-			// aapt resource value: 0x7f010040
-			public static int actionBarStyle = 2130772032;
-			
-			// aapt resource value: 0x7f01003b
-			public static int actionBarTabBarStyle = 2130772027;
-			
-			// aapt resource value: 0x7f01003a
-			public static int actionBarTabStyle = 2130772026;
-			
-			// aapt resource value: 0x7f01003c
-			public static int actionBarTabTextStyle = 2130772028;
-			
-			// aapt resource value: 0x7f010042
-			public static int actionBarTheme = 2130772034;
-			
-			// aapt resource value: 0x7f010043
-			public static int actionBarWidgetTheme = 2130772035;
-			
-			// aapt resource value: 0x7f010060
-			public static int actionButtonStyle = 2130772064;
-			
-			// aapt resource value: 0x7f01005c
-			public static int actionDropDownStyle = 2130772060;
-			
-			// aapt resource value: 0x7f0100b1
-			public static int actionLayout = 2130772145;
-			
 			// aapt resource value: 0x7f010047
-			public static int actionMenuTextAppearance = 2130772039;
+			public static int actionBarDivider = 2130772039;
 			
 			// aapt resource value: 0x7f010048
-			public static int actionMenuTextColor = 2130772040;
+			public static int actionBarItemBackground = 2130772040;
 			
-			// aapt resource value: 0x7f01004b
-			public static int actionModeBackground = 2130772043;
+			// aapt resource value: 0x7f010041
+			public static int actionBarPopupTheme = 2130772033;
 			
-			// aapt resource value: 0x7f01004a
-			public static int actionModeCloseButtonStyle = 2130772042;
+			// aapt resource value: 0x7f010046
+			public static int actionBarSize = 2130772038;
 			
-			// aapt resource value: 0x7f01004d
-			public static int actionModeCloseDrawable = 2130772045;
+			// aapt resource value: 0x7f010043
+			public static int actionBarSplitStyle = 2130772035;
 			
-			// aapt resource value: 0x7f01004f
-			public static int actionModeCopyDrawable = 2130772047;
-			
-			// aapt resource value: 0x7f01004e
-			public static int actionModeCutDrawable = 2130772046;
-			
-			// aapt resource value: 0x7f010053
-			public static int actionModeFindDrawable = 2130772051;
-			
-			// aapt resource value: 0x7f010050
-			public static int actionModePasteDrawable = 2130772048;
-			
-			// aapt resource value: 0x7f010055
-			public static int actionModePopupWindowStyle = 2130772053;
-			
-			// aapt resource value: 0x7f010051
-			public static int actionModeSelectAllDrawable = 2130772049;
-			
-			// aapt resource value: 0x7f010052
-			public static int actionModeShareDrawable = 2130772050;
-			
-			// aapt resource value: 0x7f01004c
-			public static int actionModeSplitBackground = 2130772044;
-			
-			// aapt resource value: 0x7f010049
-			public static int actionModeStyle = 2130772041;
-			
-			// aapt resource value: 0x7f010054
-			public static int actionModeWebSearchDrawable = 2130772052;
+			// aapt resource value: 0x7f010042
+			public static int actionBarStyle = 2130772034;
 			
 			// aapt resource value: 0x7f01003d
-			public static int actionOverflowButtonStyle = 2130772029;
+			public static int actionBarTabBarStyle = 2130772029;
+			
+			// aapt resource value: 0x7f01003c
+			public static int actionBarTabStyle = 2130772028;
 			
 			// aapt resource value: 0x7f01003e
-			public static int actionOverflowMenuStyle = 2130772030;
+			public static int actionBarTabTextStyle = 2130772030;
 			
-			// aapt resource value: 0x7f0100b3
-			public static int actionProviderClass = 2130772147;
+			// aapt resource value: 0x7f010044
+			public static int actionBarTheme = 2130772036;
 			
-			// aapt resource value: 0x7f0100b2
-			public static int actionViewClass = 2130772146;
+			// aapt resource value: 0x7f010045
+			public static int actionBarWidgetTheme = 2130772037;
 			
-			// aapt resource value: 0x7f010068
-			public static int activityChooserViewStyle = 2130772072;
+			// aapt resource value: 0x7f010062
+			public static int actionButtonStyle = 2130772066;
 			
-			// aapt resource value: 0x7f01008c
-			public static int alertDialogButtonGroupStyle = 2130772108;
+			// aapt resource value: 0x7f01005e
+			public static int actionDropDownStyle = 2130772062;
 			
-			// aapt resource value: 0x7f01008d
-			public static int alertDialogCenterButtons = 2130772109;
+			// aapt resource value: 0x7f0100b4
+			public static int actionLayout = 2130772148;
 			
-			// aapt resource value: 0x7f01008b
-			public static int alertDialogStyle = 2130772107;
+			// aapt resource value: 0x7f010049
+			public static int actionMenuTextAppearance = 2130772041;
+			
+			// aapt resource value: 0x7f01004a
+			public static int actionMenuTextColor = 2130772042;
+			
+			// aapt resource value: 0x7f01004d
+			public static int actionModeBackground = 2130772045;
+			
+			// aapt resource value: 0x7f01004c
+			public static int actionModeCloseButtonStyle = 2130772044;
+			
+			// aapt resource value: 0x7f01004f
+			public static int actionModeCloseDrawable = 2130772047;
+			
+			// aapt resource value: 0x7f010051
+			public static int actionModeCopyDrawable = 2130772049;
+			
+			// aapt resource value: 0x7f010050
+			public static int actionModeCutDrawable = 2130772048;
+			
+			// aapt resource value: 0x7f010055
+			public static int actionModeFindDrawable = 2130772053;
+			
+			// aapt resource value: 0x7f010052
+			public static int actionModePasteDrawable = 2130772050;
+			
+			// aapt resource value: 0x7f010057
+			public static int actionModePopupWindowStyle = 2130772055;
+			
+			// aapt resource value: 0x7f010053
+			public static int actionModeSelectAllDrawable = 2130772051;
+			
+			// aapt resource value: 0x7f010054
+			public static int actionModeShareDrawable = 2130772052;
+			
+			// aapt resource value: 0x7f01004e
+			public static int actionModeSplitBackground = 2130772046;
+			
+			// aapt resource value: 0x7f01004b
+			public static int actionModeStyle = 2130772043;
+			
+			// aapt resource value: 0x7f010056
+			public static int actionModeWebSearchDrawable = 2130772054;
+			
+			// aapt resource value: 0x7f01003f
+			public static int actionOverflowButtonStyle = 2130772031;
+			
+			// aapt resource value: 0x7f010040
+			public static int actionOverflowMenuStyle = 2130772032;
+			
+			// aapt resource value: 0x7f0100b6
+			public static int actionProviderClass = 2130772150;
+			
+			// aapt resource value: 0x7f0100b5
+			public static int actionViewClass = 2130772149;
+			
+			// aapt resource value: 0x7f01006a
+			public static int activityChooserViewStyle = 2130772074;
+			
+			// aapt resource value: 0x7f01008f
+			public static int alertDialogButtonGroupStyle = 2130772111;
+			
+			// aapt resource value: 0x7f010090
+			public static int alertDialogCenterButtons = 2130772112;
 			
 			// aapt resource value: 0x7f01008e
-			public static int alertDialogTheme = 2130772110;
+			public static int alertDialogStyle = 2130772110;
 			
-			// aapt resource value: 0x7f0100a1
-			public static int allowStacking = 2130772129;
+			// aapt resource value: 0x7f010091
+			public static int alertDialogTheme = 2130772113;
 			
-			// aapt resource value: 0x7f0100a2
-			public static int alpha = 2130772130;
+			// aapt resource value: 0x7f0100a4
+			public static int allowStacking = 2130772132;
 			
-			// aapt resource value: 0x7f0100a9
-			public static int arrowHeadLength = 2130772137;
+			// aapt resource value: 0x7f0100a5
+			public static int alpha = 2130772133;
 			
-			// aapt resource value: 0x7f0100aa
-			public static int arrowShaftLength = 2130772138;
+			// aapt resource value: 0x7f0100ac
+			public static int arrowHeadLength = 2130772140;
 			
-			// aapt resource value: 0x7f010093
-			public static int autoCompleteTextViewStyle = 2130772115;
+			// aapt resource value: 0x7f0100ad
+			public static int arrowShaftLength = 2130772141;
+			
+			// aapt resource value: 0x7f010096
+			public static int autoCompleteTextViewStyle = 2130772118;
 			
 			// aapt resource value: 0x7f010010
 			public static int background = 2130771984;
@@ -208,101 +208,101 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010011
 			public static int backgroundStacked = 2130771985;
 			
-			// aapt resource value: 0x7f0100e6
-			public static int backgroundTint = 2130772198;
+			// aapt resource value: 0x7f0100e9
+			public static int backgroundTint = 2130772201;
 			
-			// aapt resource value: 0x7f0100e7
-			public static int backgroundTintMode = 2130772199;
+			// aapt resource value: 0x7f0100ea
+			public static int backgroundTintMode = 2130772202;
 			
-			// aapt resource value: 0x7f0100ab
-			public static int barLength = 2130772139;
+			// aapt resource value: 0x7f0100ae
+			public static int barLength = 2130772142;
 			
-			// aapt resource value: 0x7f010065
-			public static int borderlessButtonStyle = 2130772069;
+			// aapt resource value: 0x7f010067
+			public static int borderlessButtonStyle = 2130772071;
 			
-			// aapt resource value: 0x7f010062
-			public static int buttonBarButtonStyle = 2130772066;
+			// aapt resource value: 0x7f010064
+			public static int buttonBarButtonStyle = 2130772068;
 			
-			// aapt resource value: 0x7f010091
-			public static int buttonBarNegativeButtonStyle = 2130772113;
+			// aapt resource value: 0x7f010094
+			public static int buttonBarNegativeButtonStyle = 2130772116;
 			
-			// aapt resource value: 0x7f010092
-			public static int buttonBarNeutralButtonStyle = 2130772114;
+			// aapt resource value: 0x7f010095
+			public static int buttonBarNeutralButtonStyle = 2130772117;
 			
-			// aapt resource value: 0x7f010090
-			public static int buttonBarPositiveButtonStyle = 2130772112;
+			// aapt resource value: 0x7f010093
+			public static int buttonBarPositiveButtonStyle = 2130772115;
 			
-			// aapt resource value: 0x7f010061
-			public static int buttonBarStyle = 2130772065;
+			// aapt resource value: 0x7f010063
+			public static int buttonBarStyle = 2130772067;
 			
-			// aapt resource value: 0x7f0100db
-			public static int buttonGravity = 2130772187;
+			// aapt resource value: 0x7f0100de
+			public static int buttonGravity = 2130772190;
 			
 			// aapt resource value: 0x7f010025
 			public static int buttonPanelSideLayout = 2130772005;
 			
-			// aapt resource value: 0x7f010094
-			public static int buttonStyle = 2130772116;
-			
-			// aapt resource value: 0x7f010095
-			public static int buttonStyleSmall = 2130772117;
-			
-			// aapt resource value: 0x7f0100a3
-			public static int buttonTint = 2130772131;
-			
-			// aapt resource value: 0x7f0100a4
-			public static int buttonTintMode = 2130772132;
-			
-			// aapt resource value: 0x7f010096
-			public static int checkboxStyle = 2130772118;
-			
 			// aapt resource value: 0x7f010097
-			public static int checkedTextViewStyle = 2130772119;
+			public static int buttonStyle = 2130772119;
 			
-			// aapt resource value: 0x7f0100be
-			public static int closeIcon = 2130772158;
+			// aapt resource value: 0x7f010098
+			public static int buttonStyleSmall = 2130772120;
+			
+			// aapt resource value: 0x7f0100a6
+			public static int buttonTint = 2130772134;
+			
+			// aapt resource value: 0x7f0100a7
+			public static int buttonTintMode = 2130772135;
+			
+			// aapt resource value: 0x7f010099
+			public static int checkboxStyle = 2130772121;
+			
+			// aapt resource value: 0x7f01009a
+			public static int checkedTextViewStyle = 2130772122;
+			
+			// aapt resource value: 0x7f0100c1
+			public static int closeIcon = 2130772161;
 			
 			// aapt resource value: 0x7f010022
 			public static int closeItemLayout = 2130772002;
 			
-			// aapt resource value: 0x7f0100dd
-			public static int collapseContentDescription = 2130772189;
+			// aapt resource value: 0x7f0100e0
+			public static int collapseContentDescription = 2130772192;
 			
-			// aapt resource value: 0x7f0100dc
-			public static int collapseIcon = 2130772188;
+			// aapt resource value: 0x7f0100df
+			public static int collapseIcon = 2130772191;
 			
-			// aapt resource value: 0x7f0100a5
-			public static int color = 2130772133;
-			
-			// aapt resource value: 0x7f010083
-			public static int colorAccent = 2130772099;
-			
-			// aapt resource value: 0x7f01008a
-			public static int colorBackgroundFloating = 2130772106;
-			
-			// aapt resource value: 0x7f010087
-			public static int colorButtonNormal = 2130772103;
-			
-			// aapt resource value: 0x7f010085
-			public static int colorControlActivated = 2130772101;
+			// aapt resource value: 0x7f0100a8
+			public static int color = 2130772136;
 			
 			// aapt resource value: 0x7f010086
-			public static int colorControlHighlight = 2130772102;
+			public static int colorAccent = 2130772102;
 			
-			// aapt resource value: 0x7f010084
-			public static int colorControlNormal = 2130772100;
+			// aapt resource value: 0x7f01008d
+			public static int colorBackgroundFloating = 2130772109;
 			
-			// aapt resource value: 0x7f010081
-			public static int colorPrimary = 2130772097;
-			
-			// aapt resource value: 0x7f010082
-			public static int colorPrimaryDark = 2130772098;
+			// aapt resource value: 0x7f01008a
+			public static int colorButtonNormal = 2130772106;
 			
 			// aapt resource value: 0x7f010088
-			public static int colorSwitchThumbNormal = 2130772104;
+			public static int colorControlActivated = 2130772104;
 			
-			// aapt resource value: 0x7f0100c3
-			public static int commitIcon = 2130772163;
+			// aapt resource value: 0x7f010089
+			public static int colorControlHighlight = 2130772105;
+			
+			// aapt resource value: 0x7f010087
+			public static int colorControlNormal = 2130772103;
+			
+			// aapt resource value: 0x7f010084
+			public static int colorPrimary = 2130772100;
+			
+			// aapt resource value: 0x7f010085
+			public static int colorPrimaryDark = 2130772101;
+			
+			// aapt resource value: 0x7f01008b
+			public static int colorSwitchThumbNormal = 2130772107;
+			
+			// aapt resource value: 0x7f0100c6
+			public static int commitIcon = 2130772166;
 			
 			// aapt resource value: 0x7f01001b
 			public static int contentInsetEnd = 2130771995;
@@ -322,20 +322,20 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f01001e
 			public static int contentInsetStartWithNavigation = 2130771998;
 			
-			// aapt resource value: 0x7f010089
-			public static int controlBackground = 2130772105;
+			// aapt resource value: 0x7f01008c
+			public static int controlBackground = 2130772108;
 			
 			// aapt resource value: 0x7f010013
 			public static int customNavigationLayout = 2130771987;
 			
-			// aapt resource value: 0x7f0100bd
-			public static int defaultQueryHint = 2130772157;
+			// aapt resource value: 0x7f0100c0
+			public static int defaultQueryHint = 2130772160;
 			
-			// aapt resource value: 0x7f01005a
-			public static int dialogPreferredPadding = 2130772058;
+			// aapt resource value: 0x7f01005c
+			public static int dialogPreferredPadding = 2130772060;
 			
-			// aapt resource value: 0x7f010059
-			public static int dialogTheme = 2130772057;
+			// aapt resource value: 0x7f01005b
+			public static int dialogTheme = 2130772059;
 			
 			// aapt resource value: 0x7f010009
 			public static int displayOptions = 2130771977;
@@ -343,35 +343,35 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f01000f
 			public static int divider = 2130771983;
 			
-			// aapt resource value: 0x7f010067
-			public static int dividerHorizontal = 2130772071;
+			// aapt resource value: 0x7f010069
+			public static int dividerHorizontal = 2130772073;
 			
-			// aapt resource value: 0x7f0100af
-			public static int dividerPadding = 2130772143;
+			// aapt resource value: 0x7f0100b2
+			public static int dividerPadding = 2130772146;
 			
-			// aapt resource value: 0x7f010066
-			public static int dividerVertical = 2130772070;
+			// aapt resource value: 0x7f010068
+			public static int dividerVertical = 2130772072;
 			
-			// aapt resource value: 0x7f0100a7
-			public static int drawableSize = 2130772135;
+			// aapt resource value: 0x7f0100aa
+			public static int drawableSize = 2130772138;
 			
 			// aapt resource value: 0x7f010004
 			public static int drawerArrowStyle = 2130771972;
 			
-			// aapt resource value: 0x7f010079
-			public static int dropDownListViewStyle = 2130772089;
+			// aapt resource value: 0x7f01007b
+			public static int dropDownListViewStyle = 2130772091;
 			
-			// aapt resource value: 0x7f01005d
-			public static int dropdownListPreferredItemHeight = 2130772061;
+			// aapt resource value: 0x7f01005f
+			public static int dropdownListPreferredItemHeight = 2130772063;
 			
-			// aapt resource value: 0x7f01006e
-			public static int editTextBackground = 2130772078;
+			// aapt resource value: 0x7f010070
+			public static int editTextBackground = 2130772080;
 			
-			// aapt resource value: 0x7f01006d
-			public static int editTextColor = 2130772077;
+			// aapt resource value: 0x7f01006f
+			public static int editTextColor = 2130772079;
 			
-			// aapt resource value: 0x7f010098
-			public static int editTextStyle = 2130772120;
+			// aapt resource value: 0x7f01009b
+			public static int editTextStyle = 2130772123;
 			
 			// aapt resource value: 0x7f010020
 			public static int elevation = 2130772000;
@@ -379,11 +379,11 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010024
 			public static int expandActivityOverflowButtonDrawable = 2130772004;
 			
-			// aapt resource value: 0x7f0100a8
-			public static int gapBetweenBars = 2130772136;
+			// aapt resource value: 0x7f0100ab
+			public static int gapBetweenBars = 2130772139;
 			
-			// aapt resource value: 0x7f0100bf
-			public static int goIcon = 2130772159;
+			// aapt resource value: 0x7f0100c2
+			public static int goIcon = 2130772162;
 			
 			// aapt resource value: 0x7f010005
 			public static int height = 2130771973;
@@ -391,8 +391,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010019
 			public static int hideOnContentScroll = 2130771993;
 			
-			// aapt resource value: 0x7f01005f
-			public static int homeAsUpIndicator = 2130772063;
+			// aapt resource value: 0x7f010061
+			public static int homeAsUpIndicator = 2130772065;
 			
 			// aapt resource value: 0x7f010014
 			public static int homeLayout = 2130771988;
@@ -400,11 +400,11 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f01000d
 			public static int icon = 2130771981;
 			
-			// aapt resource value: 0x7f0100bb
-			public static int iconifiedByDefault = 2130772155;
+			// aapt resource value: 0x7f0100be
+			public static int iconifiedByDefault = 2130772158;
 			
-			// aapt resource value: 0x7f01006f
-			public static int imageButtonStyle = 2130772079;
+			// aapt resource value: 0x7f010071
+			public static int imageButtonStyle = 2130772081;
 			
 			// aapt resource value: 0x7f010016
 			public static int indeterminateProgressStyle = 2130771990;
@@ -418,17 +418,17 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010018
 			public static int itemPadding = 2130771992;
 			
-			// aapt resource value: 0x7f0100ba
-			public static int layout = 2130772154;
+			// aapt resource value: 0x7f0100bd
+			public static int layout = 2130772157;
 			
 			// aapt resource value: 0x7f010000
 			public static int layoutManager = 2130771968;
 			
-			// aapt resource value: 0x7f010080
-			public static int listChoiceBackgroundIndicator = 2130772096;
+			// aapt resource value: 0x7f010083
+			public static int listChoiceBackgroundIndicator = 2130772099;
 			
-			// aapt resource value: 0x7f01005b
-			public static int listDividerAlertDialog = 2130772059;
+			// aapt resource value: 0x7f01005d
+			public static int listDividerAlertDialog = 2130772061;
 			
 			// aapt resource value: 0x7f010029
 			public static int listItemLayout = 2130772009;
@@ -436,86 +436,86 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010026
 			public static int listLayout = 2130772006;
 			
-			// aapt resource value: 0x7f0100a0
-			public static int listMenuViewStyle = 2130772128;
+			// aapt resource value: 0x7f0100a3
+			public static int listMenuViewStyle = 2130772131;
 			
-			// aapt resource value: 0x7f01007a
-			public static int listPopupWindowStyle = 2130772090;
-			
-			// aapt resource value: 0x7f010074
-			public static int listPreferredItemHeight = 2130772084;
+			// aapt resource value: 0x7f01007c
+			public static int listPopupWindowStyle = 2130772092;
 			
 			// aapt resource value: 0x7f010076
-			public static int listPreferredItemHeightLarge = 2130772086;
-			
-			// aapt resource value: 0x7f010075
-			public static int listPreferredItemHeightSmall = 2130772085;
-			
-			// aapt resource value: 0x7f010077
-			public static int listPreferredItemPaddingLeft = 2130772087;
+			public static int listPreferredItemHeight = 2130772086;
 			
 			// aapt resource value: 0x7f010078
-			public static int listPreferredItemPaddingRight = 2130772088;
+			public static int listPreferredItemHeightLarge = 2130772088;
+			
+			// aapt resource value: 0x7f010077
+			public static int listPreferredItemHeightSmall = 2130772087;
+			
+			// aapt resource value: 0x7f010079
+			public static int listPreferredItemPaddingLeft = 2130772089;
+			
+			// aapt resource value: 0x7f01007a
+			public static int listPreferredItemPaddingRight = 2130772090;
 			
 			// aapt resource value: 0x7f01000e
 			public static int logo = 2130771982;
 			
-			// aapt resource value: 0x7f0100e0
-			public static int logoDescription = 2130772192;
+			// aapt resource value: 0x7f0100e3
+			public static int logoDescription = 2130772195;
 			
-			// aapt resource value: 0x7f0100da
-			public static int maxButtonHeight = 2130772186;
+			// aapt resource value: 0x7f0100dd
+			public static int maxButtonHeight = 2130772189;
 			
-			// aapt resource value: 0x7f0100ad
-			public static int measureWithLargestChild = 2130772141;
+			// aapt resource value: 0x7f0100b0
+			public static int measureWithLargestChild = 2130772144;
 			
 			// aapt resource value: 0x7f010027
 			public static int multiChoiceItemLayout = 2130772007;
 			
-			// aapt resource value: 0x7f0100df
-			public static int navigationContentDescription = 2130772191;
+			// aapt resource value: 0x7f0100e2
+			public static int navigationContentDescription = 2130772194;
 			
-			// aapt resource value: 0x7f0100de
-			public static int navigationIcon = 2130772190;
+			// aapt resource value: 0x7f0100e1
+			public static int navigationIcon = 2130772193;
 			
 			// aapt resource value: 0x7f010008
 			public static int navigationMode = 2130771976;
 			
-			// aapt resource value: 0x7f0100b6
-			public static int overlapAnchor = 2130772150;
-			
-			// aapt resource value: 0x7f0100b8
-			public static int paddingBottomNoButtons = 2130772152;
-			
-			// aapt resource value: 0x7f0100e4
-			public static int paddingEnd = 2130772196;
-			
-			// aapt resource value: 0x7f0100e3
-			public static int paddingStart = 2130772195;
-			
 			// aapt resource value: 0x7f0100b9
-			public static int paddingTopNoTitle = 2130772153;
+			public static int overlapAnchor = 2130772153;
 			
-			// aapt resource value: 0x7f01007d
-			public static int panelBackground = 2130772093;
+			// aapt resource value: 0x7f0100bb
+			public static int paddingBottomNoButtons = 2130772155;
 			
-			// aapt resource value: 0x7f01007f
-			public static int panelMenuListTheme = 2130772095;
+			// aapt resource value: 0x7f0100e7
+			public static int paddingEnd = 2130772199;
 			
-			// aapt resource value: 0x7f01007e
-			public static int panelMenuListWidth = 2130772094;
+			// aapt resource value: 0x7f0100e6
+			public static int paddingStart = 2130772198;
 			
-			// aapt resource value: 0x7f01006b
-			public static int popupMenuStyle = 2130772075;
+			// aapt resource value: 0x7f0100bc
+			public static int paddingTopNoTitle = 2130772156;
+			
+			// aapt resource value: 0x7f010080
+			public static int panelBackground = 2130772096;
+			
+			// aapt resource value: 0x7f010082
+			public static int panelMenuListTheme = 2130772098;
+			
+			// aapt resource value: 0x7f010081
+			public static int panelMenuListWidth = 2130772097;
+			
+			// aapt resource value: 0x7f01006d
+			public static int popupMenuStyle = 2130772077;
 			
 			// aapt resource value: 0x7f010021
 			public static int popupTheme = 2130772001;
 			
-			// aapt resource value: 0x7f01006c
-			public static int popupWindowStyle = 2130772076;
+			// aapt resource value: 0x7f01006e
+			public static int popupWindowStyle = 2130772078;
 			
-			// aapt resource value: 0x7f0100b4
-			public static int preserveIconSpacing = 2130772148;
+			// aapt resource value: 0x7f0100b7
+			public static int preserveIconSpacing = 2130772151;
 			
 			// aapt resource value: 0x7f010017
 			public static int progressBarPadding = 2130771991;
@@ -523,53 +523,53 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010015
 			public static int progressBarStyle = 2130771989;
 			
-			// aapt resource value: 0x7f0100c5
-			public static int queryBackground = 2130772165;
+			// aapt resource value: 0x7f0100c8
+			public static int queryBackground = 2130772168;
 			
-			// aapt resource value: 0x7f0100bc
-			public static int queryHint = 2130772156;
-			
-			// aapt resource value: 0x7f010099
-			public static int radioButtonStyle = 2130772121;
-			
-			// aapt resource value: 0x7f01009a
-			public static int ratingBarStyle = 2130772122;
-			
-			// aapt resource value: 0x7f01009b
-			public static int ratingBarStyleIndicator = 2130772123;
+			// aapt resource value: 0x7f0100bf
+			public static int queryHint = 2130772159;
 			
 			// aapt resource value: 0x7f01009c
-			public static int ratingBarStyleSmall = 2130772124;
+			public static int radioButtonStyle = 2130772124;
+			
+			// aapt resource value: 0x7f01009d
+			public static int ratingBarStyle = 2130772125;
+			
+			// aapt resource value: 0x7f01009e
+			public static int ratingBarStyleIndicator = 2130772126;
+			
+			// aapt resource value: 0x7f01009f
+			public static int ratingBarStyleSmall = 2130772127;
 			
 			// aapt resource value: 0x7f010002
 			public static int reverseLayout = 2130771970;
 			
-			// aapt resource value: 0x7f0100c1
-			public static int searchHintIcon = 2130772161;
+			// aapt resource value: 0x7f0100c4
+			public static int searchHintIcon = 2130772164;
 			
-			// aapt resource value: 0x7f0100c0
-			public static int searchIcon = 2130772160;
+			// aapt resource value: 0x7f0100c3
+			public static int searchIcon = 2130772163;
 			
-			// aapt resource value: 0x7f010073
-			public static int searchViewStyle = 2130772083;
+			// aapt resource value: 0x7f010075
+			public static int searchViewStyle = 2130772085;
 			
-			// aapt resource value: 0x7f01009d
-			public static int seekBarStyle = 2130772125;
+			// aapt resource value: 0x7f0100a0
+			public static int seekBarStyle = 2130772128;
 			
-			// aapt resource value: 0x7f010063
-			public static int selectableItemBackground = 2130772067;
+			// aapt resource value: 0x7f010065
+			public static int selectableItemBackground = 2130772069;
 			
-			// aapt resource value: 0x7f010064
-			public static int selectableItemBackgroundBorderless = 2130772068;
+			// aapt resource value: 0x7f010066
+			public static int selectableItemBackgroundBorderless = 2130772070;
 			
-			// aapt resource value: 0x7f0100b0
-			public static int showAsAction = 2130772144;
+			// aapt resource value: 0x7f0100b3
+			public static int showAsAction = 2130772147;
 			
-			// aapt resource value: 0x7f0100ae
-			public static int showDividers = 2130772142;
+			// aapt resource value: 0x7f0100b1
+			public static int showDividers = 2130772145;
 			
-			// aapt resource value: 0x7f0100d1
-			public static int showText = 2130772177;
+			// aapt resource value: 0x7f0100d4
+			public static int showText = 2130772180;
 			
 			// aapt resource value: 0x7f01002a
 			public static int showTitle = 2130772010;
@@ -580,17 +580,17 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010001
 			public static int spanCount = 2130771969;
 			
-			// aapt resource value: 0x7f0100a6
-			public static int spinBars = 2130772134;
+			// aapt resource value: 0x7f0100a9
+			public static int spinBars = 2130772137;
 			
-			// aapt resource value: 0x7f01005e
-			public static int spinnerDropDownItemStyle = 2130772062;
+			// aapt resource value: 0x7f010060
+			public static int spinnerDropDownItemStyle = 2130772064;
 			
-			// aapt resource value: 0x7f01009e
-			public static int spinnerStyle = 2130772126;
+			// aapt resource value: 0x7f0100a1
+			public static int spinnerStyle = 2130772129;
 			
-			// aapt resource value: 0x7f0100d0
-			public static int splitTrack = 2130772176;
+			// aapt resource value: 0x7f0100d3
+			public static int splitTrack = 2130772179;
 			
 			// aapt resource value: 0x7f01002b
 			public static int srcCompat = 2130772011;
@@ -598,173 +598,182 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f010003
 			public static int stackFromEnd = 2130771971;
 			
-			// aapt resource value: 0x7f0100b7
-			public static int state_above_anchor = 2130772151;
+			// aapt resource value: 0x7f0100ba
+			public static int state_above_anchor = 2130772154;
 			
-			// aapt resource value: 0x7f0100b5
-			public static int subMenuArrow = 2130772149;
+			// aapt resource value: 0x7f0100b8
+			public static int subMenuArrow = 2130772152;
 			
-			// aapt resource value: 0x7f0100c6
-			public static int submitBackground = 2130772166;
+			// aapt resource value: 0x7f0100c9
+			public static int submitBackground = 2130772169;
 			
 			// aapt resource value: 0x7f01000a
 			public static int subtitle = 2130771978;
 			
-			// aapt resource value: 0x7f0100d3
-			public static int subtitleTextAppearance = 2130772179;
+			// aapt resource value: 0x7f0100d6
+			public static int subtitleTextAppearance = 2130772182;
 			
-			// aapt resource value: 0x7f0100e2
-			public static int subtitleTextColor = 2130772194;
+			// aapt resource value: 0x7f0100e5
+			public static int subtitleTextColor = 2130772197;
 			
 			// aapt resource value: 0x7f01000c
 			public static int subtitleTextStyle = 2130771980;
 			
-			// aapt resource value: 0x7f0100c4
-			public static int suggestionRowLayout = 2130772164;
+			// aapt resource value: 0x7f0100c7
+			public static int suggestionRowLayout = 2130772167;
 			
-			// aapt resource value: 0x7f0100ce
-			public static int switchMinWidth = 2130772174;
+			// aapt resource value: 0x7f0100d1
+			public static int switchMinWidth = 2130772177;
 			
-			// aapt resource value: 0x7f0100cf
-			public static int switchPadding = 2130772175;
+			// aapt resource value: 0x7f0100d2
+			public static int switchPadding = 2130772178;
 			
-			// aapt resource value: 0x7f01009f
-			public static int switchStyle = 2130772127;
+			// aapt resource value: 0x7f0100a2
+			public static int switchStyle = 2130772130;
 			
-			// aapt resource value: 0x7f0100cd
-			public static int switchTextAppearance = 2130772173;
+			// aapt resource value: 0x7f0100d0
+			public static int switchTextAppearance = 2130772176;
 			
-			// aapt resource value: 0x7f01002f
-			public static int textAllCaps = 2130772015;
-			
-			// aapt resource value: 0x7f010056
-			public static int textAppearanceLargePopupMenu = 2130772054;
-			
-			// aapt resource value: 0x7f01007b
-			public static int textAppearanceListItem = 2130772091;
-			
-			// aapt resource value: 0x7f01007c
-			public static int textAppearanceListItemSmall = 2130772092;
+			// aapt resource value: 0x7f010031
+			public static int textAllCaps = 2130772017;
 			
 			// aapt resource value: 0x7f010058
-			public static int textAppearancePopupMenuHeader = 2130772056;
+			public static int textAppearanceLargePopupMenu = 2130772056;
 			
-			// aapt resource value: 0x7f010071
-			public static int textAppearanceSearchResultSubtitle = 2130772081;
+			// aapt resource value: 0x7f01007d
+			public static int textAppearanceListItem = 2130772093;
 			
-			// aapt resource value: 0x7f010070
-			public static int textAppearanceSearchResultTitle = 2130772080;
+			// aapt resource value: 0x7f01007e
+			public static int textAppearanceListItemSecondary = 2130772094;
 			
-			// aapt resource value: 0x7f010057
-			public static int textAppearanceSmallPopupMenu = 2130772055;
+			// aapt resource value: 0x7f01007f
+			public static int textAppearanceListItemSmall = 2130772095;
 			
-			// aapt resource value: 0x7f01008f
-			public static int textColorAlertDialogListItem = 2130772111;
+			// aapt resource value: 0x7f01005a
+			public static int textAppearancePopupMenuHeader = 2130772058;
+			
+			// aapt resource value: 0x7f010073
+			public static int textAppearanceSearchResultSubtitle = 2130772083;
 			
 			// aapt resource value: 0x7f010072
-			public static int textColorSearchUrl = 2130772082;
+			public static int textAppearanceSearchResultTitle = 2130772082;
 			
-			// aapt resource value: 0x7f0100e5
-			public static int theme = 2130772197;
+			// aapt resource value: 0x7f010059
+			public static int textAppearanceSmallPopupMenu = 2130772057;
 			
-			// aapt resource value: 0x7f0100ac
-			public static int thickness = 2130772140;
+			// aapt resource value: 0x7f010092
+			public static int textColorAlertDialogListItem = 2130772114;
 			
-			// aapt resource value: 0x7f0100cc
-			public static int thumbTextPadding = 2130772172;
+			// aapt resource value: 0x7f010074
+			public static int textColorSearchUrl = 2130772084;
 			
-			// aapt resource value: 0x7f0100c7
-			public static int thumbTint = 2130772167;
+			// aapt resource value: 0x7f0100e8
+			public static int theme = 2130772200;
 			
-			// aapt resource value: 0x7f0100c8
-			public static int thumbTintMode = 2130772168;
+			// aapt resource value: 0x7f0100af
+			public static int thickness = 2130772143;
 			
-			// aapt resource value: 0x7f01002c
-			public static int tickMark = 2130772012;
+			// aapt resource value: 0x7f0100cf
+			public static int thumbTextPadding = 2130772175;
 			
-			// aapt resource value: 0x7f01002d
-			public static int tickMarkTint = 2130772013;
+			// aapt resource value: 0x7f0100ca
+			public static int thumbTint = 2130772170;
+			
+			// aapt resource value: 0x7f0100cb
+			public static int thumbTintMode = 2130772171;
 			
 			// aapt resource value: 0x7f01002e
-			public static int tickMarkTintMode = 2130772014;
+			public static int tickMark = 2130772014;
+			
+			// aapt resource value: 0x7f01002f
+			public static int tickMarkTint = 2130772015;
+			
+			// aapt resource value: 0x7f010030
+			public static int tickMarkTintMode = 2130772016;
+			
+			// aapt resource value: 0x7f01002c
+			public static int tint = 2130772012;
+			
+			// aapt resource value: 0x7f01002d
+			public static int tintMode = 2130772013;
 			
 			// aapt resource value: 0x7f010007
 			public static int title = 2130771975;
 			
-			// aapt resource value: 0x7f0100d4
-			public static int titleMargin = 2130772180;
-			
-			// aapt resource value: 0x7f0100d8
-			public static int titleMarginBottom = 2130772184;
-			
-			// aapt resource value: 0x7f0100d6
-			public static int titleMarginEnd = 2130772182;
-			
-			// aapt resource value: 0x7f0100d5
-			public static int titleMarginStart = 2130772181;
-			
 			// aapt resource value: 0x7f0100d7
-			public static int titleMarginTop = 2130772183;
+			public static int titleMargin = 2130772183;
+			
+			// aapt resource value: 0x7f0100db
+			public static int titleMarginBottom = 2130772187;
 			
 			// aapt resource value: 0x7f0100d9
-			public static int titleMargins = 2130772185;
+			public static int titleMarginEnd = 2130772185;
 			
-			// aapt resource value: 0x7f0100d2
-			public static int titleTextAppearance = 2130772178;
+			// aapt resource value: 0x7f0100d8
+			public static int titleMarginStart = 2130772184;
 			
-			// aapt resource value: 0x7f0100e1
-			public static int titleTextColor = 2130772193;
+			// aapt resource value: 0x7f0100da
+			public static int titleMarginTop = 2130772186;
+			
+			// aapt resource value: 0x7f0100dc
+			public static int titleMargins = 2130772188;
+			
+			// aapt resource value: 0x7f0100d5
+			public static int titleTextAppearance = 2130772181;
+			
+			// aapt resource value: 0x7f0100e4
+			public static int titleTextColor = 2130772196;
 			
 			// aapt resource value: 0x7f01000b
 			public static int titleTextStyle = 2130771979;
 			
-			// aapt resource value: 0x7f01006a
-			public static int toolbarNavigationButtonStyle = 2130772074;
+			// aapt resource value: 0x7f01006c
+			public static int toolbarNavigationButtonStyle = 2130772076;
 			
-			// aapt resource value: 0x7f010069
-			public static int toolbarStyle = 2130772073;
+			// aapt resource value: 0x7f01006b
+			public static int toolbarStyle = 2130772075;
 			
-			// aapt resource value: 0x7f0100c9
-			public static int track = 2130772169;
+			// aapt resource value: 0x7f0100cc
+			public static int track = 2130772172;
 			
-			// aapt resource value: 0x7f0100ca
-			public static int trackTint = 2130772170;
+			// aapt resource value: 0x7f0100cd
+			public static int trackTint = 2130772173;
 			
-			// aapt resource value: 0x7f0100cb
-			public static int trackTintMode = 2130772171;
+			// aapt resource value: 0x7f0100ce
+			public static int trackTintMode = 2130772174;
 			
-			// aapt resource value: 0x7f0100c2
-			public static int voiceIcon = 2130772162;
-			
-			// aapt resource value: 0x7f010030
-			public static int windowActionBar = 2130772016;
+			// aapt resource value: 0x7f0100c5
+			public static int voiceIcon = 2130772165;
 			
 			// aapt resource value: 0x7f010032
-			public static int windowActionBarOverlay = 2130772018;
-			
-			// aapt resource value: 0x7f010033
-			public static int windowActionModeOverlay = 2130772019;
-			
-			// aapt resource value: 0x7f010037
-			public static int windowFixedHeightMajor = 2130772023;
-			
-			// aapt resource value: 0x7f010035
-			public static int windowFixedHeightMinor = 2130772021;
+			public static int windowActionBar = 2130772018;
 			
 			// aapt resource value: 0x7f010034
-			public static int windowFixedWidthMajor = 2130772020;
+			public static int windowActionBarOverlay = 2130772020;
 			
-			// aapt resource value: 0x7f010036
-			public static int windowFixedWidthMinor = 2130772022;
-			
-			// aapt resource value: 0x7f010038
-			public static int windowMinWidthMajor = 2130772024;
+			// aapt resource value: 0x7f010035
+			public static int windowActionModeOverlay = 2130772021;
 			
 			// aapt resource value: 0x7f010039
-			public static int windowMinWidthMinor = 2130772025;
+			public static int windowFixedHeightMajor = 2130772025;
 			
-			// aapt resource value: 0x7f010031
-			public static int windowNoTitle = 2130772017;
+			// aapt resource value: 0x7f010037
+			public static int windowFixedHeightMinor = 2130772023;
+			
+			// aapt resource value: 0x7f010036
+			public static int windowFixedWidthMajor = 2130772022;
+			
+			// aapt resource value: 0x7f010038
+			public static int windowFixedWidthMinor = 2130772024;
+			
+			// aapt resource value: 0x7f01003a
+			public static int windowMinWidthMajor = 2130772026;
+			
+			// aapt resource value: 0x7f01003b
+			public static int windowMinWidthMinor = 2130772027;
+			
+			// aapt resource value: 0x7f010033
+			public static int windowNoTitle = 2130772019;
 			
 			static Attribute()
 			{
@@ -1740,8 +1749,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f060028
 			public static int activity_chooser_view_content = 2131099688;
 			
-			// aapt resource value: 0x7f060014
-			public static int add = 2131099668;
+			// aapt resource value: 0x7f060019
+			public static int add = 2131099673;
 			
 			// aapt resource value: 0x7f06003c
 			public static int alertTitle = 2131099708;
@@ -1845,8 +1854,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f06001d
 			public static int middle = 2131099677;
 			
-			// aapt resource value: 0x7f060015
-			public static int multiply = 2131099669;
+			// aapt resource value: 0x7f060014
+			public static int multiply = 2131099668;
 			
 			// aapt resource value: 0x7f060021
 			public static int never = 2131099681;
@@ -1884,8 +1893,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f060061
 			public static int right_side = 2131099745;
 			
-			// aapt resource value: 0x7f060016
-			public static int screen = 2131099670;
+			// aapt resource value: 0x7f060015
+			public static int screen = 2131099669;
 			
 			// aapt resource value: 0x7f060037
 			public static int scrollIndicatorDown = 2131099703;
@@ -1947,14 +1956,14 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0x7f060008
 			public static int split_action_bar = 2131099656;
 			
+			// aapt resource value: 0x7f060016
+			public static int src_atop = 2131099670;
+			
 			// aapt resource value: 0x7f060017
-			public static int src_atop = 2131099671;
+			public static int src_in = 2131099671;
 			
 			// aapt resource value: 0x7f060018
-			public static int src_in = 2131099672;
-			
-			// aapt resource value: 0x7f060019
-			public static int src_over = 2131099673;
+			public static int src_over = 2131099672;
 			
 			// aapt resource value: 0x7f06005c
 			public static int status_bar_latest_event_content = 2131099740;
@@ -3412,7 +3421,7 @@ namespace EsMo.Android.Support
 					2130771999,
 					2130772000,
 					2130772001,
-					2130772063};
+					2130772065};
 			
 			// aapt resource value: 10
 			public static int ActionBar_background = 10;
@@ -3583,7 +3592,9 @@ namespace EsMo.Android.Support
 			
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130772011};
+					2130772011,
+					2130772012,
+					2130772013};
 			
 			// aapt resource value: 0
 			public static int AppCompatImageView_android_src = 0;
@@ -3591,11 +3602,17 @@ namespace EsMo.Android.Support
 			// aapt resource value: 1
 			public static int AppCompatImageView_srcCompat = 1;
 			
+			// aapt resource value: 2
+			public static int AppCompatImageView_tint = 2;
+			
+			// aapt resource value: 3
+			public static int AppCompatImageView_tintMode = 3;
+			
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130772012,
-					2130772013,
-					2130772014};
+					2130772014,
+					2130772015,
+					2130772016};
 			
 			// aapt resource value: 0
 			public static int AppCompatSeekBar_android_thumb = 0;
@@ -3641,7 +3658,7 @@ namespace EsMo.Android.Support
 			
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130772015};
+					2130772017};
 			
 			// aapt resource value: 0
 			public static int AppCompatTextView_android_textAppearance = 0;
@@ -3652,8 +3669,6 @@ namespace EsMo.Android.Support
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130772016,
-					2130772017,
 					2130772018,
 					2130772019,
 					2130772020,
@@ -3764,7 +3779,10 @@ namespace EsMo.Android.Support
 					2130772125,
 					2130772126,
 					2130772127,
-					2130772128};
+					2130772128,
+					2130772129,
+					2130772130,
+					2130772131};
 			
 			// aapt resource value: 23
 			public static int AppCompatTheme_actionBarDivider = 23;
@@ -3859,17 +3877,17 @@ namespace EsMo.Android.Support
 			// aapt resource value: 58
 			public static int AppCompatTheme_activityChooserViewStyle = 58;
 			
-			// aapt resource value: 94
-			public static int AppCompatTheme_alertDialogButtonGroupStyle = 94;
-			
 			// aapt resource value: 95
-			public static int AppCompatTheme_alertDialogCenterButtons = 95;
-			
-			// aapt resource value: 93
-			public static int AppCompatTheme_alertDialogStyle = 93;
+			public static int AppCompatTheme_alertDialogButtonGroupStyle = 95;
 			
 			// aapt resource value: 96
-			public static int AppCompatTheme_alertDialogTheme = 96;
+			public static int AppCompatTheme_alertDialogCenterButtons = 96;
+			
+			// aapt resource value: 94
+			public static int AppCompatTheme_alertDialogStyle = 94;
+			
+			// aapt resource value: 97
+			public static int AppCompatTheme_alertDialogTheme = 97;
 			
 			// aapt resource value: 1
 			public static int AppCompatTheme_android_windowAnimationStyle = 1;
@@ -3877,8 +3895,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 0
 			public static int AppCompatTheme_android_windowIsFloating = 0;
 			
-			// aapt resource value: 101
-			public static int AppCompatTheme_autoCompleteTextViewStyle = 101;
+			// aapt resource value: 102
+			public static int AppCompatTheme_autoCompleteTextViewStyle = 102;
 			
 			// aapt resource value: 55
 			public static int AppCompatTheme_borderlessButtonStyle = 55;
@@ -3886,59 +3904,59 @@ namespace EsMo.Android.Support
 			// aapt resource value: 52
 			public static int AppCompatTheme_buttonBarButtonStyle = 52;
 			
-			// aapt resource value: 99
-			public static int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
-			
 			// aapt resource value: 100
-			public static int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
+			public static int AppCompatTheme_buttonBarNegativeButtonStyle = 100;
 			
-			// aapt resource value: 98
-			public static int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
+			// aapt resource value: 101
+			public static int AppCompatTheme_buttonBarNeutralButtonStyle = 101;
+			
+			// aapt resource value: 99
+			public static int AppCompatTheme_buttonBarPositiveButtonStyle = 99;
 			
 			// aapt resource value: 51
 			public static int AppCompatTheme_buttonBarStyle = 51;
 			
-			// aapt resource value: 102
-			public static int AppCompatTheme_buttonStyle = 102;
-			
 			// aapt resource value: 103
-			public static int AppCompatTheme_buttonStyleSmall = 103;
+			public static int AppCompatTheme_buttonStyle = 103;
 			
 			// aapt resource value: 104
-			public static int AppCompatTheme_checkboxStyle = 104;
+			public static int AppCompatTheme_buttonStyleSmall = 104;
 			
 			// aapt resource value: 105
-			public static int AppCompatTheme_checkedTextViewStyle = 105;
+			public static int AppCompatTheme_checkboxStyle = 105;
 			
-			// aapt resource value: 85
-			public static int AppCompatTheme_colorAccent = 85;
-			
-			// aapt resource value: 92
-			public static int AppCompatTheme_colorBackgroundFloating = 92;
-			
-			// aapt resource value: 89
-			public static int AppCompatTheme_colorButtonNormal = 89;
-			
-			// aapt resource value: 87
-			public static int AppCompatTheme_colorControlActivated = 87;
-			
-			// aapt resource value: 88
-			public static int AppCompatTheme_colorControlHighlight = 88;
+			// aapt resource value: 106
+			public static int AppCompatTheme_checkedTextViewStyle = 106;
 			
 			// aapt resource value: 86
-			public static int AppCompatTheme_colorControlNormal = 86;
+			public static int AppCompatTheme_colorAccent = 86;
 			
-			// aapt resource value: 83
-			public static int AppCompatTheme_colorPrimary = 83;
-			
-			// aapt resource value: 84
-			public static int AppCompatTheme_colorPrimaryDark = 84;
+			// aapt resource value: 93
+			public static int AppCompatTheme_colorBackgroundFloating = 93;
 			
 			// aapt resource value: 90
-			public static int AppCompatTheme_colorSwitchThumbNormal = 90;
+			public static int AppCompatTheme_colorButtonNormal = 90;
+			
+			// aapt resource value: 88
+			public static int AppCompatTheme_colorControlActivated = 88;
+			
+			// aapt resource value: 89
+			public static int AppCompatTheme_colorControlHighlight = 89;
+			
+			// aapt resource value: 87
+			public static int AppCompatTheme_colorControlNormal = 87;
+			
+			// aapt resource value: 84
+			public static int AppCompatTheme_colorPrimary = 84;
+			
+			// aapt resource value: 85
+			public static int AppCompatTheme_colorPrimaryDark = 85;
 			
 			// aapt resource value: 91
-			public static int AppCompatTheme_controlBackground = 91;
+			public static int AppCompatTheme_colorSwitchThumbNormal = 91;
+			
+			// aapt resource value: 92
+			public static int AppCompatTheme_controlBackground = 92;
 			
 			// aapt resource value: 44
 			public static int AppCompatTheme_dialogPreferredPadding = 44;
@@ -3964,8 +3982,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 63
 			public static int AppCompatTheme_editTextColor = 63;
 			
-			// aapt resource value: 106
-			public static int AppCompatTheme_editTextStyle = 106;
+			// aapt resource value: 107
+			public static int AppCompatTheme_editTextStyle = 107;
 			
 			// aapt resource value: 49
 			public static int AppCompatTheme_homeAsUpIndicator = 49;
@@ -3973,14 +3991,14 @@ namespace EsMo.Android.Support
 			// aapt resource value: 65
 			public static int AppCompatTheme_imageButtonStyle = 65;
 			
-			// aapt resource value: 82
-			public static int AppCompatTheme_listChoiceBackgroundIndicator = 82;
+			// aapt resource value: 83
+			public static int AppCompatTheme_listChoiceBackgroundIndicator = 83;
 			
 			// aapt resource value: 45
 			public static int AppCompatTheme_listDividerAlertDialog = 45;
 			
-			// aapt resource value: 114
-			public static int AppCompatTheme_listMenuViewStyle = 114;
+			// aapt resource value: 115
+			public static int AppCompatTheme_listMenuViewStyle = 115;
 			
 			// aapt resource value: 76
 			public static int AppCompatTheme_listPopupWindowStyle = 76;
@@ -4000,14 +4018,14 @@ namespace EsMo.Android.Support
 			// aapt resource value: 74
 			public static int AppCompatTheme_listPreferredItemPaddingRight = 74;
 			
-			// aapt resource value: 79
-			public static int AppCompatTheme_panelBackground = 79;
+			// aapt resource value: 80
+			public static int AppCompatTheme_panelBackground = 80;
+			
+			// aapt resource value: 82
+			public static int AppCompatTheme_panelMenuListTheme = 82;
 			
 			// aapt resource value: 81
-			public static int AppCompatTheme_panelMenuListTheme = 81;
-			
-			// aapt resource value: 80
-			public static int AppCompatTheme_panelMenuListWidth = 80;
+			public static int AppCompatTheme_panelMenuListWidth = 81;
 			
 			// aapt resource value: 61
 			public static int AppCompatTheme_popupMenuStyle = 61;
@@ -4015,23 +4033,23 @@ namespace EsMo.Android.Support
 			// aapt resource value: 62
 			public static int AppCompatTheme_popupWindowStyle = 62;
 			
-			// aapt resource value: 107
-			public static int AppCompatTheme_radioButtonStyle = 107;
-			
 			// aapt resource value: 108
-			public static int AppCompatTheme_ratingBarStyle = 108;
+			public static int AppCompatTheme_radioButtonStyle = 108;
 			
 			// aapt resource value: 109
-			public static int AppCompatTheme_ratingBarStyleIndicator = 109;
+			public static int AppCompatTheme_ratingBarStyle = 109;
 			
 			// aapt resource value: 110
-			public static int AppCompatTheme_ratingBarStyleSmall = 110;
+			public static int AppCompatTheme_ratingBarStyleIndicator = 110;
+			
+			// aapt resource value: 111
+			public static int AppCompatTheme_ratingBarStyleSmall = 111;
 			
 			// aapt resource value: 69
 			public static int AppCompatTheme_searchViewStyle = 69;
 			
-			// aapt resource value: 111
-			public static int AppCompatTheme_seekBarStyle = 111;
+			// aapt resource value: 112
+			public static int AppCompatTheme_seekBarStyle = 112;
 			
 			// aapt resource value: 53
 			public static int AppCompatTheme_selectableItemBackground = 53;
@@ -4042,11 +4060,11 @@ namespace EsMo.Android.Support
 			// aapt resource value: 48
 			public static int AppCompatTheme_spinnerDropDownItemStyle = 48;
 			
-			// aapt resource value: 112
-			public static int AppCompatTheme_spinnerStyle = 112;
-			
 			// aapt resource value: 113
-			public static int AppCompatTheme_switchStyle = 113;
+			public static int AppCompatTheme_spinnerStyle = 113;
+			
+			// aapt resource value: 114
+			public static int AppCompatTheme_switchStyle = 114;
 			
 			// aapt resource value: 40
 			public static int AppCompatTheme_textAppearanceLargePopupMenu = 40;
@@ -4055,7 +4073,10 @@ namespace EsMo.Android.Support
 			public static int AppCompatTheme_textAppearanceListItem = 77;
 			
 			// aapt resource value: 78
-			public static int AppCompatTheme_textAppearanceListItemSmall = 78;
+			public static int AppCompatTheme_textAppearanceListItemSecondary = 78;
+			
+			// aapt resource value: 79
+			public static int AppCompatTheme_textAppearanceListItemSmall = 79;
 			
 			// aapt resource value: 42
 			public static int AppCompatTheme_textAppearancePopupMenuHeader = 42;
@@ -4069,8 +4090,8 @@ namespace EsMo.Android.Support
 			// aapt resource value: 41
 			public static int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
 			
-			// aapt resource value: 97
-			public static int AppCompatTheme_textColorAlertDialogListItem = 97;
+			// aapt resource value: 98
+			public static int AppCompatTheme_textColorAlertDialogListItem = 98;
 			
 			// aapt resource value: 68
 			public static int AppCompatTheme_textColorSearchUrl = 68;
@@ -4112,7 +4133,7 @@ namespace EsMo.Android.Support
 			public static int AppCompatTheme_windowNoTitle = 3;
 			
 			public static int[] ButtonBarLayout = new int[] {
-					2130772129};
+					2130772132};
 			
 			// aapt resource value: 0
 			public static int ButtonBarLayout_allowStacking = 0;
@@ -4120,7 +4141,7 @@ namespace EsMo.Android.Support
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130772130};
+					2130772133};
 			
 			// aapt resource value: 2
 			public static int ColorStateListItem_alpha = 2;
@@ -4133,8 +4154,8 @@ namespace EsMo.Android.Support
 			
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130772131,
-					2130772132};
+					2130772134,
+					2130772135};
 			
 			// aapt resource value: 0
 			public static int CompoundButton_android_button = 0;
@@ -4146,14 +4167,14 @@ namespace EsMo.Android.Support
 			public static int CompoundButton_buttonTintMode = 2;
 			
 			public static int[] DrawerArrowToggle = new int[] {
-					2130772133,
-					2130772134,
-					2130772135,
 					2130772136,
 					2130772137,
 					2130772138,
 					2130772139,
-					2130772140};
+					2130772140,
+					2130772141,
+					2130772142,
+					2130772143};
 			
 			// aapt resource value: 4
 			public static int DrawerArrowToggle_arrowHeadLength = 4;
@@ -4186,9 +4207,9 @@ namespace EsMo.Android.Support
 					16843047,
 					16843048,
 					2130771983,
-					2130772141,
-					2130772142,
-					2130772143};
+					2130772144,
+					2130772145,
+					2130772146};
 			
 			// aapt resource value: 2
 			public static int LinearLayoutCompat_android_baselineAligned = 2;
@@ -4285,10 +4306,10 @@ namespace EsMo.Android.Support
 					16843236,
 					16843237,
 					16843375,
-					2130772144,
-					2130772145,
-					2130772146,
-					2130772147};
+					2130772147,
+					2130772148,
+					2130772149,
+					2130772150};
 			
 			// aapt resource value: 14
 			public static int MenuItem_actionLayout = 14;
@@ -4349,8 +4370,8 @@ namespace EsMo.Android.Support
 					16843055,
 					16843056,
 					16843057,
-					2130772148,
-					2130772149};
+					2130772151,
+					2130772152};
 			
 			// aapt resource value: 4
 			public static int MenuView_android_headerBackground = 4;
@@ -4382,7 +4403,7 @@ namespace EsMo.Android.Support
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130772150};
+					2130772153};
 			
 			// aapt resource value: 1
 			public static int PopupWindow_android_popupAnimationStyle = 1;
@@ -4394,14 +4415,14 @@ namespace EsMo.Android.Support
 			public static int PopupWindow_overlapAnchor = 2;
 			
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130772151};
+					2130772154};
 			
 			// aapt resource value: 0
 			public static int PopupWindowBackgroundState_state_above_anchor = 0;
 			
 			public static int[] RecycleListView = new int[] {
-					2130772152,
-					2130772153};
+					2130772155,
+					2130772156};
 			
 			// aapt resource value: 0
 			public static int RecycleListView_paddingBottomNoButtons = 0;
@@ -4440,9 +4461,6 @@ namespace EsMo.Android.Support
 					16843039,
 					16843296,
 					16843364,
-					2130772154,
-					2130772155,
-					2130772156,
 					2130772157,
 					2130772158,
 					2130772159,
@@ -4452,7 +4470,10 @@ namespace EsMo.Android.Support
 					2130772163,
 					2130772164,
 					2130772165,
-					2130772166};
+					2130772166,
+					2130772167,
+					2130772168,
+					2130772169};
 			
 			// aapt resource value: 0
 			public static int SearchView_android_focusable = 0;
@@ -4531,9 +4552,6 @@ namespace EsMo.Android.Support
 					16843044,
 					16843045,
 					16843074,
-					2130772167,
-					2130772168,
-					2130772169,
 					2130772170,
 					2130772171,
 					2130772172,
@@ -4541,7 +4559,10 @@ namespace EsMo.Android.Support
 					2130772174,
 					2130772175,
 					2130772176,
-					2130772177};
+					2130772177,
+					2130772178,
+					2130772179,
+					2130772180};
 			
 			// aapt resource value: 1
 			public static int SwitchCompat_android_textOff = 1;
@@ -4595,7 +4616,7 @@ namespace EsMo.Android.Support
 					16843106,
 					16843107,
 					16843108,
-					2130772015};
+					2130772017};
 			
 			// aapt resource value: 5
 			public static int TextAppearance_android_shadowColor = 5;
@@ -4640,9 +4661,6 @@ namespace EsMo.Android.Support
 					2130771998,
 					2130771999,
 					2130772001,
-					2130772178,
-					2130772179,
-					2130772180,
 					2130772181,
 					2130772182,
 					2130772183,
@@ -4656,7 +4674,10 @@ namespace EsMo.Android.Support
 					2130772191,
 					2130772192,
 					2130772193,
-					2130772194};
+					2130772194,
+					2130772195,
+					2130772196,
+					2130772197};
 			
 			// aapt resource value: 0
 			public static int Toolbar_android_gravity = 0;
@@ -4748,9 +4769,9 @@ namespace EsMo.Android.Support
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130772195,
-					2130772196,
-					2130772197};
+					2130772198,
+					2130772199,
+					2130772200};
 			
 			// aapt resource value: 1
 			public static int View_android_focusable = 1;
@@ -4769,8 +4790,8 @@ namespace EsMo.Android.Support
 			
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130772198,
-					2130772199};
+					2130772201,
+					2130772202};
 			
 			// aapt resource value: 0
 			public static int ViewBackgroundHelper_android_background = 0;

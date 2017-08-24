@@ -24,7 +24,7 @@ namespace EsMo.Sina.SDK.Model
         }
         public MenuType MenuType { get; private set; }
         Stream icon;
-        public virtual Stream Icon
+        public Stream Icon
         {
             get
             {

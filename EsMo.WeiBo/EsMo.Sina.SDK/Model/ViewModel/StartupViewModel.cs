@@ -93,8 +93,8 @@ namespace EsMo.Sina.SDK.Model
                 await Task.Delay(2000);
                 await this.accountService.InitialAccountInfo(account);
                 Debug.WriteLine("Initial Account");
-                //this.ShowViewModel<MenuViewModel>();
-                //this.ShowViewModel<MainViewModel>();
+                this.ShowViewModel<MenuViewModel>();
+                this.ShowViewModel<MainViewModel>();
             }
             this.IsLoggingIn = false;
         }

@@ -19,7 +19,6 @@ namespace EsMo.iOS.WeiBo.Entity
     [MvxPanelPresentation(MvxPanelEnum.Left, MvxPanelHintType.ActivePanel, false)]
     public partial class MenuView : MvxViewController<MenuViewModel>, IMvxSidebarMenu
     {
-        
         public MenuView() : base("MenuView", null)
         {
         }

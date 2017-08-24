@@ -11,19 +11,17 @@
         android:layout_width="128dp"
         android:layout_height="128dp"
         android:scaleType="fitXY"
-        android:id="@+id/imgProfile"
-        />
+        android:id="@+id/imgProfile" />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         local:MvxBind="Text StatusText" />
-  <ProgressBar
+    <ProgressBar
         android:id="@+id/progressBar"
         style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" 
-        local:MvxBind="Visibility IsLoggingIn, Converter=Visibility"
-        />
+        android:layout_height="wrap_content"
+        local:MvxBind="Visibility IsLoggingIn, Converter=Visibility" />
 </LinearLayout>

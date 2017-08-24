@@ -14,31 +14,19 @@ using MvvmCross.Platform.Converters;
 using System.IO;
 using Android.Graphics;
 using MvvmCross.Binding.Droid.Views;
-
+/// <summary>
+/// Converters can not be put in a independent project file. 
+/// I have to put it in the main project.
+/// </summary>
 namespace EsMo.MvvmCross.Android.Support.Converter
 {
-    public abstract class Converter : MvxValueConverter
+    public class StreamBitmapConverter : MvxValueConverter<Stream, Bitmap>
     {
-        public static readonly StreamBitmapConverter StreamToBitmap = new StreamBitmapConverter();
-    }
-    public class StreamBitmapConverter : MvxValueConverter
-    {
-        public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        protected override Bitmap Convert(Stream value, Type targetType, object parameter, CultureInfo culture)
         {
-            Stream stream = value as Stream;
-            if (stream != null)
-            {
-                return BitmapFactory.DecodeStream(stream);
-            }
+            if (value != null)
+                return BitmapFactory.DecodeStream(value);
             return null;
         }
     }
-    //public class BoolViewStatesConverter : MvxValueConverter
-    //{
-    //    public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-    //    {
-    //        bool val = (bool)value;
-    //        return val ? ViewStates.Visible : ViewStates.Gone;
-    //    }
-    //}
 }
