@@ -334,6 +334,7 @@
     <Compile Include="Bootstrap\SharePluginBootstrap.cs" />
     <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
     <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
+    <Compile Include="Entity\Control\MenuListView.cs" />
     <Compile Include="Entity\Element\AuthWebChromeClient.cs" />
     <Compile Include="Entity\Element\AuthWebViewClient.cs" />
     <Compile Include="Entity\Element\WebViewImp.cs" />
@@ -375,6 +376,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CommonToolBar.axml" />
+    <AndroidResource Include="Resources\layout\MenuProfile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

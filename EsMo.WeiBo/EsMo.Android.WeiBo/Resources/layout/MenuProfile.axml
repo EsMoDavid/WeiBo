@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        local:MvxBind="Bitmap BackgroundBanner, Converter=StreamBitmap"
+      />
+    <RelativeLayout
+        android:id="@+id/layProfile"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        >
+      <MvxImageView
+          android:id="@+id/imgPhoto"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp" 
+            local:MvxBind="ImageUrl AvatarUrl"
+          />
+        <TextView
+            android:id="@+id/txtFollowersNewHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imgPhoto"
+            android:layout_alignRight="@id/imgPhoto"
+            android:gravity="center"
+            android:textColor="@color/comm_white"
+            android:textSize="12sp" />
+        <LinearLayout
+            android:id="@+id/btnAccount"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textColor="@color/comm_white"
+                android:textSize="20sp"
+                android:textStyle="bold" 
+                local:MvxBind="Text, Text"
+                />
+            <!--<ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp" />-->
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <include
-     layout="@layout/commontoolbar"
-     android:layout_width="match_parent"
-     android:layout_height="56dp" />
-  <MvvmCross.Binding.Droid.Views.MvxListView
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    local:MvxItemTemplate="@layout/menuitem"
-    local:MvxBind="ItemsSource MenuItems"
-    />
+    <MvvmCross.Binding.Droid.Views.MvxListView
+        android:id="@+id/listmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        local:MvxItemTemplate="@layout/menuitem"
+        local:MvxBind="ItemsSource MenuItems" />
 </LinearLayout>
