@@ -15,15 +15,23 @@ namespace EsMo.Android.WeiBo.Entity
 {
     public class AuthWebViewClient : WebViewClient
     {
-       
-        public override bool ShouldOverrideUrlLoading(WebView view, IWebResourceRequest request)
+        public override bool ShouldOverrideUrlLoading(WebView view, string url)
         {
-            string url = request.Url.ToString();
+            //string url = request.Url.ToString();
             if (!string.IsNullOrEmpty(url) && !url.StartsWith("sinaweibo://"))
             {
                 view.LoadUrl(url);
             }
-            return base.ShouldOverrideUrlLoading(view, request);
+            return base.ShouldOverrideUrlLoading(view, url);
         }
+        //public override bool ShouldOverrideUrlLoading(WebView view, IWebResourceRequest request)
+        //{
+        //    string url = request.Url.ToString();
+        //    if (!string.IsNullOrEmpty(url) && !url.StartsWith("sinaweibo://"))
+        //    {
+        //        view.LoadUrl(url);
+        //    }
+        //    return base.ShouldOverrideUrlLoading(view, request);
+        //}
     }
 }

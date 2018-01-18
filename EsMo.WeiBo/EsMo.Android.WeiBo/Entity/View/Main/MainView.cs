@@ -15,7 +15,10 @@ using CheeseBind;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using MvvmCross.Binding.Droid.Views;
-
+using Android.Support.V4.View;
+using Android.Support.V4.App;
+using MvvmCross.Core.ViewModels;
+using ActionBarDrawerToggle = Android.Support.V7.App.ActionBarDrawerToggle;
 namespace EsMo.Android.WeiBo.Entity.View
 {
     [Activity(
@@ -27,7 +30,10 @@ namespace EsMo.Android.WeiBo.Entity.View
     {
         [BindView(Resource.Id.drawer)]
         DrawerLayout drawerLayout;
+        [BindView(Resource.Id.mainViewPage)]
+        ViewPager mainViewPage;
         ActionBarDrawerToggle drawerToggle;
+        List<BaseFragment<IMvxViewModel>> framgments;
 
         protected override int LayoutID
         {
@@ -40,6 +46,11 @@ namespace EsMo.Android.WeiBo.Entity.View
         {
             base.OnCreate(savedInstanceState);
             Cheeseknife.Bind(this);
+
+            this.framgments = new List<BaseFragment<IMvxViewModel>>();
+            FragmentPagerAdapter adapter = new MainPageAdapter(this.SupportFragmentManager, framgments);
+            this.mainViewPage.Adapter = adapter;
+
             this.drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, this.toolbar,
              Resource.String.drawerOpen, Resource.String.drawerClose);
             this.drawerLayout.AddDrawerListener(this.drawerToggle);
