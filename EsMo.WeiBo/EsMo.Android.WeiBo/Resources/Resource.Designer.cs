@@ -8140,8 +8140,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f080089
 			public const int mainViewPage = 2131230857;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int masked = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f08009f
 			public const int media_actions = 2131230879;
@@ -8157,6 +8157,9 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f08001b
 			public const int multiply = 2131230747;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int mvxListView1 = 2131230899;
 			
 			// aapt resource value: 0x7f08007e
 			public const int navigation_header_container = 2131230846;
@@ -8395,8 +8398,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int visible = 2131230900;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
 			// aapt resource value: 0x7f080029
 			public const int withText = 2131230761;
@@ -8404,8 +8407,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f080021
 			public const int wrap_content = 2131230753;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int wvAuth = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int wvAuth = 2131230900;
 			
 			static Id()
 			{
@@ -8665,7 +8668,10 @@ namespace EsMo.Android.WeiBo
 			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int WebAuth = 2130903108;
+			public const int TimelineView = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int WebAuth = 2130903109;
 			
 			static Layout()
 			{
