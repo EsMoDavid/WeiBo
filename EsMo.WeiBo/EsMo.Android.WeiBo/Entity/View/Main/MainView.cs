@@ -19,7 +19,9 @@ using Android.Support.V4.View;
 using Android.Support.V4.App;
 using MvvmCross.Core.ViewModels;
 using ActionBarDrawerToggle = Android.Support.V7.App.ActionBarDrawerToggle;
-namespace EsMo.Android.WeiBo.Entity.View
+using MvvmCross.Droid.Support.V4;
+
+namespace EsMo.Android.WeiBo.Entity
 {
     [Activity(
         Label = "MainView",
@@ -33,7 +35,7 @@ namespace EsMo.Android.WeiBo.Entity.View
         [BindView(Resource.Id.mainViewPage)]
         ViewPager mainViewPage;
         ActionBarDrawerToggle drawerToggle;
-        List<BaseFragment<IMvxViewModel>> framgments;
+        List<MvxCachingFragmentStatePagerAdapter.FragmentInfo> framgments;
 
         protected override int LayoutID
         {
@@ -46,14 +48,16 @@ namespace EsMo.Android.WeiBo.Entity.View
         {
             base.OnCreate(savedInstanceState);
             Cheeseknife.Bind(this);
-
-            this.framgments = new List<BaseFragment<IMvxViewModel>>();
-            FragmentPagerAdapter adapter = new MainPageAdapter(this.SupportFragmentManager, framgments);
+            this.framgments = new List<MvxCachingFragmentStatePagerAdapter.FragmentInfo>();
+            //TODO: finish the following codes;
+            this.framgments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo("Home", typeof(TimelineFragment), typeof(TimelineViewModel)));
+            MvxCachingFragmentStatePagerAdapter adapter = new MvxCachingFragmentStatePagerAdapter(this,this.SupportFragmentManager, framgments);
             this.mainViewPage.Adapter = adapter;
 
             this.drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, this.toolbar,
-             Resource.String.drawerOpen, Resource.String.drawerClose);
+            Resource.String.drawerOpen, Resource.String.drawerClose);
             this.drawerLayout.AddDrawerListener(this.drawerToggle);
+            
         }
         protected override void OnPostCreate(Bundle savedInstanceState)
         {

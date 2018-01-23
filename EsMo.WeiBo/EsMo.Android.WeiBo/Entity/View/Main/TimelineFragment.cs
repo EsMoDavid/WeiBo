@@ -12,13 +12,22 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Shared.Attributes;
 using EsMo.Sina.SDK.Model;
+using System.Collections.ObjectModel;
 
-namespace EsMo.Android.WeiBo.Entity.Fragment
+namespace EsMo.Android.WeiBo.Entity
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.menu_frame)]
-    [Register("xplatformmenus.droid.fragments.TimelineFragment")]
+    [Register("esmo.android.weibo.entity.TimelineFragment")]
     public class TimelineFragment : BaseFragment<TimelineViewModel>
     {
+        public TimelineFragment()
+        {
+            this.TimelineItems = new ObservableCollection<TimelineItemViewModel>();
+        }
+        public ObservableCollection<TimelineItemViewModel> TimelineItems
+        {
+            get;
+            private set;
+        }
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -26,6 +35,12 @@ namespace EsMo.Android.WeiBo.Entity.Fragment
         public override global::Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             return base.OnCreateView(inflater, container, savedInstanceState);
+        }
+        public override void OnViewModelSet()
+        {
+            ////this.TimelineItems.A
+            //fore
+            //this.ViewModel.TimelineItems
         }
     }
 }

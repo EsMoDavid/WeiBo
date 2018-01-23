@@ -343,7 +343,7 @@
     <Compile Include="Entity\Element\AuthWebViewClient.cs" />
     <Compile Include="Entity\Element\WebViewImp.cs" />
     <Compile Include="Entity\Fragment\BaseFragment.cs" />
-    <Compile Include="Entity\Fragment\TimelineFragment.cs" />
+    <Compile Include="Entity\View\Main\TimelineFragment.cs" />
     <Compile Include="Entity\MvxPanelPopToRootPresentationHint.cs" />
     <Compile Include="Entity\View\BaseView.cs" />
     <Compile Include="Entity\View\LoginView.cs" />
