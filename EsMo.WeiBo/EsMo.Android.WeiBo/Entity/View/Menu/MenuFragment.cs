@@ -13,21 +13,19 @@ namespace EsMo.Android.WeiBo.Entity
     {
         [BindView(Resource.Id.listmenu)]
         MvxListView listMenu;
+
+        protected override int LayoutID => Resource.Layout.MainMenu;
         public override void OnViewModelSet()
         {
             base.OnViewModelSet();
         }
-        public override global::Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+
+        protected override void OnInflated(View view)
         {
-            // must call the base.OnCreateView first.
-            base.OnCreateView(inflater, container, savedInstanceState);
-            var view= this.BindingInflate(Resource.Layout.MainMenu, null);
-           
             Cheeseknife.Bind(this, view);
-            MenuAdapter adapter = new MenuAdapter(this.Activity,  this.BindingContext as IMvxAndroidBindingContext);
-            adapter.ItemsSource= this.ViewModel.MenuItems;
+            MenuAdapter adapter = new MenuAdapter(this.Activity, this.BindingContext as IMvxAndroidBindingContext);
+            adapter.ItemsSource = this.ViewModel.MenuItems;
             this.listMenu.Adapter = adapter;
-            return view;
         }
     }
 }

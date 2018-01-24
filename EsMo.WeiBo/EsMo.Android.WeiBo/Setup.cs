@@ -19,8 +19,8 @@ using MvvmCross.Platform;
 using System.Reflection;
 using MvvmCross.Plugins.Visibility;
 using System.Collections;
-using EsMo.Android.WeiBo.Entity.View;
 using MvvmCross.Platform.Droid.Platform;
+using EsMo.Android.WeiBo.Entity;
 
 namespace EsMo.Android.WeiBo
 {

@@ -17,13 +17,18 @@ namespace EsMo.Android.WeiBo.Entity
 {
     public abstract class BaseFragment<T> : MvxFragment<T> where T : class, IMvxViewModel
     {
-        //public virtual int LayoutID { get; }
-        //public override global::Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        //{
-        //    //return base.OnCreateView(inflater, container, savedInstanceState);
-        //    //inflater.Inflate(LayoutID, container, false);
-        //    return this.BindingInflate(LayoutID, null);
-
-        //}
+        protected virtual int LayoutID { get; }
+        public override global::Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            base.OnCreateView(inflater, container, savedInstanceState);
+            //inflater.Inflate(LayoutID, container, false);
+            var view = this.BindingInflate(LayoutID, null);
+            this.OnInflated(view);
+            return view;
+        }
+        protected virtual void OnInflated(View view)
+        {
+            
+        }
     }
 }

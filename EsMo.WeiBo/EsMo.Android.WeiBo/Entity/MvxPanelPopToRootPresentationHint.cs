@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Core.ViewModels;
 
-namespace EsMo.Android.WeiBo.Entity.View
+namespace EsMo.Android.WeiBo.Entity
 {
     public class MvxPanelPopToRootPresentationHint : MvxPresentationHint
     {
