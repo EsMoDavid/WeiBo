@@ -8149,6 +8149,9 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f080011
 			public const int listMode = 2131230737;
 			
+			// aapt resource value: 0x7f0800c2
+			public const int listTimeLine = 2131230914;
+			
 			// aapt resource value: 0x7f08004a
 			public const int list_item = 2131230794;
 			
@@ -8175,9 +8178,6 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f08001b
 			public const int multiply = 2131230747;
-			
-			// aapt resource value: 0x7f0800c2
-			public const int mvxListView1 = 2131230914;
 			
 			// aapt resource value: 0x7f08007e
 			public const int navigation_header_container = 2131230846;

@@ -37,6 +37,7 @@
                 android:layout_height="18dip"
                 android:layout_marginLeft="4dip"
                 android:layout_toRightOf="@id/txtName"
+                local:MvxBind="Bitmap ImageVerified, Converter=StreamBitmap" 
                 android:visibility="gone" />
             <TextView
                 android:id="@+id/txtDesc"
@@ -148,6 +149,7 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="20dp"
+                local:MvxBind="Bitmap ImageLike, Converter=StreamBitmap"
                 android:id="@+id/imglike" />
             <TextView
                 android:text="Text"
@@ -161,6 +163,7 @@
                 android:layout_width="24dp"
                 android:layout_height="20dp"
                 android:id="@+id/imgcomment"
+                local:MvxBind="Bitmap ImageComment, Converter=StreamBitmap"
                 android:layout_toLeftOf="@+id/txtcomment" />
             <TextView
                 local:MvxBind="Text CommentCount"
@@ -173,6 +176,7 @@
                 android:layout_width="24dp"
                 android:layout_height="20dp"
                 android:id="@+id/imgrepost"
+                local:MvxBind="Bitmap ImageRepost, Converter=StreamBitmap"
                 android:layout_toLeftOf="@+id/txtrepost" />
             <TextView
                 local:MvxBind="Text RepostCount"

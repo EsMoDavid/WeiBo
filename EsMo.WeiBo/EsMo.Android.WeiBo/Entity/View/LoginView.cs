@@ -15,6 +15,7 @@ using Android.Content.PM;
 using Android.Support.Design.Widget;
 using CheeseBind;
 using EsMo.Android.WeiBo.Entity;
+using MvvmCross.Binding.Droid.Views;
 
 namespace EsMo.Android.WeiBo.Entity
 {
