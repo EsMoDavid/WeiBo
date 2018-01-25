@@ -13,5 +13,6 @@
       android:layout_height="match_parent"
       android:id="@+id/mvxListView1"
       local:MvxBind="ItemsSource TimelineItems"
+      local:MvxItemTemplate="@layout/timelineitem"
         />
 </LinearLayout>

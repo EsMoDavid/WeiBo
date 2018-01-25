@@ -152,9 +152,9 @@ namespace EsMo.Sina.SDK.Model
             itemSize = (containerWidth - Padding * (this.ColumnCount-1)) / this.ColumnCount;
             return itemSize * rowsCount + Padding * (rowsCount - 1);
         }
-        public override string ToString()
-        {
-            return this.Name;
-        }
+        //public override string ToString()
+        //{
+        //    return this.Name;
+        //}
     }
 }

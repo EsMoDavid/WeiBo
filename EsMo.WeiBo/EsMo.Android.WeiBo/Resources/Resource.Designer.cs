@@ -8095,6 +8095,18 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f0800b1
 			public const int imgProfile = 2131230897;
 			
+			// aapt resource value: 0x7f0800b3
+			public const int imgVerified = 2131230899;
+			
+			// aapt resource value: 0x7f0800be
+			public const int imgcomment = 2131230910;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int imglike = 2131230908;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int imgrepost = 2131230912;
+			
 			// aapt resource value: 0x7f0800a6
 			public const int info = 2131230886;
 			
@@ -8109,6 +8121,12 @@ namespace EsMo.Android.WeiBo
 			
 			// aapt resource value: 0x7f080094
 			public const int layProfile = 2131230868;
+			
+			// aapt resource value: 0x7f0800b6
+			public const int layRe = 2131230902;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int layReDivider = 2131230903;
 			
 			// aapt resource value: 0x7f080087
 			public const int layoutRoot = 2131230855;
@@ -8140,8 +8158,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f080089
 			public const int mainViewPage = 2131230857;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int masked = 2131230902;
+			// aapt resource value: 0x7f0800c5
+			public const int masked = 2131230917;
 			
 			// aapt resource value: 0x7f08009f
 			public const int media_actions = 2131230879;
@@ -8158,8 +8176,8 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f08001b
 			public const int multiply = 2131230747;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int mvxListView1 = 2131230899;
+			// aapt resource value: 0x7f0800c2
+			public const int mvxListView1 = 2131230914;
 			
 			// aapt resource value: 0x7f08007e
 			public const int navigation_header_container = 2131230846;
@@ -8374,8 +8392,14 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f08000b
 			public const int transition_scene_layoutid_cache = 2131230731;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int txtContent = 2131230901;
+			
 			// aapt resource value: 0x7f080091
 			public const int txtCounter = 2131230865;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int txtDesc = 2131230900;
 			
 			// aapt resource value: 0x7f080096
 			public const int txtFollowersNewHint = 2131230870;
@@ -8383,8 +8407,26 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f080098
 			public const int txtName = 2131230872;
 			
+			// aapt resource value: 0x7f0800ba
+			public const int txtPics = 2131230906;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int txtReContent = 2131230904;
+			
 			// aapt resource value: 0x7f080090
 			public const int txtTitle = 2131230864;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int txtVisible = 2131230907;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int txtcomment = 2131230911;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int txtlike = 2131230909;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int txtrepost = 2131230913;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
@@ -8398,17 +8440,20 @@ namespace EsMo.Android.WeiBo
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int visible = 2131230901;
+			// aapt resource value: 0x7f0800c4
+			public const int visible = 2131230916;
 			
 			// aapt resource value: 0x7f080029
 			public const int withText = 2131230761;
 			
+			// aapt resource value: 0x7f0800b9
+			public const int wrapPics = 2131230905;
+			
 			// aapt resource value: 0x7f080021
 			public const int wrap_content = 2131230753;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int wvAuth = 2131230900;
+			// aapt resource value: 0x7f0800c3
+			public const int wvAuth = 2131230915;
 			
 			static Id()
 			{
@@ -8668,10 +8713,13 @@ namespace EsMo.Android.WeiBo
 			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int TimelineView = 2130903108;
+			public const int TimelineItem = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int WebAuth = 2130903109;
+			public const int TimelineView = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int WebAuth = 2130903110;
 			
 			static Layout()
 			{

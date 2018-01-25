@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="4dp"
+    android:background="?attr/bg_timeline_item"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <refractored.controls.CircleImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:id="@+id/imgPhoto" />
+            <TextView
+                local:MvxBind="Text GeneralName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                style="@style/TextTitle"
+                android:layout_toRightOf="@+id/imgPhoto"
+                android:layout_marginLeft="4dp" />
+            <ImageView
+                android:id="@+id/imgVerified"
+                android:layout_width="18dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="4dip"
+                android:layout_toRightOf="@id/txtName"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtName"
+                android:layout_marginTop="2dip"
+                android:layout_toRightOf="@id/imgPhoto"
+                style="@style/TextSubhead"
+                local:MvxBind="Text Desc"
+                android:layout_marginLeft="4dp" />
+            <TextView
+                android:id="@+id/txtContent"
+                style="@style/TextBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgPhoto"
+                android:layout_marginBottom="4dip"
+                android:layout_marginTop="10dip"
+                android:lineSpacingExtra="2dip"
+                local:MvxBind="Text Text"
+                />
+            <RelativeLayout
+                android:id="@+id/layRe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtContent"
+                android:layout_marginLeft="-10dip"
+                android:layout_marginRight="-10dip"
+                android:orientation="vertical"
+                android:paddingBottom="4dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip">
+                <View
+                    android:id="@+id/layReDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_marginBottom="8dp" />
+                <TextView
+                    android:id="@+id/txtReContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layReDivider"
+                    android:lineSpacingExtra="2dip"
+                    style="@style/TextBody"
+                    local:MvxBind="Text RetweetContent"
+                     />
+            </RelativeLayout>
+        </RelativeLayout>
+        <EsMo.Android.Support.Views.WrappedLayout
+            android:id="@+id/wrapPics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </EsMo.Android.Support.Views.WrappedLayout>
+        <TextView
+            android:id="@+id/txtPics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/text_body"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/txtVisible"
+            style="@style/TextSubhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/text_subhead"
+            android:visibility="gone" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:id="@+id/imglike" />
+            <TextView
+                android:text="Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtlike"
+                local:MvxBind="Text LikeCount"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/imglike" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:id="@+id/imgcomment"
+                android:layout_toLeftOf="@+id/txtcomment" />
+            <TextView
+                local:MvxBind="Text CommentCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtcomment"
+                android:layout_gravity="center_vertical"
+                android:layout_toLeftOf="@+id/imgrepost" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:id="@+id/imgrepost"
+                android:layout_toLeftOf="@+id/txtrepost" />
+            <TextView
+                local:MvxBind="Text RepostCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtrepost"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -35,12 +35,7 @@ namespace EsMo.Android.WeiBo.Entity
         //    get;
         //    private set;
         //}
-        public override void OnViewModelSet()
-        {
-            ////this.TimelineItems.A
-            //fore
-            //this.ViewModel.TimelineItems
-        }
+      
         protected override void OnInflated(View view)
         {
             
