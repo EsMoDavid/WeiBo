@@ -7,6 +7,8 @@ using MvvmCross.Platform.Platform;
 using System.IO;
 using System.Linq;
 using EsMo.Common.Json;
+using System.Collections.Generic;
+
 namespace EsMo.Sina.SDK.Model
 {
     public class TimelineItemViewModel : MvxNavigatingObject<Status>
@@ -127,11 +129,11 @@ namespace EsMo.Sina.SDK.Model
                 return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage()); 
             }
         }
-        public ImageModel[] ImageModels
+        public List<ImageModel> ImageModels
         {
             get
             {
-                return this.Model.PicURLs;
+                return this.Model.PicURLs.ToList();
             }
         }
           
@@ -141,8 +143,7 @@ namespace EsMo.Sina.SDK.Model
         {
             get
             {
-                int itemCount = ImageModels.Length;
-
+                int itemCount = ImageModels.Count;
                 return itemCount % ColumnCount == 0 ? itemCount / ColumnCount : itemCount / ColumnCount + 1;
             }
         }

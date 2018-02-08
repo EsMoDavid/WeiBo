@@ -146,10 +146,7 @@ namespace EsMo.Sina.Model.Groups
     [DataContract]
     public class ImageModel
     {
-      
         [DataMember(Name = "thumbnail_pic")]
-        public string ThumbnailPic { get; set; }
-
-     
+        public string ThumbnailPic { get; set; }     
     }
 }

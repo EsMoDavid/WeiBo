@@ -26,15 +26,12 @@ namespace EsMo.Sina.SDK.Model
               });
           
         }
-        public IEnumerable<TimelineItemViewModel> TimelineItems
+        public IList<TimelineItemViewModel> TimelineItems
         {
             get
             {
                 var statuses = this.GetApplication().Account.Statuses;
-                foreach (var item in statuses)
-                {
-                    yield return new TimelineItemViewModel(item);
-                }
+                return (from item in statuses select new TimelineItemViewModel(item)).ToList();
             }
         }
         List<Status> Statuses

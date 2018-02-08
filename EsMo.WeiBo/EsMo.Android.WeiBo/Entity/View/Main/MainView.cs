@@ -49,7 +49,7 @@ namespace EsMo.Android.WeiBo.Entity
             base.OnCreate(savedInstanceState);
             Cheeseknife.Bind(this);
             this.framgments = new List<MvxCachingFragmentStatePagerAdapter.FragmentInfo>();
-            //TODO: finish the following codes;
+            
             this.framgments.Add(new MvxCachingFragmentStatePagerAdapter.FragmentInfo("Home", typeof(TimelineFragment), typeof(TimelineViewModel)));
             MvxCachingFragmentStatePagerAdapter adapter = new MvxCachingFragmentStatePagerAdapter(this,this.SupportFragmentManager, framgments);
             this.mainViewPage.Adapter = adapter;

@@ -16,6 +16,8 @@ using System.Collections.ObjectModel;
 using Android.Support.V4.App;
 using MvvmCross.Binding.Droid.Views;
 using CheeseBind;
+using MvvmCross.Binding.Droid.BindingContext;
+using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace EsMo.Android.WeiBo.Entity
 {
@@ -23,7 +25,7 @@ namespace EsMo.Android.WeiBo.Entity
     public class TimelineFragment : BaseFragment<TimelineViewModel>
     {
         [BindView(Resource.Id.listTimeLine)]
-        MvxListView lisTimeLine;
+        private MvxListView listTimeLine;
         protected override int LayoutID => Resource.Layout.TimelineView;
 
         public TimelineFragment()
@@ -36,6 +38,15 @@ namespace EsMo.Android.WeiBo.Entity
         protected override void OnInflated(View view)
         {
             Cheeseknife.Bind(this, view);
+          //MvxImageView
         }
+     
+        //public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        //{
+        //    View view= base.OnCreateView(inflater, container, savedInstanceState);
+        //    this.listTimeLine.Adapter = new TimelineAdapter(this.Context, (IMvxAndroidBindingContext)this.BindingContext);
+        //    this.listTimeLine.ItemsSource = this.ViewModel.TimelineItems;
+        //    return view;
+        //}
     }
 }

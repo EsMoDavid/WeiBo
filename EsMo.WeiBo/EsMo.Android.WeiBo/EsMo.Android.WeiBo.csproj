@@ -317,9 +317,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\EsMo.MvvmCross.Android.Support\Converter\Converters.cs">
-      <Link>Entity\Converters\Converters.cs</Link>
-    </Compile>
     <Compile Include="Bootstrap\AccelerometerPluginBootstrap.cs" />
     <Compile Include="Bootstrap\ColorPluginBootstrap.cs" />
     <Compile Include="Bootstrap\DownloadCachePluginBootstrap.cs" />
@@ -338,7 +335,9 @@
     <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
     <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
     <Compile Include="Entity\Adapter\MainPageAdapter.cs" />
+    <Compile Include="Entity\Adapter\TimelineAdapter.cs" />
     <Compile Include="Entity\Control\MenuListView.cs" />
+    <Compile Include="Entity\Converters\ImageModelConverter.cs" />
     <Compile Include="Entity\Element\AuthWebChromeClient.cs" />
     <Compile Include="Entity\Element\AuthWebViewClient.cs" />
     <Compile Include="Entity\Element\WebViewImp.cs" />
@@ -473,6 +472,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.0\build\NETStandard.Library.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

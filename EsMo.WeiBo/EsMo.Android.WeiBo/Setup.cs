@@ -21,6 +21,7 @@ using MvvmCross.Plugins.Visibility;
 using System.Collections;
 using MvvmCross.Platform.Droid.Platform;
 using EsMo.Android.WeiBo.Entity;
+using EsMo.MvvmCross.Android.Support.Converter;
 
 namespace EsMo.Android.WeiBo
 {
@@ -74,6 +75,7 @@ namespace EsMo.Android.WeiBo
             {
                 var toReturn = base.ValueConverterAssemblies as IList;
                 toReturn.Add(typeof(MvxVisibilityValueConverter).Assembly);
+                toReturn.Add(typeof(StreamBitmapConverter).Assembly);
                 return (IEnumerable<Assembly>)toReturn;
             }
         }
