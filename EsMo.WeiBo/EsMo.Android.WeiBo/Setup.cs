@@ -14,7 +14,6 @@ using MvvmCross.Droid.Platform;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Platform.IoC;
 using MvvmCross.Droid.Views;
-using MvvmCross.Droid.Shared.Presenter;
 using MvvmCross.Platform;
 using System.Reflection;
 using MvvmCross.Plugins.Visibility;
@@ -22,6 +21,7 @@ using System.Collections;
 using MvvmCross.Platform.Droid.Platform;
 using EsMo.Android.WeiBo.Entity;
 using EsMo.MvvmCross.Android.Support.Converter;
+using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace EsMo.Android.WeiBo
 {
@@ -29,6 +29,7 @@ namespace EsMo.Android.WeiBo
     {
         public Setup(Context applicationContext) : base(applicationContext)
         {
+            
         }
 
         protected override IMvxApplication CreateApp()
@@ -49,9 +50,10 @@ namespace EsMo.Android.WeiBo
             //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
             //Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
             //return mvxFragmentsPresenter;
-            var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
+            var mvxFragmentsPresenter = new MvxAppCompatViewPresenter(AndroidViewAssemblies);
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
-
+            
             //add a presentation hint handler to listen for pop to root
             mvxFragmentsPresenter.AddPresentationHintHandler<MvxPanelPopToRootPresentationHint>(hint =>
             {

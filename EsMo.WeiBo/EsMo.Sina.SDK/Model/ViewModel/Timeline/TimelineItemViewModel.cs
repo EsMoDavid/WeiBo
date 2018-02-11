@@ -15,14 +15,14 @@ namespace EsMo.Sina.SDK.Model
     {
         public static readonly Color @RetweetColor = new Color(5, 124, 255);
         public MvxCommand<int> ImageSelected { get; private set; }
-        internal const string SelectedIndex="SelectedIndex";
+        internal const string SelectedIndex = "SelectedIndex";
         internal const string ImageArray = "ImageArray";
         public TimelineItemViewModel(Status model) : base(model)
         {
             this.ImageSelected = new MvxCommand<int>(index =>
             {
                 MvxBundle bundle = new MvxBundle();
-                bundle.Data.Add(ImageArray, this.Model.PicURLs.Select(x=>x.ThumbnailPic).ToJson());
+                bundle.Data.Add(ImageArray, this.Model.PicURLs.Select(x => x.ThumbnailPic).ToJson());
                 bundle.Data.Add(TimelineItemViewModel.SelectedIndex, index.ToString());
                 this.ShowViewModel<ImageBrowserViewModel>(bundle);
             });
@@ -41,15 +41,15 @@ namespace EsMo.Sina.SDK.Model
             get
             {
                 if (this.RetweedtedText == null) return string.Empty;
-                return RetweetedHeader+ this.RetweedtedText;
+                return RetweetedHeader + this.RetweedtedText;
             }
         }
         public string RetweetedHeader
         {
             get
             {
-                return string.IsNullOrEmpty(RetweetedUserName) 
-                    ? string.Empty 
+                return string.IsNullOrEmpty(RetweetedUserName)
+                    ? string.Empty
                     : string.Format("@{0}", this.RetweetedUserName);
             }
         }
@@ -126,19 +126,30 @@ namespace EsMo.Sina.SDK.Model
         {
             get
             {
-                return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage()); 
+                return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage());
             }
         }
         public List<ImageModel> ImageModels
         {
             get
             {
-                return this.Model.PicURLs.ToList();
+                var list= this.Model.PicURLs.ToList();
+                //return this.Model.PicURLs.ToList();
+                if (list.Count > 0)
+                {
+                    List<ImageModel> models = new List<ImageModel>();
+                    for (int i = 0; i < 9; i++)
+                    {
+                        models.Add(new ImageModel() { ThumbnailPic = list[0].ThumbnailPic });
+                    }
+                    return models;
+                }
+                return list;
             }
         }
-          
-       public int Padding { get; set; } = 1;
-        int ColumnCount { get;  set; } = 3;
+
+        public int Padding { get; set; } = 1;
+        int ColumnCount { get; set; } = 3;
         int ImageModelRowsCount
         {
             get
@@ -147,10 +158,10 @@ namespace EsMo.Sina.SDK.Model
                 return itemCount % ColumnCount == 0 ? itemCount / ColumnCount : itemCount / ColumnCount + 1;
             }
         }
-        public double GetImageModelsHeight(double containerWidth,out double itemSize)
+        public double GetImageModelsHeight(double containerWidth, out double itemSize)
         {
             int rowsCount = this.ImageModelRowsCount;
-            itemSize = (containerWidth - Padding * (this.ColumnCount-1)) / this.ColumnCount;
+            itemSize = (containerWidth - Padding * (this.ColumnCount - 1)) / this.ColumnCount;
             return itemSize * rowsCount + Padding * (rowsCount - 1);
         }
         //public override string ToString()

@@ -29,7 +29,7 @@ namespace EsMo.Android.WeiBo.Entity
         }
         protected override View GetView(int position, View convertView, ViewGroup parent, int templateId)
         {
-            var view =  base.GetView(position, convertView, parent, templateId);
+            var view = base.GetView(position, convertView, parent, templateId);
             return view;
         }
     }

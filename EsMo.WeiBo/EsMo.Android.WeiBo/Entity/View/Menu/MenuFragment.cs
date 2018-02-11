@@ -1,14 +1,13 @@
-﻿using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Views;
+﻿using Android.Views;
 using CheeseBind;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
-using MvvmCross.Droid.Shared.Attributes;
+using MvvmCross.Droid.Views.Attributes;
+
 namespace EsMo.Android.WeiBo.Entity
 {
-    [MvxFragment(typeof(MainViewModel), Resource.Id.menu_frame)]
+    [MvxFragmentPresentation(typeof(MainViewModel), Resource.Id.menu_frame)]
     public class MainMenuFragment : BaseFragment<MenuViewModel>
     {
         [BindView(Resource.Id.listmenu)]

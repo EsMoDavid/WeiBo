@@ -21,12 +21,12 @@ namespace EsMo.Android.WeiBo
          , Theme = "@style/Theme.Splash"
          , NoHistory = true
          , ScreenOrientation = ScreenOrientation.Portrait)]
-    public class SplashScreen: MvxSplashScreenActivity
+    public class SplashScreen : MvxSplashScreenActivity
     {
         public SplashScreen()
            : base(Resource.Layout.SplashScreen)
         {
-            
+
         }
     }
 }

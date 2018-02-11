@@ -23,7 +23,7 @@ namespace EsMo.Android.WeiBo.Entity
             this.ViewModel.Appearing();
         }
     }
-    public class BaseCachingFragmentActivity<T>  : MvxCachingFragmentCompatActivity<T> where T : BaseViewModel
+    public class BaseCachingFragmentActivity<T>  : MvxAppCompatActivity<T> where T : BaseViewModel
     {
         protected global::Android.Support.V7.Widget.Toolbar toolbar { get; private set; }
 

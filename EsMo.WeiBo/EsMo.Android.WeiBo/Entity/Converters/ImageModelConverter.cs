@@ -32,8 +32,8 @@ namespace EsMo.Android.WeiBo.Entity.Converters
             {
                 return string.Empty;
             }
-            //return value[index].ThumbnailPic;
-            return "http://wx2.sinaimg.cn/thumbnail/8e7f1a15ly1fnstiejlbrg20dv05hnar.gif";
+            return value[index].ThumbnailPic;
+            //return "http://wx2.sinaimg.cn/thumbnail/8e7f1a15ly1fnstiejlbrg20dv05hnar.gif";
         }
     }
     public class ModelToVisibilityConverter : MvxValueConverter<IList<ImageModel>, ViewStates>
