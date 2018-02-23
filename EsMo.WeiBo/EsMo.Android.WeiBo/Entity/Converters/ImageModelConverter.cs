@@ -16,6 +16,7 @@ using EsMo.Sina.Model.Groups;
 using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Droid.Support.V7.AppCompat.Widget;
 using MvvmCross.Platform.Converters;
+using UniversalImageLoader.Core;
 
 namespace EsMo.Android.WeiBo.Entity.Converters
 {
@@ -45,11 +46,12 @@ namespace EsMo.Android.WeiBo.Entity.Converters
                 throw new Exception("ImageModelConverter has no parameter");
             }
             int index = int.Parse(parameter.ToString());
-            System.Diagnostics.Debug.WriteLine(value.Count+"----------------------");
             if (index >= value.Count)
             {
                 return ViewStates.Gone;
             }
+            ImageLoader imageLoader = ImageLoader.Instance;
+            //imageLoader.DisplayImage(imageUri, imageView);
             return ViewStates.Visible;
         }
     }

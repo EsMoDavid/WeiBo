@@ -96,55 +96,47 @@
         android:layout_height="wrap_content">
       <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=0;
+              
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
       <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=1;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=1"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=2;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=2"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
            local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=3;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=3"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=4;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=4"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=5;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=5"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=6;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=6"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=7;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=7"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />
-      <ImageView
+      <MvxImageView
           local:MvxBind="
-              ImageUrl ImageModels,Converter=ModelToImage, ConverterParameter=8;
               Visibility ImageModels,Converter=ModelToVisibility, ConverterParameter=8"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content" />

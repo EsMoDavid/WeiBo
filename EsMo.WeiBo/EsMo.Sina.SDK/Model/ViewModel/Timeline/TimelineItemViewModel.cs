@@ -135,15 +135,15 @@ namespace EsMo.Sina.SDK.Model
             {
                 var list= this.Model.PicURLs.ToList();
                 //return this.Model.PicURLs.ToList();
-                if (list.Count > 0)
-                {
-                    List<ImageModel> models = new List<ImageModel>();
-                    for (int i = 0; i < 9; i++)
-                    {
-                        models.Add(new ImageModel() { ThumbnailPic = list[0].ThumbnailPic });
-                    }
-                    return models;
-                }
+                //if (list.Count > 0)
+                //{
+                //    List<ImageModel> models = new List<ImageModel>();
+                //    for (int i = 0; i < 9; i++)
+                //    {
+                //        models.Add(new ImageModel() { ThumbnailPic = list[0].ThumbnailPic });
+                //    }
+                //    //return models;
+                //}
                 return list;
             }
         }

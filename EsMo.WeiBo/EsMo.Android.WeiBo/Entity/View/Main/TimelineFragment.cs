@@ -3,6 +3,7 @@ using Android.Runtime;
 using Android.Views;
 using CheeseBind;
 using EsMo.Sina.SDK.Model;
+using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
 
 namespace EsMo.Android.WeiBo.Entity
@@ -24,15 +25,14 @@ namespace EsMo.Android.WeiBo.Entity
         protected override void OnInflated(View view)
         {
             Cheeseknife.Bind(this, view);
-          //MvxImageView
         }
-     
-        //public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-        //{
-        //    View view= base.OnCreateView(inflater, container, savedInstanceState);
-        //    this.listTimeLine.Adapter = new TimelineAdapter(this.Context, (IMvxAndroidBindingContext)this.BindingContext);
-        //    this.listTimeLine.ItemsSource = this.ViewModel.TimelineItems;
-        //    return view;
-        //}
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            View view = base.OnCreateView(inflater, container, savedInstanceState);
+            this.listTimeLine.Adapter = new TimelineAdapter(this.Context, (IMvxAndroidBindingContext)this.BindingContext, Resource.Layout.TimelineItem);
+            this.listTimeLine.ItemsSource = this.ViewModel.TimelineItems;
+            return view;
+        }
     }
 }
