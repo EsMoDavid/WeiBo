@@ -78,6 +78,7 @@ namespace EsMo.Android.WeiBo
                 var toReturn = base.ValueConverterAssemblies as IList;
                 toReturn.Add(typeof(MvxVisibilityValueConverter).Assembly);
                 toReturn.Add(typeof(StreamBitmapConverter).Assembly);
+                toReturn.Add(typeof(NullGoneConverter).Assembly);
                 return (IEnumerable<Assembly>)toReturn;
             }
         }

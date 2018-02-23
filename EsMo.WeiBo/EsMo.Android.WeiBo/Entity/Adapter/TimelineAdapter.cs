@@ -50,8 +50,8 @@ namespace EsMo.Android.WeiBo.Entity
         public TimelineListItemView(Context context, IMvxLayoutInflaterHolder layoutInflaterHolder, object dataContext, ViewGroup parent, int templateId) : base(context, layoutInflaterHolder, dataContext, parent, templateId)
         {
             View content = this.Content;
-            this.wrappedLayout = content.FindViewById<WrappedLayout>(Resource.Id.wrapPics);
             this.imgLoadingDrawable = new BitmapDrawable(ResourceExtension.ImageLoading);
+            this.wrappedLayout = content.FindViewById<WrappedLayout>(Resource.Id.wrapPics);
             for (int i = 0; i < this.wrappedLayout.ChildCount; i++)
             {
                 ImageView imgView = this.wrappedLayout.GetChildAt(i) as ImageView;

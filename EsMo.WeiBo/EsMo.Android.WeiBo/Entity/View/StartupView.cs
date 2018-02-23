@@ -11,6 +11,7 @@ using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Droid.Support.V7.AppCompat.Widget;
 using System.IO;
 using System.Net.Http;
+using UniversalImageLoader.Core;
 
 namespace EsMo.Android.WeiBo.Entity
 {
@@ -47,7 +48,7 @@ namespace EsMo.Android.WeiBo.Entity
             switch (e.PropertyName)
             {
                 case nameof(this.ViewModel.ProfileUrl):
-                    this.imgProfile.ImageUrl = this.ViewModel.ProfileUrl;
+                    ImageLoader.Instance.DisplayImage(this.ViewModel.ProfileUrl, this.imgProfile);
                     break;
                 default:
                     break;

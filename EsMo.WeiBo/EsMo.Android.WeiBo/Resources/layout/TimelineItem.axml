@@ -38,8 +38,9 @@
           android:layout_height="18dip"
           android:layout_marginLeft="4dip"
           android:layout_toRightOf="@id/txtName"
-          local:MvxBind="Bitmap ImageVerified, Converter=StreamBitmap"
-          android:visibility="gone" />
+          local:MvxBind="Bitmap ImageVerified, Converter=StreamBitmap; Visibility ImageVerified, Converter=NullGone"
+        
+          />
       <TextView
           android:id="@+id/txtDesc"
           android:layout_width="wrap_content"

@@ -122,11 +122,27 @@ namespace EsMo.Sina.SDK.Model
         {
             get { return this.GetApplication().ResourceCache.Get(AssetsHelper.timeline_icon_redirect.ToAssetsImage()); }
         }
+       
         public Stream ImageVerified
         {
             get
             {
-                return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage());
+                // yellow vip
+                if (this.Model.User.VerifiedType == 0)
+                {
+                    return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage());
+                }
+                // junior 200, senior 220
+                else if (this.Model.User.VerifiedType == 200 || this.Model.User.VerifiedType == 220)
+                {
+                    return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_grassroot.ToAssetsImage());
+                }
+                // blue vip
+                else if (this.Model.User.VerifiedType > 0)
+                {
+                    return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_enterprise_vip.ToAssetsImage());
+                }
+                return null;
             }
         }
         public Stream ImageLoading

@@ -29,4 +29,16 @@ namespace EsMo.MvvmCross.Android.Support.Converter
             return null;
         }
     }
+    public class NullGoneConverter : IMvxValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value == null ? ViewStates.Gone : ViewStates.Visible;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
