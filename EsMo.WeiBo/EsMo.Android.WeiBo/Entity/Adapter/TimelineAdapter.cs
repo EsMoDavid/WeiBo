@@ -1,13 +1,18 @@
 ﻿using Android.Content;
+using Android.Graphics;
+using Android.Graphics.Drawables;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using EsMo.Android.Support.Views;
+using EsMo.Sina.SDK;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
 using System;
+using System.IO;
 using UniversalImageLoader.Core;
+using UniversalImageLoader.Core.Listener;
 
 namespace EsMo.Android.WeiBo.Entity
 {
@@ -41,19 +46,69 @@ namespace EsMo.Android.WeiBo.Entity
     public class TimelineListItemView : MvxListItemView
     {
         WrappedLayout wrappedLayout;
+        Drawable imgLoadingDrawable;
         public TimelineListItemView(Context context, IMvxLayoutInflaterHolder layoutInflaterHolder, object dataContext, ViewGroup parent, int templateId) : base(context, layoutInflaterHolder, dataContext, parent, templateId)
         {
             View content = this.Content;
             this.wrappedLayout = content.FindViewById<WrappedLayout>(Resource.Id.wrapPics);
+            this.imgLoadingDrawable = new BitmapDrawable(ResourceExtension.ImageLoading);
+            for (int i = 0; i < this.wrappedLayout.ChildCount; i++)
+            {
+                ImageView imgView = this.wrappedLayout.GetChildAt(i) as ImageView;
+                imgView.SetScaleType(ImageView.ScaleType.CenterCrop);
+                imgView.SetImageDrawable(this.imgLoadingDrawable);
+            }
         }
         public void UpdateView(object dataContext)
-        {           
+        {
             var model = dataContext as TimelineItemViewModel;
-            for (int i = 0; i < model.ImageModels.Count; i++)
+            for (int i = 0; i < this.wrappedLayout.ChildCount; i++)
             {
-                var imgModel = model.ImageModels[i];
-                ImageLoader.Instance.DisplayImage(imgModel.ThumbnailPic, this.wrappedLayout.GetChildAt(i) as ImageView);
+                var imgView = this.wrappedLayout.GetChildAt(i) as ImageView;
+                imgView.SetImageDrawable(this.imgLoadingDrawable);
             }
+
+            for (int i = 0; i < this.wrappedLayout.ChildCount; i++)
+            {
+                if (i < model.ImageModels.Count)
+                {
+                    var imgView = this.wrappedLayout.GetChildAt(i) as ImageView;
+                    var imgModel = model.ImageModels[i];
+                    ImageLoader.Instance.LoadImage(imgModel.ThumbnailPic, new EsMoImageLoadingListener(imgView));
+                }
+            }
+        }
+    }
+    public class EsMoImageLoadingListener : SimpleImageLoadingListener
+    {
+        ImageView imgView;
+        public EsMoImageLoadingListener(ImageView imageView)
+        {
+            this.imgView = imageView;
+        }
+
+        protected EsMoImageLoadingListener(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
+        {
+
+        }
+        public override void OnLoadingComplete(string imageUri, View view, Bitmap loadedImage)
+        {
+            base.OnLoadingComplete(imageUri, view, loadedImage);
+            this.ApplyImage(loadedImage);
+        }
+        private void ApplyImage(Bitmap bitmap)
+        {
+            BitmapDrawable bmp = new BitmapDrawable(bitmap);
+            Drawable targetDrawable = null;
+            if (imgView.Drawable != null)
+            {
+                TransitionDrawable trans = new TransitionDrawable(new Drawable[] { imgView.Drawable, bmp });
+                trans.StartTransition(300);
+                targetDrawable = trans;
+            }
+            else
+                targetDrawable = bmp;
+            imgView.SetImageDrawable(targetDrawable);
         }
     }
 }

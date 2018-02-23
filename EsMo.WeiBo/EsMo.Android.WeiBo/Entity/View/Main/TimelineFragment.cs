@@ -31,7 +31,6 @@ namespace EsMo.Android.WeiBo.Entity
         {
             View view = base.OnCreateView(inflater, container, savedInstanceState);
             this.listTimeLine.Adapter = new TimelineAdapter(this.Context, (IMvxAndroidBindingContext)this.BindingContext, Resource.Layout.TimelineItem);
-            this.listTimeLine.ItemsSource = this.ViewModel.TimelineItems;
             return view;
         }
     }

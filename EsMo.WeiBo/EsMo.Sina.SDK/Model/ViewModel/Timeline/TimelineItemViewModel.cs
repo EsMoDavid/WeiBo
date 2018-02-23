@@ -129,6 +129,13 @@ namespace EsMo.Sina.SDK.Model
                 return this.GetApplication().ResourceCache.Get(AssetsHelper.avatar_vip.ToAssetsImage());
             }
         }
+        public Stream ImageLoading
+        {
+            get
+            {
+                return this.GetApplication().ResourceCache.Get(AssetsHelper.timeline_loading.ToAssetsImage());
+            }
+        }
         public List<ImageModel> ImageModels
         {
             get
