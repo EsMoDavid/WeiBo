@@ -12,6 +12,7 @@ using Android.Widget;
 using MvvmCross.Droid.Support.V4;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Binding.Droid.BindingContext;
+using CheeseBind;
 
 namespace EsMo.Android.WeiBo.Entity
 {
@@ -28,7 +29,7 @@ namespace EsMo.Android.WeiBo.Entity
         }
         protected virtual void OnInflated(View view)
         {
-            
+            Cheeseknife.Bind(this, view);
         }
     }
 }

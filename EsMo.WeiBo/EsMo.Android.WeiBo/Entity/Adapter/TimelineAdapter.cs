@@ -36,7 +36,6 @@ namespace EsMo.Android.WeiBo.Entity
         protected override void OnMvxViewHolderBound(MvxViewHolderBoundEventArgs obj)
         {
             base.OnMvxViewHolderBound(obj);
-            //var v = obj.Holder.ItemView;
             (obj.Holder as TimelineItemHolder).UpdateView();
         }
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)

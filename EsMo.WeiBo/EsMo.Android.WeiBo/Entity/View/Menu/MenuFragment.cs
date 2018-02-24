@@ -21,7 +21,8 @@ namespace EsMo.Android.WeiBo.Entity
 
         protected override void OnInflated(View view)
         {
-            Cheeseknife.Bind(this, view);
+            //Cheeseknife.Bind(this, view);
+            base.OnInflated(view);
             MenuAdapter adapter = new MenuAdapter(this.Activity, this.BindingContext as IMvxAndroidBindingContext);
             adapter.ItemsSource = this.ViewModel.MenuItems;
             this.listMenu.Adapter = adapter;

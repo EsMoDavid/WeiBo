@@ -2,6 +2,7 @@
 using Android.Runtime;
 using Android.Views;
 using CheeseBind;
+using EsMo.MvvmCross.Android.Support;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
@@ -13,26 +14,24 @@ namespace EsMo.Android.WeiBo.Entity
     public class TimelineFragment : BaseFragment<TimelineViewModel>
     {
         [BindView(Resource.Id.listTimeLine)]
-        private MvxRecyclerView listTimeLine;
+        private RefreshMvxRecyclerView listTimeLine;
         protected override int LayoutID => Resource.Layout.TimelineView;
 
         public TimelineFragment()
         {
         }
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-        }
         protected override void OnInflated(View view)
         {
-            Cheeseknife.Bind(this, view);
+            base.OnInflated(view);
+            this.listTimeLine.Adapter = new TimelineAdapter(this.BindingContext as IMvxAndroidBindingContext);
+            this.listTimeLine.Adapter.ItemsSource = this.ViewModel.TimelineItems;
+            this.listTimeLine.OnBottomRefreshing += ListTimeLine_OnBottomRefreshing;
         }
-
-        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        private async void ListTimeLine_OnBottomRefreshing(object sender, System.EventArgs e)
         {
-            View view = base.OnCreateView(inflater, container, savedInstanceState);
-            this.listTimeLine.Adapter=new TimelineAdapter((IMvxAndroidBindingContext)this.BindingContext);
-            return view;
+            await this.ViewModel.RequestNextPage();
+            this.listTimeLine.Adapter.ItemsSource = this.ViewModel.TimelineItems;
+            (this.listTimeLine.Adapter as TimelineAdapter).NotifyDataSetChanged();
         }
     }
 }

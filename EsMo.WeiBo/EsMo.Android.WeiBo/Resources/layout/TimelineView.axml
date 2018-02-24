@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
+
+  <esmo.mvvmcross.android.support.RefreshMvxRecyclerView
       android:minWidth="25px"
       android:minHeight="25px"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:id="@+id/listTimeLine"
-      local:MvxBind="ItemsSource TimelineItems"
       local:MvxItemTemplate="@layout/timelineitem"
         />
 </LinearLayout>
