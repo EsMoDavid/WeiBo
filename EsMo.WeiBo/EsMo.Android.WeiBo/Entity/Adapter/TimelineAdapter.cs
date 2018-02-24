@@ -10,6 +10,7 @@ using EsMo.Sina.SDK;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Binding.ExtensionMethods;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Droid.Support.V7.RecyclerView.Model;
 using System;
@@ -21,6 +22,9 @@ namespace EsMo.Android.WeiBo.Entity
 {
     public class TimelineAdapter : MvxRecyclerAdapter
     {
+        int TypeFooter = 1;
+        int TypeContent = 0;
+        public FooterHolder Footer { get; set; }
         public TimelineAdapter() : base()
         {
 
@@ -33,39 +37,52 @@ namespace EsMo.Android.WeiBo.Entity
         {
 
         }
+        public override int ItemCount =>this.ItemsSource.Count() + 1;
+        public override int GetItemViewType(int position)
+        {
+            if (position == ItemCount - 1)
+            {
+                return TypeFooter;
+            }
+            return TypeContent;
+        }
         protected override void OnMvxViewHolderBound(MvxViewHolderBoundEventArgs obj)
         {
             base.OnMvxViewHolderBound(obj);
-            (obj.Holder as TimelineItemHolder).UpdateView();
+            if (obj.Holder is TimelineItemHolder)
+            {
+                (obj.Holder as TimelineItemHolder).UpdateView();
+            }
         }
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             var itemBindingContext = new MvxAndroidBindingContext(parent.Context, BindingContext.LayoutInflaterHolder);
-
-            var vh = new TimelineItemHolder(InflateViewForHolder(parent, viewType, itemBindingContext), itemBindingContext)
+            if (viewType == TypeFooter)
             {
-                Click = ItemClick,
-                LongClick = ItemLongClick
-            };
+                View view = View.Inflate(parent.Context, Resource.Layout.FooterLoading, null);
 
-            return vh;
+                // looks gravity.center can not be written in axml, I have to write it here, I don't know why.
+                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MatchParent, ViewGroup.LayoutParams.WrapContent);
+                layoutParams.Gravity = GravityFlags.Center;
+                view.LayoutParameters = layoutParams;
+                this.Footer = new FooterHolder(view, itemBindingContext);
+                return Footer;
+            }
+            else
+            {
+                var vh = new TimelineItemHolder(InflateViewForHolder(parent, viewType, itemBindingContext), itemBindingContext)
+                {
+                    Click = ItemClick,
+                    LongClick = ItemLongClick
+                };
+                return vh;
+            }
         }
-        //protected override IMvxListItemView CreateBindableView(object dataContext, ViewGroup parent, int templateId)
-        //{
-        //    return new TimelineListItemView(this.Context, this.BindingContext.LayoutInflaterHolder, dataContext, parent, templateId);
-        //}
-        //protected override View GetBindableView(View convertView, object dataContext, ViewGroup parent, int templateId)
-        //{
-        //    var view = base.GetBindableView(convertView, dataContext, parent, templateId);
-        //    (view.Tag as TimelineListItemView).UpdateView(dataContext);
-        //    return view;
-        //}
     }
     public class TimelineItemHolder: MvxRecyclerViewHolder
     {
         WrappedLayout wrappedLayout;
         Drawable imgLoadingDrawable;
-
         public TimelineItemHolder(View itemView, IMvxAndroidBindingContext context) : base(itemView, context)
         {
             View content = itemView;
@@ -101,6 +118,17 @@ namespace EsMo.Android.WeiBo.Entity
                     ImageLoader.Instance.LoadImage(imgModel.ThumbnailPic, new EsMoImageLoadingListener(imgView));
                 }
             }
+        }
+    }
+    public class FooterHolder : MvxRecyclerViewHolder
+    {
+        public FooterHolder(View itemView, IMvxAndroidBindingContext context) : base(itemView, context)
+        {
+        }
+
+        public FooterHolder(IntPtr handle, JniHandleOwnership ownership) : base(handle, ownership)
+        {
+
         }
     }
     public class EsMoImageLoadingListener : SimpleImageLoadingListener

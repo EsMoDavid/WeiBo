@@ -3,6 +3,7 @@ using EsMo.Sina.SDK.Service;
 using MvvmCross.Core.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace EsMo.Sina.SDK.Model
     {
         IAccountService accountService;
         public MvxCommand<TimelineItemViewModel> SelectedCommand { get; private set; }
-
+        ObservableCollection<TimelineItemViewModel> timelineItems;
         public TimelineViewModel(IAccountService accountService)
         {
             this.accountService = accountService;
@@ -26,12 +27,17 @@ namespace EsMo.Sina.SDK.Model
               });
           
         }
-        public IList<TimelineItemViewModel> TimelineItems
+        public ObservableCollection<TimelineItemViewModel> TimelineItems
         {
             get
             {
-                var statuses = this.GetApplication().Account.Statuses;
-                return (from item in statuses select new TimelineItemViewModel(item)).ToList();
+                if(this.timelineItems==null)
+                {
+                    this.timelineItems = new ObservableCollection<TimelineItemViewModel>();
+                    var statuses = this.GetApplication().Account.Statuses;
+                    this.SyncTimelineItems(statuses);
+                }
+                return this.timelineItems;
             }
         }
         List<Status> Statuses
@@ -39,6 +45,13 @@ namespace EsMo.Sina.SDK.Model
             get
             {
                 return this.GetApplication().Account.Statuses;
+            }
+        }
+        void SyncTimelineItems(List<Status> statuses)
+        {
+            foreach (var status in statuses)
+            {
+                this.TimelineItems.Add(new TimelineItemViewModel(status));
             }
         }
         public async Task<int> RequestNextPage()
@@ -55,6 +68,7 @@ namespace EsMo.Sina.SDK.Model
                     {
                         status.Add(item);
                     }
+                    this.SyncTimelineItems(nextPage);
                     return nextPage.Count;
                 }
             }

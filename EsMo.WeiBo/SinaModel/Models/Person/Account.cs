@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.Linq;
 using SQLiteNetExtensions.Attributes;
 using EsMo.Sina.Model.Groups;
+using System.Collections.ObjectModel;
 
 namespace EsMo.Sina.Model.Person
 {

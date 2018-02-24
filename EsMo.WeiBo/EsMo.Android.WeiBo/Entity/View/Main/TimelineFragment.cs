@@ -30,8 +30,7 @@ namespace EsMo.Android.WeiBo.Entity
         private async void ListTimeLine_OnBottomRefreshing(object sender, System.EventArgs e)
         {
             await this.ViewModel.RequestNextPage();
-            this.listTimeLine.Adapter.ItemsSource = this.ViewModel.TimelineItems;
-            (this.listTimeLine.Adapter as TimelineAdapter).NotifyDataSetChanged();
+            await System.Threading.Tasks.Task.Delay(2000);
         }
     }
 }
