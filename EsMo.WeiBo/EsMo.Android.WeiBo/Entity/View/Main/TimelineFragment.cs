@@ -5,6 +5,7 @@ using CheeseBind;
 using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
+using MvvmCross.Droid.Support.V7.RecyclerView;
 
 namespace EsMo.Android.WeiBo.Entity
 {
@@ -12,7 +13,7 @@ namespace EsMo.Android.WeiBo.Entity
     public class TimelineFragment : BaseFragment<TimelineViewModel>
     {
         [BindView(Resource.Id.listTimeLine)]
-        private MvxListView listTimeLine;
+        private MvxRecyclerView listTimeLine;
         protected override int LayoutID => Resource.Layout.TimelineView;
 
         public TimelineFragment()
@@ -30,7 +31,7 @@ namespace EsMo.Android.WeiBo.Entity
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = base.OnCreateView(inflater, container, savedInstanceState);
-            this.listTimeLine.Adapter = new TimelineAdapter(this.Context, (IMvxAndroidBindingContext)this.BindingContext, Resource.Layout.TimelineItem);
+            this.listTimeLine.Adapter=new TimelineAdapter((IMvxAndroidBindingContext)this.BindingContext);
             return view;
         }
     }

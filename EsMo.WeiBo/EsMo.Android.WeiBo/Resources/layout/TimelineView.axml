@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <MvvmCross.Binding.Droid.Views.MvxListView
+  <mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
       android:minWidth="25px"
       android:minHeight="25px"
       android:layout_width="match_parent"

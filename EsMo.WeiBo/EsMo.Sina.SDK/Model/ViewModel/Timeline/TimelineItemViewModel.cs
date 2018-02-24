@@ -53,22 +53,7 @@ namespace EsMo.Sina.SDK.Model
                     : string.Format("@{0}", this.RetweetedUserName);
             }
         }
-        string RetweetedUserName
-        {
-            get
-            {
-                if (this.HasRetweetedStatus && this.RetweetedStatus.User != null)
-                    return this.RetweetedStatus.User.ScreenName;
-                return string.Empty;
-            }
-        }
-        string RetweedtedText
-        {
-            get
-            {
-                return this.HasRetweetedStatus ? this.RetweetedStatus.Text : string.Empty;
-            }
-        }
+     
         public string Description
         {
             get
@@ -156,18 +141,7 @@ namespace EsMo.Sina.SDK.Model
         {
             get
             {
-                var list= this.Model.PicURLs.ToList();
-                //return this.Model.PicURLs.ToList();
-                //if (list.Count > 0)
-                //{
-                //    List<ImageModel> models = new List<ImageModel>();
-                //    for (int i = 0; i < 9; i++)
-                //    {
-                //        models.Add(new ImageModel() { ThumbnailPic = list[0].ThumbnailPic });
-                //    }
-                //    //return models;
-                //}
-                return list;
+                return this.Model.PicURLs.ToList();
             }
         }
 
@@ -181,15 +155,27 @@ namespace EsMo.Sina.SDK.Model
                 return itemCount % ColumnCount == 0 ? itemCount / ColumnCount : itemCount / ColumnCount + 1;
             }
         }
+        string RetweetedUserName
+        {
+            get
+            {
+                if (this.HasRetweetedStatus && this.RetweetedStatus.User != null)
+                    return this.RetweetedStatus.User.ScreenName;
+                return string.Empty;
+            }
+        }
+        string RetweedtedText
+        {
+            get
+            {
+                return this.HasRetweetedStatus ? this.RetweetedStatus.Text : string.Empty;
+            }
+        }
         public double GetImageModelsHeight(double containerWidth, out double itemSize)
         {
             int rowsCount = this.ImageModelRowsCount;
             itemSize = (containerWidth - Padding * (this.ColumnCount - 1)) / this.ColumnCount;
             return itemSize * rowsCount + Padding * (rowsCount - 1);
         }
-        //public override string ToString()
-        //{
-        //    return this.Name;
-        //}
     }
 }

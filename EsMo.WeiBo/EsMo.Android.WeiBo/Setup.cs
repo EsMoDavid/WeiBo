@@ -47,14 +47,9 @@ namespace EsMo.Android.WeiBo
         }
         protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
-            //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
-            //Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
-            //return mvxFragmentsPresenter;
-            //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
             var mvxFragmentsPresenter = new MvxAppCompatViewPresenter(AndroidViewAssemblies);
             Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
             
-            //add a presentation hint handler to listen for pop to root
             mvxFragmentsPresenter.AddPresentationHintHandler<MvxPanelPopToRootPresentationHint>(hint =>
             {
                 var activity = Mvx.Resolve<IMvxAndroidCurrentTopActivity>().Activity;
@@ -66,8 +61,6 @@ namespace EsMo.Android.WeiBo
                 }
                 return true;
             });
-            //register the presentation hint to pop to root
-            //picked up in the third view model
             Mvx.RegisterSingleton<MvxPresentationHint>(() => new MvxPanelPopToRootPresentationHint());
             return mvxFragmentsPresenter;
         }

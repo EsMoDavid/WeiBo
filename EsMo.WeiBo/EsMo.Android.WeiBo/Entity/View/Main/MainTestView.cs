@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Support.V7.AppCompat.Widget;
+using MvvmCross.Droid.Support.V7.RecyclerView;
 
 namespace EsMo.Android.WeiBo.Entity
 {
