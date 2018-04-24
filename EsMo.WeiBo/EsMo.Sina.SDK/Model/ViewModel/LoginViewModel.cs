@@ -50,8 +50,7 @@ namespace EsMo.Sina.SDK.Model
 
         Task<string> GetLoginPage()
         {
-            //return this.loginService.GetAuthPage(null, null);
-            return this.loginService.GetAuthPage("showmercy123@sina.com", "showmercy1112");
+            return this.loginService.GetAuthPage(null, null);
         }
 
         public override void Appearing()
