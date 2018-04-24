@@ -28,11 +28,12 @@ namespace EsMo.Android.WeiBo.Entity
         MvxAppCompatImageView imgProfile;
         [BindView(Resource.Id.textView1)]
         TextView textView1;
+        protected override int LayoutID => Resource.Layout.StartupView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            this.SetContentView(Resource.Layout.StartupView);
-            Cheeseknife.Bind(this);
+            //this.SetContentView(Resource.Layout.StartupView);
+            //Cheeseknife.Bind(this);
             this.ViewModel.StartupCommand.Execute(null);
             this.ViewModel.PropertyChanged += ViewModel_PropertyChanged;
             if (this.ActionBar != null)

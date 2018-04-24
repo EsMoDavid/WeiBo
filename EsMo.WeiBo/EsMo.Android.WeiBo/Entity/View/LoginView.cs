@@ -25,6 +25,7 @@ namespace EsMo.Android.WeiBo.Entity
        Label = "LoginView",
        LaunchMode = LaunchMode.SingleTop,
        ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize,
+        NoHistory =true,
        Name = "esmo.android.weibo.entity.LoginView"
    )]
     public class LoginView : BaseView<LoginViewModel>
@@ -33,11 +34,10 @@ namespace EsMo.Android.WeiBo.Entity
         WebViewImp webView;
         [BindView(Resource.Id.progressBar)]
         ProgressBar progressBar;
+        protected override int LayoutID => Resource.Layout.LoginView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            this.SetContentView(Resource.Layout.LoginView);
-            Cheeseknife.Bind(this);
             this.ViewModel.WebView = webView;
         }
     }

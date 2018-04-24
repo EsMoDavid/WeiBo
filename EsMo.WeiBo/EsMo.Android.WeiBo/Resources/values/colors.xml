@@ -35,6 +35,6 @@
         <item>@color/gplus_color_3</item>
         <item>@color/gplus_color_4</item>
     </integer-array>-->
-
+  <color name="bg_image_broswer">#ff000000</color>
 
 </resources>

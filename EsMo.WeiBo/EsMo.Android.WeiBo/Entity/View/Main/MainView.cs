@@ -25,7 +25,6 @@ namespace EsMo.Android.WeiBo.Entity
 {
     [Activity(
         Label = "MainView",
-        NoHistory = true,
         LaunchMode = LaunchMode.SingleInstance
         )]
     public class MainView : BaseCachingFragmentActivity<MainViewModel>
@@ -50,7 +49,7 @@ namespace EsMo.Android.WeiBo.Entity
             Cheeseknife.Bind(this);
             this.framgments = new List<MvxViewPagerFragmentInfo>();
             
-            this.framgments.Add(new MvxViewPagerFragmentInfo("Home", typeof(TimelineFragment), typeof(TimelineViewModel)));
+            this.framgments.Add(new MvxViewPagerFragmentInfo("Home", typeof(TimelineView), typeof(TimelineViewModel)));
             MvxCachingFragmentStatePagerAdapter adapter = new MvxCachingFragmentStatePagerAdapter(this,this.SupportFragmentManager, framgments);
             this.mainViewPage.Adapter = adapter;
 

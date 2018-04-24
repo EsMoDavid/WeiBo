@@ -17,7 +17,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -306,15 +306,16 @@
     <Compile Include="Bootstrap\VisibilityPluginBootstrap.cs" />
     <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
     <Compile Include="Entity\Adapter\MainPageAdapter.cs" />
-    <Compile Include="Entity\Adapter\TimelineAdapter.cs" />
+    <Compile Include="Entity\View\Main\Timeline\TimelineItemView.cs" />
     <Compile Include="Entity\Control\MenuListView.cs" />
     <Compile Include="Entity\Converters\ImageModelConverter.cs" />
     <Compile Include="Entity\Element\AuthWebChromeClient.cs" />
     <Compile Include="Entity\Element\AuthWebViewClient.cs" />
     <Compile Include="Entity\Element\WebViewImp.cs" />
     <Compile Include="Entity\Fragment\BaseFragment.cs" />
+    <Compile Include="Entity\View\Main\Timeline\ImageBroswerView.cs" />
     <Compile Include="Entity\View\Main\MainTestView.cs" />
-    <Compile Include="Entity\View\Main\TimelineFragment.cs" />
+    <Compile Include="Entity\View\Main\Timeline\TimelineView.cs" />
     <Compile Include="Entity\MvxPanelPopToRootPresentationHint.cs" />
     <Compile Include="Entity\View\BaseView.cs" />
     <Compile Include="Entity\View\LoginView.cs" />
@@ -364,6 +365,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\FooterLoading.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ImageLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

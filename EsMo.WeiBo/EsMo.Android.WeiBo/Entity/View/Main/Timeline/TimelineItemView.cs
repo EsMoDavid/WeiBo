@@ -1,5 +1,4 @@
-﻿using Android.Content;
-using Android.Graphics;
+﻿using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Runtime;
 using Android.Support.V7.Widget;
@@ -11,10 +10,10 @@ using EsMo.Sina.SDK.Model;
 using MvvmCross.Binding.Droid.BindingContext;
 using MvvmCross.Binding.Droid.Views;
 using MvvmCross.Binding.ExtensionMethods;
+using MvvmCross.Droid.Support.V7.AppCompat.Widget;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Droid.Support.V7.RecyclerView.Model;
 using System;
-using System.IO;
 using UniversalImageLoader.Core;
 using UniversalImageLoader.Core.Listener;
 
@@ -49,9 +48,9 @@ namespace EsMo.Android.WeiBo.Entity
         protected override void OnMvxViewHolderBound(MvxViewHolderBoundEventArgs obj)
         {
             base.OnMvxViewHolderBound(obj);
-            if (obj.Holder is TimelineItemHolder)
+            if (obj.Holder is TimelineItemView)
             {
-                (obj.Holder as TimelineItemHolder).UpdateView();
+                (obj.Holder as TimelineItemView).UpdateView();
             }
         }
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
@@ -70,7 +69,7 @@ namespace EsMo.Android.WeiBo.Entity
             }
             else
             {
-                var vh = new TimelineItemHolder(InflateViewForHolder(parent, viewType, itemBindingContext), itemBindingContext)
+                var vh = new TimelineItemView(InflateViewForHolder(parent, viewType, itemBindingContext), itemBindingContext)
                 {
                     Click = ItemClick,
                     LongClick = ItemLongClick
@@ -79,11 +78,11 @@ namespace EsMo.Android.WeiBo.Entity
             }
         }
     }
-    public class TimelineItemHolder: MvxRecyclerViewHolder
+    public class TimelineItemView: MvxRecyclerViewHolder
     {
         WrappedLayout wrappedLayout;
         Drawable imgLoadingDrawable;
-        public TimelineItemHolder(View itemView, IMvxAndroidBindingContext context) : base(itemView, context)
+        public TimelineItemView(View itemView, IMvxAndroidBindingContext context) : base(itemView, context)
         {
             View content = itemView;
             this.imgLoadingDrawable = new BitmapDrawable(ResourceExtension.ImageLoading);
@@ -93,10 +92,18 @@ namespace EsMo.Android.WeiBo.Entity
                 ImageView imgView = this.wrappedLayout.GetChildAt(i) as ImageView;
                 imgView.SetScaleType(ImageView.ScaleType.CenterCrop);
                 imgView.SetImageDrawable(this.imgLoadingDrawable);
+                imgView.Click += ImgView_Click;
             }
         }
 
-        public TimelineItemHolder(IntPtr handle, JniHandleOwnership ownership) : base(handle, ownership)
+        private void ImgView_Click(object sender, EventArgs e)
+        {
+            int index = this.wrappedLayout.IndexOfChild(sender as ImageView);
+            TimelineItemViewModel model = this.DataContext as TimelineItemViewModel;
+            model.ImageSelected.Execute(index);
+        }
+
+        public TimelineItemView(IntPtr handle, JniHandleOwnership ownership) : base(handle, ownership)
         {
         }
 

@@ -16,17 +16,20 @@ using CheeseBind;
 
 namespace EsMo.Android.WeiBo.Entity
 {
-    public abstract class BaseFragment<T> : MvxFragment<T> where T : class, IMvxViewModel
+    public class BaseFragment : MvxFragment {
+
+    }
+
+    public class BaseFragment<T> : MvxFragment<T> where T : class, IMvxViewModel
     {
-        protected virtual int LayoutID { get; }
+        protected virtual int LayoutID { get; private set; }
         public override global::Android.Views.View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);
-            //inflater.Inflate(LayoutID, container, false);
             var view = this.BindingInflate(LayoutID, null);
             this.OnInflated(view);
             return view;
-        }
+        }   
         protected virtual void OnInflated(View view)
         {
             Cheeseknife.Bind(this, view);

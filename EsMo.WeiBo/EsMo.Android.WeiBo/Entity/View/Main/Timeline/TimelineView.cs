@@ -10,14 +10,14 @@ using MvvmCross.Droid.Support.V7.RecyclerView;
 
 namespace EsMo.Android.WeiBo.Entity
 {
-    [Register("esmo.android.weibo.entity.TimelineFragment")]
-    public class TimelineFragment : BaseFragment<TimelineViewModel>
+    [Register("esmo.android.weibo.entity.TimelineView")]
+    public class TimelineView : BaseFragment<TimelineViewModel>
     {
         [BindView(Resource.Id.listTimeLine)]
         private RefreshMvxRecyclerView listTimeLine;
         protected override int LayoutID => Resource.Layout.TimelineView;
 
-        public TimelineFragment()
+        public TimelineView()
         {
         }
         protected override void OnInflated(View view)
@@ -29,8 +29,8 @@ namespace EsMo.Android.WeiBo.Entity
         }
         private async void ListTimeLine_OnBottomRefreshing(object sender, System.EventArgs e)
         {
+            await System.Threading.Tasks.Task.Delay(1000);
             await this.ViewModel.RequestNextPage();
-            await System.Threading.Tasks.Task.Delay(2000);
         }
     }
 }

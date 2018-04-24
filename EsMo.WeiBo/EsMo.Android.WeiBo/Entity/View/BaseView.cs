@@ -12,15 +12,23 @@ using Android.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using EsMo.Sina.SDK.Model;
 using Android.Util;
+using CheeseBind;
 
 namespace EsMo.Android.WeiBo.Entity
 {
-    public class BaseView<T>: MvxAppCompatActivity<T> where T : BaseViewModel
+    public class BaseView<T> : MvxAppCompatActivity<T> where T : BaseViewModel
     {
+        protected virtual int LayoutID { get; }
         public override void OnAttachedToWindow()
         {
             base.OnAttachedToWindow();
             this.ViewModel.Appearing();
+        }
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+            this.SetContentView(LayoutID);
+            Cheeseknife.Bind(this);
         }
     }
     public class BaseCachingFragmentActivity<T>  : MvxAppCompatActivity<T> where T : BaseViewModel

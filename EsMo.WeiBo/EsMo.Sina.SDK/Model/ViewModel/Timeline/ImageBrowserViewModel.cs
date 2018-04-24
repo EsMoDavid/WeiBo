@@ -20,7 +20,7 @@ namespace EsMo.Sina.SDK.Model
         protected override void InitFromBundle(IMvxBundle parameters)
         {
             base.InitFromBundle(parameters);
-           var urls= parameters.Data[TimelineItemViewModel.ImageArray].ToJsonModel<string[]>();
+            var urls = parameters.Data[TimelineItemViewModel.ImageArray].ToJsonModel<string[]>();
             ImageUrls = (from url in urls select url.Replace("thumbnail", "bmiddle")).ToArray();    
             CurrentIndex = int.Parse(parameters.Data[TimelineItemViewModel.SelectedIndex]);
         }
